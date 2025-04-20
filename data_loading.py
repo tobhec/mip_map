@@ -3,7 +3,7 @@ import xml.etree.ElementTree as ET
 import pandas as pd
 
 
-def construct_url(base, dataset, dim_list, countries):
+def construct_url(base, dataset, dim_list, countries, start_year = "", end_year = ""):
     """ Constructs a URL based on: 
     - a base URL
     - a Eurostat dataset code
@@ -11,13 +11,26 @@ def construct_url(base, dataset, dim_list, countries):
     - a list with countries
     """
 
+    # Combine dimensions into one string
     dims = ""
     for dim in dim_list:
         dims = dims + dim + "."
+
+    # Combine countries into one string
     geo = ""
     for cc in countries:
         geo = geo + cc + "+"
-    full_url = f"{base}/{dataset}/{dims}{geo[:-1]}"
+
+    # Combine years into one string
+    params = []
+    if start_year:
+        params.append(f"startPeriod={start_year}")
+    if end_year:
+        params.append(f"endPeriod={end_year}")
+    years = "?" + "&".join(params) if params else ""
+
+    # Combine into the full URL
+    full_url = f"{base}/{dataset}/{dims}{geo[:-1]}{years}"
     return full_url
 
 
@@ -53,7 +66,7 @@ def get_df(url):
     return df
 
 
-def get_ca(country_list):
+def get_ca(country_list, start_year = "", end_year = ""):
     """Retrieves current account data from the Eurostat MIP database"""
 
     ## Define dimensions and URL
@@ -66,7 +79,7 @@ def get_ca(country_list):
     stk_flow = "BAL"
     partner = "WRL_REST"
     dim_list = [freq, unit, s_adj, bop_item, stk_flow, partner]
-    full_url = construct_url(base_url, dataset, dim_list, country_list)
+    full_url = construct_url(base_url, dataset, dim_list, country_list, start_year, end_year)
 
     # Load data
     df = get_df(full_url)
@@ -74,7 +87,7 @@ def get_ca(country_list):
     return(df)
 
 
-def get_niip(country_list):
+def get_niip(country_list, start_year = "", end_year = ""):
     """Retrieves net international investment position data from the Eurostat MIP database"""
 
     ## Define dimensions and URL
@@ -89,7 +102,7 @@ def get_niip(country_list):
     partner = "WRL_REST"
     unit = "PC_GDP"
     dim_list = [freq, s_adj, bop_item, sector10, sectpart, stk_flow, partner, unit]
-    full_url = construct_url(base_url, dataset, dim_list, country_list)
+    full_url = construct_url(base_url, dataset, dim_list, country_list, start_year, end_year)
 
     # Load data
     df = get_df(full_url)
@@ -97,7 +110,7 @@ def get_niip(country_list):
     return(df)
 
 
-def get_reer(country_list):
+def get_reer(country_list, start_year = "", end_year = ""):
     """Retrieves real effective exchange rate data from the Eurostat MIP database"""
 
     ## Define dimensions and URL
@@ -106,7 +119,7 @@ def get_reer(country_list):
     freq = "A"
     unit = "PCH_3Y"
     dim_list = [freq, unit]
-    full_url = construct_url(base_url, dataset, dim_list, country_list)
+    full_url = construct_url(base_url, dataset, dim_list, country_list, start_year, end_year)
 
     # Load data
     df = get_df(full_url)
@@ -114,7 +127,7 @@ def get_reer(country_list):
     return(df)
 
 
-def get_epaae(country_list):
+def get_epaae(country_list, start_year = "", end_year = ""):
     """Retrieves export performance against advanced economies data from the Eurostat MIP database"""
 
     ## Define dimensions and URL
@@ -126,7 +139,7 @@ def get_epaae(country_list):
     stk_flow = "CRE"
     partner = "WRL_REST"
     dim_list = [freq, unit, bop_item, stk_flow, partner]
-    full_url = construct_url(base_url, dataset, dim_list, country_list)
+    full_url = construct_url(base_url, dataset, dim_list, country_list, start_year, end_year)
 
     # Load data
     df = get_df(full_url)
@@ -134,7 +147,7 @@ def get_epaae(country_list):
     return(df)
 
 
-def get_nulc(country_list):
+def get_nulc(country_list, start_year = "", end_year = ""):
     """Retrieves nominal unit labour cost data from the Eurostat MIP database"""
 
     ## Define dimensions and URL
@@ -144,7 +157,7 @@ def get_nulc(country_list):
     na_item = "NULC_HW"
     unit = "PCH_3Y"
     dim_list = [freq, na_item, unit]
-    full_url = construct_url(base_url, dataset, dim_list, country_list)
+    full_url = construct_url(base_url, dataset, dim_list, country_list, start_year, end_year)
 
     # Load data
     df = get_df(full_url)
@@ -152,7 +165,7 @@ def get_nulc(country_list):
     return(df)
 
 
-def get_gggd(country_list):
+def get_gggd(country_list, start_year = "", end_year = ""):
     """Retrieves general government gross debt data from the Eurostat MIP database"""
 
     ## Define dimensions and URL
@@ -163,7 +176,7 @@ def get_gggd(country_list):
     sector = "S13"
     unit = "PC_GDP"
     dim_list = [freq, na_item, sector, unit]
-    full_url = construct_url(base_url, dataset, dim_list, country_list)
+    full_url = construct_url(base_url, dataset, dim_list, country_list, start_year, end_year)
 
     # Load data
     df = get_df(full_url)
@@ -171,7 +184,7 @@ def get_gggd(country_list):
     return(df)
 
 
-def get_hhd(country_list):
+def get_hhd(country_list, start_year = "", end_year = ""):
     """Retrieves household debt data from the Eurostat MIP database"""
 
     ## Define dimensions and URL
@@ -184,7 +197,7 @@ def get_hhd(country_list):
     finpos = "LIAB"
     na_item = "F3_F4"
     dim_list = [freq, unit, co_nco, sector, finpos, na_item]
-    full_url = construct_url(base_url, dataset, dim_list, country_list)
+    full_url = construct_url(base_url, dataset, dim_list, country_list, start_year, end_year)
 
     # Load data
     df = get_df(full_url)
@@ -192,7 +205,7 @@ def get_hhd(country_list):
     return(df)
 
 
-def get_nfcd(country_list):
+def get_nfcd(country_list, start_year = "", end_year = ""):
     """Retrieves non-financial corporations debt data from the Eurostat MIP database"""
 
     ## Define dimensions and URL
@@ -205,7 +218,7 @@ def get_nfcd(country_list):
     finpos = "LIAB"
     na_item = "F3_F4"
     dim_list = [freq, unit, co_nco, sector, finpos, na_item]
-    full_url = construct_url(base_url, dataset, dim_list, country_list)
+    full_url = construct_url(base_url, dataset, dim_list, country_list, start_year, end_year)
 
     # Load data
     df = get_df(full_url)
@@ -213,7 +226,7 @@ def get_nfcd(country_list):
     return(df)
 
 
-def get_hhcf(country_list):
+def get_hhcf(country_list, start_year = "", end_year = ""):
     """Retrieves household credit flow data from the Eurostat MIP database"""
 
     ## Define dimensions and URL
@@ -226,7 +239,7 @@ def get_hhcf(country_list):
     finpos = "LIAB"
     unit = "PC_LE"
     dim_list = [freq, na_item, co_nco, sector, finpos, unit]
-    full_url = construct_url(base_url, dataset, dim_list, country_list)
+    full_url = construct_url(base_url, dataset, dim_list, country_list, start_year, end_year)
 
     # Load data
     df = get_df(full_url)
@@ -234,7 +247,7 @@ def get_hhcf(country_list):
     return(df)
 
 
-def get_nfccf(country_list):
+def get_nfccf(country_list, start_year = "", end_year = ""):
     """Retrieves non-financial corporations credit flow excluding FDI data from the Eurostat MIP database"""
 
     ## Define dimensions and URL
@@ -247,7 +260,7 @@ def get_nfccf(country_list):
     finpos = "LIAB"
     na_item = "F3_F4_X_FDI"
     dim_list = [freq, unit, co_nco, sector, finpos, na_item]
-    full_url = construct_url(base_url, dataset, dim_list, country_list)
+    full_url = construct_url(base_url, dataset, dim_list, country_list, start_year, end_year)
 
     # Load data
     df = get_df(full_url)
@@ -255,7 +268,7 @@ def get_nfccf(country_list):
     return(df)
 
 
-def get_nhpi(country_list):
+def get_nhpi(country_list, start_year = "", end_year = ""):
     """Retrieves nominal house price index data from the Eurostat MIP database"""
 
     ## Define dimensions and URL
@@ -264,7 +277,7 @@ def get_nhpi(country_list):
     freq = "A"
     unit = "RCH_A_AVG"
     dim_list = freq, unit
-    full_url = construct_url(base_url, dataset, dim_list, country_list)
+    full_url = construct_url(base_url, dataset, dim_list, country_list, start_year, end_year)
 
     # Load data
     df = get_df(full_url)
@@ -272,7 +285,7 @@ def get_nhpi(country_list):
     return(df)
 
 
-def get_unem(country_list):
+def get_unem(country_list, start_year = "", end_year = ""):
     """Retrieves unemployment rate data from the Eurostat MIP database"""
 
     ## Define dimensions and URL
@@ -283,7 +296,7 @@ def get_unem(country_list):
     age = "Y15-74"
     unit = "PC_ACT"
     dim_list = [freq, sex, age, unit]
-    full_url = construct_url(base_url, dataset, dim_list, country_list)
+    full_url = construct_url(base_url, dataset, dim_list, country_list, start_year, end_year)
 
     # Load data
     df = get_df(full_url)
@@ -291,7 +304,7 @@ def get_unem(country_list):
     return(df)
 
 
-def get_lfpr(country_list):
+def get_lfpr(country_list, start_year = "", end_year = ""):
     """Retrieves labour force participation rate data from the Eurostat MIP database"""
 
     ## Define dimensions and URL
@@ -302,7 +315,7 @@ def get_lfpr(country_list):
     age = "Y15-64"
     sex = "T"
     dim_list = [freq, unit, age, sex]
-    full_url = construct_url(base_url, dataset, dim_list, country_list)
+    full_url = construct_url(base_url, dataset, dim_list, country_list, start_year, end_year)
 
     # Load data
     df = get_df(full_url)
