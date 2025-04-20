@@ -76,11 +76,12 @@ lfpr = dl.get_lfpr(country_list)
 lfpr.to_csv(f"{output_folder}lfpr_data.csv", index = False)
 print("LFPR data saved to:", f"{output_folder}lfpr_data.csv \n")
 
+#### TOTAL DATA OF THE MIP SCOREBOARD ####
 tot = pd.concat([ca, niip, reer, epaae, 
                       nulc, gggd, hhd, nfcd, 
                       hhcf, nfccf, nhpi, unem, 
                       lfpr], ignore_index = True)
-tot.to_csv(f"{output_folder}lfpr_data.csv", index = False)
+tot.to_csv(f"{output_folder}mip_sb_data.csv", index = False)
 print(tot)
 print("Total Scoreboard data saved to:", f"{output_folder}mip_sb_data.csv \n")
 
