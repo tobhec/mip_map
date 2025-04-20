@@ -3,7 +3,27 @@ import xml.etree.ElementTree as ET
 import pandas as pd
 
 
+def construct_url(base, dataset, dim_list, countries):
+    """ Constructs a URL based on: 
+    - a base URL
+    - a Eurostat dataset code
+    - a list with dimensions
+    - a list with countries
+    """
+
+    dims = ""
+    for dim in dim_list:
+        dims = dims + dim + "."
+    geo = ""
+    for cc in countries:
+        geo = geo + cc + "+"
+    full_url = f"{base}/{dataset}/{dims}{geo[:-1]}"
+    return full_url
+
+
 def get_df(url):
+    """ Calls a GET API request and converts the response into a pandas data.frame"""
+
     try:
         # Get API response
         response = requests.get(url)
@@ -33,20 +53,9 @@ def get_df(url):
     return df
 
 
-def construct_url(base, dataset, dim_list, countries):
-    dims = ""
-    for dim in dim_list:
-        dims = dims + dim + "."
-    geo = ""
-    for cc in countries:
-        geo = geo + cc + "+"
-    full_url = f"{base}/{dataset}/{dims}{geo[:-1]}"
-    return full_url
-
-import data_loading as dl
-
-
 def get_ca(country_list):
+    """Retrieves current account data from the Eurostat MIP database"""
+
     ## Set base URL
     base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
 
@@ -71,7 +80,10 @@ def get_ca(country_list):
     print(df)
     return(df)
 
+
 def get_niip(country_list):
+    """Retrieves net international investment position data from the Eurostat MIP database"""
+
     ## Set base URL
     base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
 
@@ -98,7 +110,10 @@ def get_niip(country_list):
     print(df)
     return(df)
 
+
 def get_reer(country_list):
+    """Retrieves real effective exchange rate data from the Eurostat MIP database"""
+
     ## Set base URL
     base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
 
@@ -122,6 +137,8 @@ def get_reer(country_list):
 
 
 def get_epaae(country_list):
+    """Retrieves export performance against advanced economies data from the Eurostat MIP database"""
+
     ## Set base URL
     base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
 
@@ -148,6 +165,8 @@ def get_epaae(country_list):
 
 
 def get_nulc(country_list):
+    """Retrieves nominal unit labour cost data from the Eurostat MIP database"""
+
     ## Set base URL
     base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
 
@@ -172,6 +191,8 @@ def get_nulc(country_list):
 
 
 def get_gggd(country_list):
+    """Retrieves general government gross debt data from the Eurostat MIP database"""
+
     ## Set base URL
     base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
 
@@ -197,6 +218,8 @@ def get_gggd(country_list):
 
 
 def get_hhd(country_list):
+    """Retrieves household debt data from the Eurostat MIP database"""
+
     ## Set base URL
     base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
 
@@ -224,6 +247,8 @@ def get_hhd(country_list):
 
 
 def get_nfcd(country_list):
+    """Retrieves non-financial corporations debt data from the Eurostat MIP database"""
+
     ## Set base URL
     base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
 
@@ -251,6 +276,8 @@ def get_nfcd(country_list):
 
 
 def get_hhcf(country_list):
+    """Retrieves household credit flow data from the Eurostat MIP database"""
+
     ## Set base URL
     base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
 
@@ -278,6 +305,8 @@ def get_hhcf(country_list):
 
 
 def get_nfccf(country_list):
+    """Retrieves non-financial corporations credit flow excluding FDI data from the Eurostat MIP database"""
+
     ## Set base URL
     base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
 
@@ -305,6 +334,8 @@ def get_nfccf(country_list):
 
 
 def get_nhpi(country_list):
+    """Retrieves nominal house price index data from the Eurostat MIP database"""
+
     ## Set base URL
     base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
 
@@ -328,6 +359,8 @@ def get_nhpi(country_list):
 
 
 def get_unem(country_list):
+    """Retrieves unemployment rate data from the Eurostat MIP database"""
+
     ## Set base URL
     base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
 
@@ -353,6 +386,8 @@ def get_unem(country_list):
 
 
 def get_lfpr(country_list):
+    """Retrieves labour force participation rate data from the Eurostat MIP database"""
+
     ## Set base URL
     base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
 
