@@ -22,7 +22,7 @@ def construct_url(base, dataset, dim_list, countries):
 
 
 def get_df(url):
-    """ Calls a GET API request and converts the response into a pandas data.frame"""
+    """ Calls an API GET request and converts the response into a pandas data.frame"""
 
     try:
         # Get API response
@@ -40,7 +40,7 @@ def get_df(url):
     records = []
     for series in xml_data.findall(".//g:Series", namespaces={"g": "http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic"}):
         # Get the countries
-        geo = series.find(".//g:Value[@id='geo']", namespaces={"g": "http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic"}).attrib['value']
+        geo = series.find(".//g:Value[@id='geo']", namespaces = {"g": "http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic"}).attrib['value']
         # Go into each observation of each series
         for obs in series.findall(".//{http://www.sdmx.org/resources/sdmxml/schemas/v2_1/data/generic}Obs"):
             # Get years
@@ -56,10 +56,8 @@ def get_df(url):
 def get_ca(country_list):
     """Retrieves current account data from the Eurostat MIP database"""
 
-    ## Set base URL
+    ## Define dimensions and URL
     base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
-
-    ## Define dimensions
     dataset = "TIPSBP10"
     freq = "A"
     unit = "PC_GDP_3Y"
@@ -68,26 +66,19 @@ def get_ca(country_list):
     stk_flow = "BAL"
     partner = "WRL_REST"
     dim_list = [freq, unit, s_adj, bop_item, stk_flow, partner]
-
-    # Get url
     full_url = construct_url(base_url, dataset, dim_list, country_list)
-    print("Getting CA data!")
-    print(full_url)
 
     # Load data
     df = get_df(full_url)
     df["Indicator"] = "Current account"
-    print(df)
     return(df)
 
 
 def get_niip(country_list):
     """Retrieves net international investment position data from the Eurostat MIP database"""
 
-    ## Set base URL
+    ## Define dimensions and URL
     base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
-
-    ## Define dimensions
     dataset = "TIPSII10"
     freq = "A"
     s_adj = "NSA"
@@ -98,51 +89,35 @@ def get_niip(country_list):
     partner = "WRL_REST"
     unit = "PC_GDP"
     dim_list = [freq, s_adj, bop_item, sector10, sectpart, stk_flow, partner, unit]
-
-    # Get url
     full_url = construct_url(base_url, dataset, dim_list, country_list)
-    print("Getting NIIP data!")
-    print(full_url)
 
     # Load data
     df = get_df(full_url)
     df["Indicator"] = "NIIP"
-    print(df)
     return(df)
 
 
 def get_reer(country_list):
     """Retrieves real effective exchange rate data from the Eurostat MIP database"""
 
-    ## Set base URL
-    base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
-
-    ## Define dimensions
+    ## Define dimensions and URL
     base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
     dataset = "TIPSER10"
     freq = "A"
     unit = "PCH_3Y"
     dim_list = [freq, unit]
-
-    # Get url
     full_url = construct_url(base_url, dataset, dim_list, country_list)
-    print("Getting REER data!")
-    print(full_url)
 
     # Load data
     df = get_df(full_url)
     df["Indicator"] = "REER"
-    print(df)
     return(df)
 
 
 def get_epaae(country_list):
     """Retrieves export performance against advanced economies data from the Eurostat MIP database"""
 
-    ## Set base URL
-    base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
-
-    ## Define dimensions
+    ## Define dimensions and URL
     base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
     dataset = "TIPSBP60"
     freq = "A"
@@ -151,52 +126,36 @@ def get_epaae(country_list):
     stk_flow = "CRE"
     partner = "WRL_REST"
     dim_list = [freq, unit, bop_item, stk_flow, partner]
-
-    # Get url
     full_url = construct_url(base_url, dataset, dim_list, country_list)
-    print("Getting EPAAE data!")
-    print(full_url)
 
     # Load data
     df = get_df(full_url)
     df["Indicator"] = "EPAAE"
-    print(df)
     return(df)
 
 
 def get_nulc(country_list):
     """Retrieves nominal unit labour cost data from the Eurostat MIP database"""
 
-    ## Set base URL
-    base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
-
-    ## Define dimensions
+    ## Define dimensions and URL
     base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
     dataset = "TIPSLM10"
     freq = "A"
     na_item = "NULC_HW"
     unit = "PCH_3Y"
     dim_list = [freq, na_item, unit]
-
-    # Get url
     full_url = construct_url(base_url, dataset, dim_list, country_list)
-    print("Getting NULC data!")
-    print(full_url)
 
     # Load data
     df = get_df(full_url)
     df["Indicator"] = "NULC"
-    print(df)
     return(df)
 
 
 def get_gggd(country_list):
     """Retrieves general government gross debt data from the Eurostat MIP database"""
 
-    ## Set base URL
-    base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
-
-    ## Define dimensions
+    ## Define dimensions and URL
     base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
     dataset = "TIPSGO10"
     freq = "A"
@@ -204,26 +163,18 @@ def get_gggd(country_list):
     sector = "S13"
     unit = "PC_GDP"
     dim_list = [freq, na_item, sector, unit]
-
-    # Get url
     full_url = construct_url(base_url, dataset, dim_list, country_list)
-    print("Getting GGGD data!")
-    print(full_url)
 
     # Load data
     df = get_df(full_url)
     df["Indicator"] = "GGGD"
-    print(df)
     return(df)
 
 
 def get_hhd(country_list):
     """Retrieves household debt data from the Eurostat MIP database"""
 
-    ## Set base URL
-    base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
-
-    ## Define dimensions
+    ## Define dimensions and URL
     base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
     dataset = "TIPSPD22"
     freq = "A"
@@ -233,26 +184,18 @@ def get_hhd(country_list):
     finpos = "LIAB"
     na_item = "F3_F4"
     dim_list = [freq, unit, co_nco, sector, finpos, na_item]
-
-    # Get url
     full_url = construct_url(base_url, dataset, dim_list, country_list)
-    print("Getting HHD data!")
-    print(full_url)
 
     # Load data
     df = get_df(full_url)
     df["Indicator"] = "HHD"
-    print(df)
     return(df)
 
 
 def get_nfcd(country_list):
     """Retrieves non-financial corporations debt data from the Eurostat MIP database"""
 
-    ## Set base URL
-    base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
-
-    ## Define dimensions
+    ## Define dimensions and URL
     base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
     dataset = "TIPSPD30"
     freq = "A"
@@ -262,26 +205,18 @@ def get_nfcd(country_list):
     finpos = "LIAB"
     na_item = "F3_F4"
     dim_list = [freq, unit, co_nco, sector, finpos, na_item]
-
-    # Get url
     full_url = construct_url(base_url, dataset, dim_list, country_list)
-    print("Getting NFCD data!")
-    print(full_url)
 
     # Load data
     df = get_df(full_url)
     df["Indicator"] = "NFCD"
-    print(df)
     return(df)
 
 
 def get_hhcf(country_list):
     """Retrieves household credit flow data from the Eurostat MIP database"""
 
-    ## Set base URL
-    base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
-
-    ## Define dimensions
+    ## Define dimensions and URL
     base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
     dataset = "TIPSPC40"
     freq = "A"
@@ -291,26 +226,18 @@ def get_hhcf(country_list):
     finpos = "LIAB"
     unit = "PC_LE"
     dim_list = [freq, na_item, co_nco, sector, finpos, unit]
-
-    # Get url
     full_url = construct_url(base_url, dataset, dim_list, country_list)
-    print("Getting HHCF data!")
-    print(full_url)
 
     # Load data
     df = get_df(full_url)
     df["Indicator"] = "HHCF"
-    print(df)
     return(df)
 
 
 def get_nfccf(country_list):
     """Retrieves non-financial corporations credit flow excluding FDI data from the Eurostat MIP database"""
 
-    ## Set base URL
-    base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
-
-    ## Define dimensions
+    ## Define dimensions and URL
     base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
     dataset = "TIPSPC30"
     freq = "A"
@@ -320,51 +247,35 @@ def get_nfccf(country_list):
     finpos = "LIAB"
     na_item = "F3_F4_X_FDI"
     dim_list = [freq, unit, co_nco, sector, finpos, na_item]
-
-    # Get url
     full_url = construct_url(base_url, dataset, dim_list, country_list)
-    print("Getting NFCCF data!")
-    print(full_url)
 
     # Load data
     df = get_df(full_url)
     df["Indicator"] = "NFCCF"
-    print(df)
     return(df)
 
 
 def get_nhpi(country_list):
     """Retrieves nominal house price index data from the Eurostat MIP database"""
 
-    ## Set base URL
-    base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
-
-    ## Define dimensions
+    ## Define dimensions and URL
     base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
     dataset = "TIPSHO20"
     freq = "A"
     unit = "RCH_A_AVG"
     dim_list = freq, unit
-
-    # Get url
     full_url = construct_url(base_url, dataset, dim_list, country_list)
-    print("Getting NHPI data!")
-    print(full_url)
 
     # Load data
     df = get_df(full_url)
     df["Indicator"] = "NHPI"
-    print(df)
     return(df)
 
 
 def get_unem(country_list):
     """Retrieves unemployment rate data from the Eurostat MIP database"""
 
-    ## Set base URL
-    base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
-
-    ## Define dimensions
+    ## Define dimensions and URL
     base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
     dataset = "TIPSUN20"
     freq = "A"
@@ -372,26 +283,18 @@ def get_unem(country_list):
     age = "Y15-74"
     unit = "PC_ACT"
     dim_list = [freq, sex, age, unit]
-
-    # Get url
     full_url = construct_url(base_url, dataset, dim_list, country_list)
-    print("Getting UNEM data!")
-    print(full_url)
 
     # Load data
     df = get_df(full_url)
     df["Indicator"] = "UNEM"
-    print(df)
     return(df)
 
 
 def get_lfpr(country_list):
     """Retrieves labour force participation rate data from the Eurostat MIP database"""
 
-    ## Set base URL
-    base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
-
-    ## Define dimensions
+    ## Define dimensions and URL
     base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
     dataset = "TIPSLM60"
     freq = "A"
@@ -399,14 +302,9 @@ def get_lfpr(country_list):
     age = "Y15-64"
     sex = "T"
     dim_list = [freq, unit, age, sex]
-
-    # Get url
     full_url = construct_url(base_url, dataset, dim_list, country_list)
-    print("Getting LFPR data!")
-    print(full_url)
 
     # Load data
     df = get_df(full_url)
     df["Indicator"] = "LFPR"
-    print(df)
     return(df)
