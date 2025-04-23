@@ -152,10 +152,8 @@ return t.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
 
 document.addEventListener("dataReady", (event) => {
 const extractedData = event.detail;
-console.log("Received myData from event:", extractedData);
 
 // Data is ready to use
-
 const mapConfig = {
 width: 797,
 height: 625,
@@ -182,7 +180,7 @@ labels: null
 classificationMethod: "threshold",
 thresholds: [-49, -35, 0, 38],
 colors: ["#A50021", "#F76D5E", "#FFE099", "#AAF7FF", "#264CFF"],
-data: myData,
+data: extractedData,
 nutsLevel: "mixed",
 nutsYear: 2024,
 stamp: false,

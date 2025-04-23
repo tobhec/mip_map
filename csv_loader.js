@@ -21,8 +21,8 @@ function toTable(text){
             hTableRow.appendChild(tableHeader);
         }
     });
-    table.appendChild(hTableRow);
 
+    table.appendChild(hTableRow);
     rows.forEach(function(row){
         row = row.trim();
         if (!row) return;
@@ -65,18 +65,16 @@ function extractByYearAndIndicator(targetYear, targetIndicator) {
             result[country] = isNaN(value) ? value : parseFloat(value);
         }
     }
-
     return result;
 }
 
 let myData = {};
 // Fetch the CSV and use it
-fetch('mip_sb_data.csv')
+fetch('./output_folder/mip_sb_data.csv')
     .then(response => response.text())
     .then(csvText => {
         toTable(csvText);
         myData = extractByYearAndIndicator("2020", "Current account");
-        console.log("Extracted data:", myData);
-        document.dispatchEvent(new CustomEvent("dataReady", { detail: myData }));
+        document.dispatchEvent(new CustomEvent("dataReady", {detail: myData}));
     })
     .catch(error => console.error("Failed to load CSV:", error));
