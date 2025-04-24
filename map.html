@@ -160,13 +160,26 @@ opacity:0.5
     return t.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
     }
 
-    let mapConfig = null;
+    const threshold_dict = {"Current account": [-8, -4, 0, 6], 
+                             "NIIP": [-49, -35, 0, 38],
+                            "REER": [-10, -3, 0, 10],
+                            "EPAAE": [-10, -3, 0, 5],
+                            "NULC": [3, 9, 12, 18],
+                            "GGGD": [20, 40, 60, 100],
+                            "HHD": [15, 35, 55, 75],
+                            "NFCD": [30, 50, 85, 120],
+                            "HHCF": [-2, 0, 7, 14],
+                            "NFCCF": [-2, 0, 6, 13],
+                            "NHPI": [-3, 0, 6, 9],
+                            "UNEM": [3, 6, 10, 14],
+                            "LFPR": [-1, -0.2, 0, 2]};
 
     // Listen for signal that the data has been parsed
     document.addEventListener("dataReady", (event) => {
         const extractedData = event.detail;
 
-        indicatorTitle = document.getElementById("indicatorDropdown").value +  " (MIP Threshold: -35%)"
+        const indicator = document.getElementById("indicatorDropdown").value;
+        const indicatorTitle = indicator +  " (MIP Threshold: -35%)"
         // Data is ready to use
         const mapConfig = {
         width: 797,
@@ -192,7 +205,7 @@ opacity:0.5
         labels: null
         },
         classificationMethod: "threshold",
-        thresholds: [-49, -35, 0, 38],
+        thresholds: threshold_dict[indicator],
         colors: ["#A50021", "#F76D5E", "#FFE099", "#AAF7FF", "#264CFF"],
         data: extractedData,
         nutsLevel: "mixed",
