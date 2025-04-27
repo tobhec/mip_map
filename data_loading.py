@@ -106,7 +106,7 @@ def get_niip(country_list, start_year = "", end_year = ""):
 
     # Load data
     df = get_df(full_url)
-    df["Indicator"] = "NIIP"
+    df["Indicator"] = "Net international investment position"
     return(df)
 
 
@@ -123,7 +123,7 @@ def get_reer(country_list, start_year = "", end_year = ""):
 
     # Load data
     df = get_df(full_url)
-    df["Indicator"] = "REER"
+    df["Indicator"] = "Real effective exchange rate"
     return(df)
 
 
@@ -143,7 +143,7 @@ def get_epaae(country_list, start_year = "", end_year = ""):
 
     # Load data
     df = get_df(full_url)
-    df["Indicator"] = "EPAAE"
+    df["Indicator"] = "Export performance against advanced economies"
     return(df)
 
 
@@ -161,7 +161,7 @@ def get_nulc(country_list, start_year = "", end_year = ""):
 
     # Load data
     df = get_df(full_url)
-    df["Indicator"] = "NULC"
+    df["Indicator"] = "Nominal unit labour cost index"
     return(df)
 
 
@@ -180,7 +180,7 @@ def get_gggd(country_list, start_year = "", end_year = ""):
 
     # Load data
     df = get_df(full_url)
-    df["Indicator"] = "GGGD"
+    df["Indicator"] = "General government gross debt"
     return(df)
 
 
@@ -201,7 +201,7 @@ def get_hhd(country_list, start_year = "", end_year = ""):
 
     # Load data
     df = get_df(full_url)
-    df["Indicator"] = "HHD"
+    df["Indicator"] = "Household debt"
     return(df)
 
 
@@ -222,7 +222,7 @@ def get_nfcd(country_list, start_year = "", end_year = ""):
 
     # Load data
     df = get_df(full_url)
-    df["Indicator"] = "NFCD"
+    df["Indicator"] = "NFC debt"
     return(df)
 
 
@@ -243,7 +243,7 @@ def get_hhcf(country_list, start_year = "", end_year = ""):
 
     # Load data
     df = get_df(full_url)
-    df["Indicator"] = "HHCF"
+    df["Indicator"] = "Household credit flow"
     return(df)
 
 
@@ -264,7 +264,7 @@ def get_nfccf(country_list, start_year = "", end_year = ""):
 
     # Load data
     df = get_df(full_url)
-    df["Indicator"] = "NFCCF"
+    df["Indicator"] = "NFC credit flow excluding FDI"
     return(df)
 
 
@@ -281,7 +281,7 @@ def get_nhpi(country_list, start_year = "", end_year = ""):
 
     # Load data
     df = get_df(full_url)
-    df["Indicator"] = "NHPI"
+    df["Indicator"] = "Nominal house price index"
     return(df)
 
 
@@ -300,7 +300,7 @@ def get_unem(country_list, start_year = "", end_year = ""):
 
     # Load data
     df = get_df(full_url)
-    df["Indicator"] = "UNEM"
+    df["Indicator"] = "Unemployment rate"
     return(df)
 
 
@@ -319,5 +319,5 @@ def get_lfpr(country_list, start_year = "", end_year = ""):
 
     # Load data
     df = get_df(full_url)
-    df["Indicator"] = "LFPR"
+    df["Indicator"] = "Labour force participation rate"
     return(df)

@@ -89,7 +89,6 @@ tot.to_csv(f"{output_folder}mip_sb_data.csv", index = False)
 print("Total Scoreboard data saved to:", f"{output_folder}mip_sb_data.csv \n")
 
 
-
-#df = df[df["Year"] == 2023]
-#df = df.drop(columns=['Year', 'Indicator'])
-#df.to_csv(f"{output_folder}test_data.csv", index = False)
+#ca = ca[ca["Year"] == 2023]
+#ca = ca.drop(columns=['Year', 'Indicator'])
+#ca.to_csv(f"{output_folder}test_data.csv", index = False)
