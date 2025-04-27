@@ -162,19 +162,19 @@ opacity:0.5
     return t.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
     }
 
-    const scale_dict = {"Current account": [-12, -8, -4, 0, 6, 12], 
-                        "Net international investment position": [-60, -49, -35, 0, 38, 50],
-                        "Real effective exchange rate": [-15, -10, -3, 0, 10, 15],
-                        "Export performance against advanced economies": [-15, -10, -3, 0, 5, 15],
-                        "Nominal unit labour cost index": [1, 3, 9, 12, 18, 25],
-                        "General government gross debt": [10, 20, 40, 60, 100, 120],
-                        "Household debt": [5, 15, 35, 55, 75, 90],
-                        "NFC debt": [10, 30, 50, 85, 120, 135],
-                        "Household credit flow": [-4, -2, 0, 7, 14, 18],
-                        "NFC credit flow excluding FDI": [-4, -2, 0, 6, 13, 17],
-                        "Nominal house price index": [-6, -3, 0, 6, 9, 12],
-                        "Unemployment rate": [1, 3, 6, 10, 14, 18],
-                        "Labour force participation rate": [-3, -1, -0.2, 0, 2, 4]};
+    const scale_dict = {"Current account": [-8, -4, 0, 6, 12], 
+                        "Net international investment position": [-49, -35, 0, 38, 50],
+                        "Real effective exchange rate": [-10, -3, 0, 10, 15],
+                        "Export performance against advanced economies": [-10, -3, 0, 5, 15],
+                        "Nominal unit labour cost index": [3, 9, 12, 18, 25],
+                        "General government gross debt": [20, 40, 60, 100, 120],
+                        "Household debt": [15, 35, 55, 75, 90],
+                        "NFC debt": [30, 50, 85, 120, 135],
+                        "Household credit flow": [-2, 0, 7, 14, 18],
+                        "NFC credit flow excluding FDI": [-2, 0, 6, 13, 17],
+                        "Nominal house price index": [-3, 0, 6, 9, 12],
+                        "Unemployment rate": [3, 6, 10, 14, 18],
+                        "Labour force participation rate": [-1, -0.2, 0, 2, 4]};
 
     const threshold_dict = {"Current account": "4%/-6%", 
                             "Net international investment position": "-35%",
@@ -204,10 +204,29 @@ const unit_dict = {"Current account": "% GDP - 3Y average",
                     "Unemployment rate": "% labour force Y15-74",
                     "Labour force participation rate": "% population Y15-64 - 3Y % change"};
 
+const blue = ["#E5FFFF","#B2F2FF","#7FD4FF","#65BFFF","#3288FF","#003FFF"];
+//const red = ["#FEE5D9","#FCBBA1","#FC9272","#FB6A4A","#EF3B2C","#CB181D"];
+const mix = ["#CB181D", "#FB6A4A", "#FCBBA1", "#B2F2FF", "#7FD4FF", "#1965FF"];
+const colour_dict = {"Current account": mix,
+                    "Net international investment position": mix,
+                    "Real effective exchange rate": mix,
+                    "Export performance against advanced economies": mix,
+                    "Nominal unit labour cost index": mix,
+                    "General government gross debt": mix,
+                    "Household debt": blue,
+                    "NFC debt": blue,
+                    "Household credit flow": blue,
+                    "NFC credit flow excluding FDI": blue,
+                    "Nominal house price index": mix,
+                    "Unemployment rate": blue,
+                    "Labour force participation rate": mix};
+
     // Listen for signal that the data has been parsed
     document.addEventListener("dataReady", (event) => {
         const extractedData = event.detail;
-
+        //["#E5FFFF","#B2F2FF","#99E5FF","#7FD4FF","#4CA5FF","#1965FF","#003FFF"] //Blue
+        //["#FEE5D9","#FCBBA1","#FC9272","#FB6A4A","#EF3B2C","#CB181D","#99000D"] // Red
+        //["#CB181D", "#EF3B2C", "#FC9272", "#FCBBA1", "#B2F2FF", "#99E5FF", "#4CA5FF", "#1965FF"] // Mix
         const indicator = document.getElementById("indicatorDropdown").value;
         const thresholdTitle = unit_dict[indicator] + " (Threshold: " + threshold_dict[indicator] + ")"
         // Data is ready to use
@@ -236,7 +255,7 @@ const unit_dict = {"Current account": "% GDP - 3Y average",
         },
         classificationMethod: "threshold",
         thresholds: scale_dict[indicator],
-        colors: ["#A50021", "#A50021", "#F76D5E", "#FFE099", "#AAF7FF", "#264CFF", "#264CFF"],
+        colors: colour_dict[indicator],
         data: extractedData,
         nutsLevel: "mixed",
         nutsYear: 2024,
