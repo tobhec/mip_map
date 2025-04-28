@@ -156,6 +156,7 @@ opacity:0.5
 
 <table id="table" style="display: none;"></table>
 <script src="csv_loader.js"></script>
+<script src="get_json.js"></script>
 
 <script id="IMAGE-map">
     function spaceAsThousandSeparator(t) {
@@ -190,100 +191,6 @@ opacity:0.5
                     "Unemployment rate": "% labour force Y15-74",
                     "Labour force participation rate": "% population Y15-64 - 3Y % change"};
 
-    const scale_dict = {
-    "Current account": [
-        -4.511111111111111,
-        0,
-        1.8666666666666663,
-        5.0555555555555545,
-        8.244444444444444
-    ],
-    "Net international investment position": [
-        -127.63888888888889,
-        -83.37777777777778,
-        -39.116666666666674,
-        0,
-        49.405555555555566
-    ],
-    "Real effective exchange rate": [
-        -4.316666666666666,
-        0,
-        3.25,
-        7.033333333333333,
-        10.816666666666665
-    ],
-    "Export performance against advanced economies": [
-        -4.113327777777778,
-        0,
-        12.208283333333332,
-        20.36908888888889,
-        28.529894444444444
-    ],
-    "Nominal unit labour cost index": [
-        0,
-        4.822222222222221,
-        13.15,
-        21.477777777777774,
-        29.80555555555555
-    ],
-    "General government gross debt": [
-        41.41111111111111,
-        69.68888888888888,
-        97.96666666666667,
-        126.24444444444444,
-        154.5222222222222
-    ],
-    "Household debt": [
-        32.69444444444444,
-        49.58888888888889,
-        66.48333333333333,
-        83.37777777777778,
-        100.27222222222223
-    ],
-    "NFC debt": [
-        67.92777777777779,
-        105.25555555555557,
-        142.58333333333334,
-        179.91111111111113,
-        217.2388888888889
-    ],
-    "Household credit flow": [
-        0,
-        2.3333333333333326,
-        5.399999999999999,
-        8.466666666666665,
-        11.533333333333331
-    ],
-    "NFC credit flow excluding FDI": [
-        -11.961111111111109,
-        -5.555555555555554,
-        0,
-        7.255555555555556,
-        13.661111111111108
-    ],
-    "Nominal house price index": [
-        0,
-        2.4111111111111105,
-        6.216666666666666,
-        10.022222222222222,
-        13.82777777777778
-    ],
-    "Unemployment rate": [
-        5.56111111111111,
-        8.52222222222222,
-        11.48333333333333,
-        14.444444444444441,
-        17.40555555555555
-    ],
-    "Labour force participation rate": [
-        0,
-        0.5666666666666667,
-        1.6666666666666667,
-        2.7666666666666666,
-        3.8666666666666663
-    ]
-};
-
 const rrrrrb = ["#CB181D","#EF3B2C","#FB6A4A","#FC9272","#FC9272","#65BFFF"];
 const rrrrbb = ["#CB181D","#FB6A4A","#FC9272","#FEE5D9","#7FD4FF","#3288FF"];
 const rrrbbb = ["#EF3B2C","#FC9272","#FEE5D9","#B2F2FF","#65BFFF","#003FFF"];
@@ -309,130 +216,134 @@ const colour_dict = {"Current account": rrbbbb,
                     "Labour force participation rate": rbbbbb};
 
     // Listen for signal that the data has been parsed
-    document.addEventListener("dataReady", (event) => {
-        const extractedData = event.detail;
-        //["#E5FFFF","#B2F2FF","#99E5FF","#7FD4FF","#4CA5FF","#1965FF","#003FFF"] //Blue
-        //["#FEE5D9","#FCBBA1","#FC9272","#FB6A4A","#EF3B2C","#CB181D","#99000D"] // Red
-        //["#CB181D", "#EF3B2C", "#FC9272", "#FCBBA1", "#B2F2FF", "#99E5FF", "#4CA5FF", "#1965FF"] // Mix
-        const indicator = document.getElementById("indicatorDropdown").value;
-        const thresholdTitle = unit_dict[indicator] + " (Threshold: " + threshold_dict[indicator] + ")"
-        // Data is ready to use
-        const mapConfig = {
-        width: 797,
-        height: 625,
-        geo: "EUR",
-        position: { x: 4800000, y: 3420000, z: 6400 },
-        insetBoxPosition: [545, 81],
-        legend: {
-        ascending: true,
-        labelType: "thresholds",
-        svgId: "eurostatmap-legend-europe-template",
-        boxPadding: 5,
-        boxOpacity: 0,
-        shapeHeight: 16,
-        shapeWidth: 26,
-        sepLineLength: 26,
-        decimals: 0,
-        title: thresholdTitle,
-        noData: true,
-        noDataText: "Data not available",
-        pointOfDivergenceLabel: "",
-        pointOfDivergence: 2,
-        labels: null
-        },
-        classificationMethod: "threshold",
-        thresholds: scale_dict[indicator],
-        colors: colour_dict[indicator],
-        data: extractedData,
-        nutsLevel: "mixed",
-        nutsYear: 2024,
-        stamp: false,
-        insets: false,
-        labels: false
-        };
+    document.addEventListener("dataReady", (event1) => {
+        const extractedData = event1.detail;
+        document.addEventListener("colourThresholdsReady", (event2) => {
+            const scale_dictt = event2.detail;
+        
+            //["#E5FFFF","#B2F2FF","#99E5FF","#7FD4FF","#4CA5FF","#1965FF","#003FFF"] //Blue
+            //["#FEE5D9","#FCBBA1","#FC9272","#FB6A4A","#EF3B2C","#CB181D","#99000D"] // Red
+            //["#CB181D", "#EF3B2C", "#FC9272", "#FCBBA1", "#B2F2FF", "#99E5FF", "#4CA5FF", "#1965FF"] // Mix
+            const indicator = document.getElementById("indicatorDropdown").value;
+            const thresholdTitle = unit_dict[indicator] + " (Threshold: " + threshold_dict[indicator] + ")"
+            // Data is ready to use
+            const mapConfig = {
+            width: 797,
+            height: 625,
+            geo: "EUR",
+            position: { x: 4800000, y: 3420000, z: 6400 },
+            insetBoxPosition: [545, 81],
+            legend: {
+            ascending: true,
+            labelType: "thresholds",
+            svgId: "eurostatmap-legend-europe-template",
+            boxPadding: 5,
+            boxOpacity: 0,
+            shapeHeight: 16,
+            shapeWidth: 26,
+            sepLineLength: 26,
+            decimals: 0,
+            title: thresholdTitle,
+            noData: true,
+            noDataText: "Data not available",
+            pointOfDivergenceLabel: "",
+            pointOfDivergence: 2,
+            labels: null
+            },
+            classificationMethod: "threshold",
+            thresholds: scale_dictt[indicator],
+            colors: colour_dict[indicator],
+            data: extractedData,
+            nutsLevel: "mixed",
+            nutsYear: 2024,
+            stamp: false,
+            insets: false,
+            labels: false
+            };
 
-        const map = eurostatmap.map("ch")
-        .classificationMethod(mapConfig.classificationMethod)
-        .colors(mapConfig.colors)
-        .threshold(mapConfig.thresholds)
-        .tooltip({
-        textFunction: function (feature, chart) {
-        let tooltip = [];
-        const name = feature.properties.na || feature.properties.name;
-        const id = feature.properties.id;
+            const map = eurostatmap.map("ch")
+            .classificationMethod(mapConfig.classificationMethod)
+            .colors(mapConfig.colors)
+            .threshold(mapConfig.thresholds)
+            .tooltip({
+            textFunction: function (feature, chart) {
+            let tooltip = [];
+            const name = feature.properties.na || feature.properties.name;
+            const id = feature.properties.id;
 
-        tooltip.push(`
-        <div class="estat-vis-tooltip-bar">
-        <b>${name}</b>${id ? ` (${id})` : ""}
-        </div>
-        `);
+            tooltip.push(`
+            <div class="estat-vis-tooltip-bar">
+            <b>${name}</b>${id ? ` (${id})` : ""}
+            </div>
+            `);
 
-        const valueData = chart.statData().get(id);
+            const valueData = chart.statData().get(id);
 
-        if (!valueData || (valueData.value === 0 && !valueData.value)) {
-        tooltip.push(`
-        <div class="estat-vis-tooltip-text" style="background: #ffffff; color: #171a22; padding: 4px; font-size:15px;">
-        <table class="nuts-table">
-        <tbody>
-        <tr><td>No input added</td></tr>
-        </tbody>
-        </table>
-        </div>
-        `);
-        return tooltip.join("");
-        }
+            if (!valueData || (valueData.value === 0 && !valueData.value)) {
+            tooltip.push(`
+            <div class="estat-vis-tooltip-text" style="background: #ffffff; color: #171a22; padding: 4px; font-size:15px;">
+            <table class="nuts-table">
+            <tbody>
+            <tr><td>No input added</td></tr>
+            </tbody>
+            </table>
+            </div>
+            `);
+            return tooltip.join("");
+            }
 
-        if (valueData.value === ":") {
-        tooltip.push(`
-        <div class="estat-vis-tooltip-text" style="background: #ffffff; color: #171a22; padding: 4px; font-size:15px;">
-        <table class="nuts-table">
-        <tbody>
-        <tr><td>${chart.noDataText_}</td></tr>
-        </tbody>
-        </table>
-        </div>
-        `);
-        return tooltip.join("");
-        }
+            if (valueData.value === ":") {
+            tooltip.push(`
+            <div class="estat-vis-tooltip-text" style="background: #ffffff; color: #171a22; padding: 4px; font-size:15px;">
+            <table class="nuts-table">
+            <tbody>
+            <tr><td>${chart.noDataText_}</td></tr>
+            </tbody>
+            </table>
+            </div>
+            `);
+            return tooltip.join("");
+            }
 
-        const unit = chart.statData().unitText();
-        const formattedValue = valueData.value.toLocaleString("en").replace(/,/g, " ");
+            const unit = chart.statData().unitText();
+            const formattedValue = valueData.value.toLocaleString("en").replace(/,/g, " ");
 
-        tooltip.push(`
-        <div class="estat-vis-tooltip-text" style="background: #ffffff; color: #171a22; padding: 4px; font-size:15px;">
-        <table class="nuts-table">
-        <tbody>
-        <tr><td>${formattedValue} ${unit || ""}</td></tr>
-        </tbody>
-        </table>
-        </div>
-        `);
+            tooltip.push(`
+            <div class="estat-vis-tooltip-text" style="background: #ffffff; color: #171a22; padding: 4px; font-size:15px;">
+            <table class="nuts-table">
+            <tbody>
+            <tr><td>${formattedValue} ${unit || ""}</td></tr>
+            </tbody>
+            </table>
+            </div>
+            `);
 
-        return tooltip.join("");
-        }
-        })
-        .svgId("europe-template-map")
-        .containerId("europe-template")
-        .width(mapConfig.width)
-        .height(mapConfig.height)
-        .geo(mapConfig.geo)
-        .nutsLevel(mapConfig.nutsLevel)
-        .position(mapConfig.position)
-        .nutsYear(mapConfig.nutsYear)
-        .labels(mapConfig.labels)
-        .legend(mapConfig.legend)
-        .insets(mapConfig.insets)
-        .insetBoxPosition(mapConfig.insetBoxPosition)
-        .stamp(mapConfig.stamp)
-        .insetScale("01M")
-        .noDataFillStyle("#adadad")
-        .showSourceLink(false)
-        .transitionDuration(0)
-        .footnote(false);
+            return tooltip.join("");
+            }
+            })
+            .svgId("europe-template-map")
+            .containerId("europe-template")
+            .width(mapConfig.width)
+            .height(mapConfig.height)
+            .geo(mapConfig.geo)
+            .nutsLevel(mapConfig.nutsLevel)
+            .position(mapConfig.position)
+            .nutsYear(mapConfig.nutsYear)
+            .labels(mapConfig.labels)
+            .legend(mapConfig.legend)
+            .insets(mapConfig.insets)
+            .insetBoxPosition(mapConfig.insetBoxPosition)
+            .stamp(mapConfig.stamp)
+            .insetScale("01M")
+            .noDataFillStyle("#adadad")
+            .showSourceLink(false)
+            .transitionDuration(0)
+            .footnote(false);
 
-        map.statData().setData(mapConfig.data);
-        map.build();
-    });
+            map.statData().setData(mapConfig.data);
+            map.build();
+    })
+});
 
 
 </script>
