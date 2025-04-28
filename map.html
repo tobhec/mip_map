@@ -156,9 +156,6 @@ opacity:0.5
 
 <table id="table" style="display: none;"></table>
 <script src="csv_loader.js"></script>
-<!--
-script src="get_json.js"></script
--->
 
 <script id="IMAGE-map">
     function spaceAsThousandSeparator(t) {
@@ -337,7 +334,7 @@ const colour_dict = {"Current account": rrbbbb,
             shapeHeight: 16,
             shapeWidth: 26,
             sepLineLength: 26,
-            decimals: 0,
+            decimals: 1,
             title: thresholdTitle,
             noData: true,
             noDataText: "Data not available",
@@ -374,7 +371,8 @@ const colour_dict = {"Current account": rrbbbb,
 
             const valueData = chart.statData().get(id);
 
-            if (!valueData || (valueData.value === 0 && !valueData.value)) {
+            //if (!valueData || (valueData.value === 0 && !valueData.value)) {
+            if (!valueData) {
             tooltip.push(`
             <div class="estat-vis-tooltip-text" style="background: #ffffff; color: #171a22; padding: 4px; font-size:15px;">
             <table class="nuts-table">
