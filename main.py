@@ -103,9 +103,7 @@ tot.to_csv(f"{output_folder}mip_sb_data.csv", index = False)
 print("Total Scoreboard data saved to:", f"{output_folder}mip_sb_data.csv \n")
 
 
-#ca = ca[ca["Year"] == 2023]
-#ca = ca.drop(columns=['Year', 'Indicator'])
-#ca.to_csv(f"{output_folder}test_data.csv", index = False)
+# Calculate colour-thresholds for each indicator 
 thresholds_dict = {}
 for indic in indics:
     #print(indic["Value"])
@@ -122,6 +120,7 @@ for indic in indics:
     quintiles = [avg_low + step * i for i in range(1, 6)]  # 6 points creates 5 intervals
     print("quintiles:", quintiles)
 
+    # Add a breaking point from positive to negative for the closest value
     if (indic["Indicator"].unique()[0] == "Current account" or 
         indic["Indicator"].unique()[0] == "Net international investment position" or 
         indic["Indicator"].unique()[0] == "Real effective exchange rate" or
@@ -131,7 +130,7 @@ for indic in indics:
         indic["Indicator"].unique()[0] == "NFC credit flow excluding FDI" or 
         indic["Indicator"].unique()[0] == "Nominal house price index" or
         indic["Indicator"].unique()[0] == "Labour force participation rate"):
-                                        
+                                      
         closest_to_zero = min(quintiles, key = abs)
         print(closest_to_zero)
         quintiles[quintiles.index(closest_to_zero)] = 0
@@ -145,63 +144,3 @@ import json
 print(thresholds_dict)
 with open('colour_thresholds.json', 'w') as f:
     json.dump(thresholds_dict, f, indent=4)
-
-"""
-
-
-
-
-
-# Round
-thresholds_ca = [round(x, 1) for x in thresholds_ca]
-thresholds_niip = [round(x, 1) for x in thresholds_niip]
-thresholds_reer = [round(x, 1) for x in thresholds_reer]
-thresholds_epaae = [round(x, 1) for x in thresholds_epaae]
-thresholds_nulc = [round(x, 1) for x in thresholds_nulc]
-thresholds_gggd = [round(x, 1) for x in thresholds_gggd]
-thresholds_hhd = [round(x, 1) for x in thresholds_hhd]
-thresholds_nfcd = [round(x, 1) for x in thresholds_nfcd]
-thresholds_hhcf = [round(x, 1) for x in thresholds_hhcf]
-thresholds_nfccf = [round(x, 1) for x in thresholds_nfccf]
-thresholds_nhpi = [round(x, 1) for x in thresholds_nhpi]
-thresholds_unem = [round(x, 1) for x in thresholds_unem]
-thresholds_lfpr = [round(x, 1) for x in thresholds_lfpr]
-
-# Convert to 0 for the ones that ara closest
-closest_to_zero = min(thresholds_ca, key=abs)
-thresholds_ca[thresholds_ca.index(closest_to_zero)] = 0
-
-closest_to_zero = min(thresholds_reer, key=abs)
-thresholds_reer[thresholds_reer.index(closest_to_zero)] = 0
-
-closest_to_zero = min(thresholds_epaae, key=abs)
-thresholds_epaae[thresholds_epaae.index(closest_to_zero)] = 0
-
-closest_to_zero = min(thresholds_hhcf, key=abs)
-thresholds_hhcf[thresholds_hhcf.index(closest_to_zero)] = 0
-
-closest_to_zero = min(thresholds_nfccf, key=abs)
-thresholds_nfccf[thresholds_nfccf.index(closest_to_zero)] = 0
-
-closest_to_zero = min(thresholds_lfpr, key=abs)
-thresholds_lfpr[thresholds_lfpr.index(closest_to_zero)] = 0
-
-
-# Map the quantile values to your custom keys
-thresholds_dict = {"Current account": thresholds_ca,
-                   "Net international investment position": thresholds_niip,
-                   "Real effective exchange rate": thresholds_reer,
-                   "Export performance against advanced economies": thresholds_epaae,
-                   "Nominal unit labour cost": thresholds_nulc,
-                   "General government gross debt": thresholds_gggd,
-                   "Household debt": thresholds_hhd,
-                   "NFC debt": thresholds_nfcd,
-                   "Household credit flow": thresholds_hhcf,
-                   "NFC credit flow excluding FDI": thresholds_nfccf,
-                   "Nominal house price index": thresholds_nhpi,
-                   "Unemployment rate": thresholds_unem,
-                   "Labour force participation rate": thresholds_lfpr}
-
-
-
-"""
