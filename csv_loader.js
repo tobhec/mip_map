@@ -68,6 +68,16 @@ function extractByYearAndIndicator(targetYear, targetIndicator) {
     return result;
 }
 
+function updateMap() {
+    const year = document.getElementById("yearDropdown").value;
+    const indicator = document.getElementById("indicatorDropdown").value;
+    const extractedData = extractByYearAndIndicator(year, indicator);
+    console.log(extractedData);
+
+    // Signal that the new data is ready
+    document.dispatchEvent(new CustomEvent("dataReady", { detail: extractedData }));
+}
+
 function populateDropdowns(rows, headers) {
     const yearDropdown = document.getElementById("yearDropdown");
     const indicatorDropdown = document.getElementById("indicatorDropdown");
@@ -107,17 +117,7 @@ function populateDropdowns(rows, headers) {
     if (indicatorArray.length) indicatorDropdown.value = indicatorArray[0];
 
     // Trigger initial filter with default selections
-    updateMap();
-}
-
-function updateMap() {
-    const year = document.getElementById("yearDropdown").value;
-    const indicator = document.getElementById("indicatorDropdown").value;
-    const extractedData = extractByYearAndIndicator(year, indicator);
-    console.log(extractedData);
-
-    // Signal that the new data is ready
-    document.dispatchEvent(new CustomEvent("dataReady", { detail: extractedData }));
+    //updateMap();
 }
 
 let myData = {};
@@ -125,19 +125,17 @@ let myData = {};
 fetch('./output_folder/mip_sb_data.csv')
     .then(response => response.text())
     .then(csvText => {
+        // Convert the CSV to a table
         toTable(csvText);
 
+        // Populate the drop-downs
         const rows = document.querySelectorAll("#table tr");
-
-        // Define headers here (from the table DOM, not undefined)
         const headers = Array.from(rows[0].querySelectorAll("th")).map(th => th.textContent.trim());
-        // Call dropdown population with correct headers
         populateDropdowns(rows, headers);
 
-        // Get data
+        // Trigger the initial filter with default selections
         myData = extractByYearAndIndicator("2024", "Current account");
-        // Signal that the data is ready
-        document.dispatchEvent(new CustomEvent("dataReady", {detail: myData}));
+        document.dispatchEvent(new CustomEvent("dataReady", {detail: myData})); ///////////////// Denna ska skickas när allt är laddaat
     })
     .catch(error => console.error("Failed to load CSV:", error));
 
