@@ -120,24 +120,29 @@ function populateDropdowns(rows, headers) {
     //updateMap();
 }
 
-let myData = {};
-// Fetch the CSV and use it
-fetch('./output_folder/mip_sb_data.csv')
-    .then(response => response.text())
-    .then(csvText => {
-        // Convert the CSV to a table
-        toTable(csvText);
+function load_csv() {
+    let myData = {};
+    // Fetch the CSV and use it
+    fetch('./output_folder/mip_sb_data.csv')
+        .then(response => response.text())
+        .then(csvText => {
+            // Convert the CSV to a table
+            toTable(csvText);
 
-        // Populate the drop-downs
-        const rows = document.querySelectorAll("#table tr");
-        const headers = Array.from(rows[0].querySelectorAll("th")).map(th => th.textContent.trim());
-        populateDropdowns(rows, headers);
+            // Populate the drop-downs
+            const rows = document.querySelectorAll("#table tr");
+            const headers = Array.from(rows[0].querySelectorAll("th")).map(th => th.textContent.trim());
+            populateDropdowns(rows, headers);
 
-        // Trigger the initial filter with default selections
-        myData = extractByYearAndIndicator("2024", "Current account");
-        document.dispatchEvent(new CustomEvent("dataReady", {detail: myData})); ///////////////// Denna ska skickas när allt är laddaat
-    })
-    .catch(error => console.error("Failed to load CSV:", error));
+            // Trigger the initial filter with default selections
+            myData = extractByYearAndIndicator("2024", "Current account");
+            document.dispatchEvent(new CustomEvent("dataReady", {detail: myData})); ///////////////// Denna ska skickas när allt är laddaat
+        })
+        .catch(error => console.error("Failed to load CSV:", error));
+}
+
+// Load the csv
+load_csv();
 
 // Listen for dropdown changes
 document.getElementById("yearDropdown").addEventListener("change", updateMap);
