@@ -1,13 +1,13 @@
-let table = document.getElementById("table");
-
 function toTable(text){
+    let table = document.getElementById("table");
+    
     if(!text || !table) {
         return;
     }
 
-    while(table.lastElementChild){
-        table.removeChild(table.lastElementChild);
-    }
+    //while(table.lastElementChild){
+    //    table.removeChild(table.lastElementChild);
+    //}
 
     let rows = text.split("\n");
     let headers = rows.shift().trim().split(",");
@@ -69,16 +69,19 @@ function extractByYearAndIndicator(targetYear, targetIndicator) {
 }
 
 function updateMap() {
+    // Extract chosen year and indicator from the dropdown
     const year = document.getElementById("yearDropdown").value;
     const indicator = document.getElementById("indicatorDropdown").value;
+
+    // Extract data from the table
     const extractedData = extractByYearAndIndicator(year, indicator);
     console.log(extractedData);
 
-    // Signal that the new data is ready
+    // Trigger the data update
     document.dispatchEvent(new CustomEvent("dataReady", { detail: extractedData }));
 }
 
-function populateDropdowns(rows, headers) {
+function populateDropdowns(rows, headers, default_year, default_indicator) {
     const yearDropdown = document.getElementById("yearDropdown");
     const indicatorDropdown = document.getElementById("indicatorDropdown");
 
@@ -86,42 +89,36 @@ function populateDropdowns(rows, headers) {
     const indicatorSet = new Set();
 
     for (let i = 1; i < rows.length; i++) {
+        // Go through the rows and extract the years and indicators
         const cells = rows[i].querySelectorAll("td");
         const year = cells[headers.indexOf("Year")]?.textContent.trim();
         const indicator = cells[headers.indexOf("Indicator")]?.textContent.trim();
 
+        // Add values to dropdown arrays
         if (year) yearSet.add(year);
         if (indicator) indicatorSet.add(indicator);
     }
 
-    // Convert sets to arrays so we can pick the first one
-    const yearArray = Array.from(yearSet).sort();
-    const indicatorArray = Array.from(indicatorSet).sort();
-
     // Fill dropdowns with options
-    yearArray.forEach(year => {
+    yearSet.forEach(year => {
         let option = document.createElement("option");
         option.value = year;
         option.textContent = year;
         yearDropdown.appendChild(option);
     });
-    indicatorArray.forEach(indicator => {
+    indicatorSet.forEach(indicator => {
         let option = document.createElement("option");
         option.value = indicator;
         option.textContent = indicator;
         indicatorDropdown.appendChild(option);
     });
 
-    // Automatically select the first available values
-    yearDropdown.value = yearArray[yearArray.length - 1];
-    if (indicatorArray.length) indicatorDropdown.value = indicatorArray[0];
-
-    // Trigger initial filter with default selections
-    //updateMap();
+    // Set default values for the dropdown
+    yearDropdown.value = default_year;
+    indicatorDropdown.value = default_indicator;
 }
 
-function load_csv() {
-    let myData = {};
+function initiate_map(default_year, default_indicator) {
     // Fetch the CSV and use it
     fetch('./output_folder/mip_sb_data.csv')
         .then(response => response.text())
@@ -132,17 +129,17 @@ function load_csv() {
             // Populate the drop-downs
             const rows = document.querySelectorAll("#table tr");
             const headers = Array.from(rows[0].querySelectorAll("th")).map(th => th.textContent.trim());
-            populateDropdowns(rows, headers);
+            populateDropdowns(rows, headers, default_year, default_indicator);
 
             // Trigger the initial filter with default selections
-            myData = extractByYearAndIndicator("2024", "Current account");
+            let myData = extractByYearAndIndicator(default_year, default_indicator);
             document.dispatchEvent(new CustomEvent("dataReady", {detail: myData})); ///////////////// Denna ska skickas när allt är laddaat
         })
         .catch(error => console.error("Failed to load CSV:", error));
 }
 
-// Load the csv
-load_csv();
+// Load the CSV and initate the map
+initiate_map("2024", "Current account");
 
 // Listen for dropdown changes
 document.getElementById("yearDropdown").addEventListener("change", updateMap);
