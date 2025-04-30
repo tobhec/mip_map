@@ -1,13 +1,15 @@
 function toTable(text){
     let table = document.getElementById("table");
     
+    // Control that the table and the data are not null
     if(!text || !table) {
         return;
     }
 
-    //while(table.lastElementChild){
-    //    table.removeChild(table.lastElementChild);
-    //}
+    // Clean table in case there are stuff in it
+    while(table.lastElementChild){
+        table.removeChild(table.lastElementChild);
+    }
 
     let rows = text.split("\n");
     let headers = rows.shift().trim().split(",");
@@ -120,7 +122,7 @@ function populateDropdowns(rows, headers, default_year, default_indicator) {
 
 function initiate_map(default_year, default_indicator) {
     // Fetch the CSV and use it
-    fetch('./output_folder/mip_sb_data.csv')
+    fetch('../../data/output/mip_sb_data.csv')
         .then(response => response.text())
         .then(csvText => {
             // Convert the CSV to a table

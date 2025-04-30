@@ -3,7 +3,7 @@ import pandas as pd
 
 
 ## SET OUTPUT FOLDER
-output_folder = "./output_folder/"
+output_folder = "../output/"
 
 ## SET COUNTRY LIST
 country_list = ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", 
@@ -18,80 +18,80 @@ end_year = "2024"
 indics = []
 #### CURRENT ACCOUNT ####
 ca = dl.get_ca(country_list, start_year, end_year)
-ca.to_csv(f"{output_folder}ca_data.csv", index = False)
-print("CA data saved to:", f"{output_folder}ca_data.csv \n")
+#ca.to_csv(f"{output_folder}ca_data.csv", index = False)
+#print("CA data saved to:", f"{output_folder}ca_data.csv \n")
 indics.append(ca)
 
 #### NET INTERNATIONAL INVESTMENT POSITION ####
 niip = dl.get_niip(country_list, start_year, end_year)
-niip.to_csv(f"{output_folder}niip_data.csv", index = False)
-print("NIIP data saved to:", f"{output_folder}niip_data.csv \n")
+#niip.to_csv(f"{output_folder}niip_data.csv", index = False)
+#print("NIIP data saved to:", f"{output_folder}niip_data.csv \n")
 indics.append(niip)
 
 #### REAL EFFECTIVE EXCHANGE RATE ####
 reer = dl.get_reer(country_list, start_year, end_year)
-reer.to_csv(f"{output_folder}reer_data.csv", index = False)
-print("REER data saved to:", f"{output_folder}reer_data.csv \n")
+#reer.to_csv(f"{output_folder}reer_data.csv", index = False)
+#print("REER data saved to:", f"{output_folder}reer_data.csv \n")
 indics.append(reer)
 
 #### EXPORT PERFORMANCE AGAINST ADVANCED ECONOMIES ####
 epaae = dl.get_epaae(country_list, start_year, end_year)
-epaae.to_csv(f"{output_folder}epaae_data.csv", index = False)
-print("NULC data saved to:", f"{output_folder}epaae_data.csv \n")
+#epaae.to_csv(f"{output_folder}epaae_data.csv", index = False)
+#print("NULC data saved to:", f"{output_folder}epaae_data.csv \n")
 indics.append(epaae)
 
 #### NOMINAL UNIT LABOUR COST ####
 nulc = dl.get_nulc(country_list, start_year, end_year)
-nulc.to_csv(f"{output_folder}nulc_data.csv", index = False)
-print("NULC data saved to:", f"{output_folder}nulc_data.csv \n")
+#nulc.to_csv(f"{output_folder}nulc_data.csv", index = False)
+#print("NULC data saved to:", f"{output_folder}nulc_data.csv \n")
 indics.append(nulc)
 
 #### GENERAL GOVERNMENT GROSS DEBT ####
 gggd = dl.get_gggd(country_list, start_year, end_year)
-gggd.to_csv(f"{output_folder}gggd_data.csv", index = False)
-print("GGGD data saved to:", f"{output_folder}gggd_data.csv \n")
+#gggd.to_csv(f"{output_folder}gggd_data.csv", index = False)
+#print("GGGD data saved to:", f"{output_folder}gggd_data.csv \n")
 indics.append(gggd)
 
 #### HOUSEHOLD DEBT ####
 hhd = dl.get_hhd(country_list, start_year, end_year)
-hhd.to_csv(f"{output_folder}hhd_data.csv", index = False)
-print("HHD data saved to:", f"{output_folder}hhd_data.csv \n")
+#hhd.to_csv(f"{output_folder}hhd_data.csv", index = False)
+#print("HHD data saved to:", f"{output_folder}hhd_data.csv \n")
 indics.append(hhd)
 
 #### NON-FINANCIAL CORPORATIONS DEBT ####
 nfcd = dl.get_nfcd(country_list, start_year, end_year)
-nfcd.to_csv(f"{output_folder}nfcd_data.csv", index = False)
-print("NFCD data saved to:", f"{output_folder}nfcd_data.csv \n")
+#nfcd.to_csv(f"{output_folder}nfcd_data.csv", index = False)
+#print("NFCD data saved to:", f"{output_folder}nfcd_data.csv \n")
 indics.append(nfcd)
 
 #### HOUSEHOLD CREDIT FLOW ####
 hhcf = dl.get_hhcf(country_list, start_year, end_year)
-hhcf.to_csv(f"{output_folder}hhcf_data.csv", index = False)
-print("HHCF data saved to:", f"{output_folder}hhcf_data.csv \n")
+#hhcf.to_csv(f"{output_folder}hhcf_data.csv", index = False)
+#print("HHCF data saved to:", f"{output_folder}hhcf_data.csv \n")
 indics.append(hhcf)
 
 #### NON-FINANCIAL CORPORATIONS CREDIT FLOW EXCLUDING FDI ####
 nfccf = dl.get_nfccf(country_list, start_year, end_year)
-nfccf.to_csv(f"{output_folder}nfccf_data.csv", index = False)
-print("NFCCF data saved to:", f"{output_folder}nfccf_data.csv \n")
+#nfccf.to_csv(f"{output_folder}nfccf_data.csv", index = False)
+#print("NFCCF data saved to:", f"{output_folder}nfccf_data.csv \n")
 indics.append(nfccf)
 
 #### NOMINAL HOUSE PRICE INDEX ####
 nhpi = dl.get_nhpi(country_list, start_year, end_year)
-nhpi.to_csv(f"{output_folder}nhpi_data.csv", index = False)
-print("NHPI data saved to:", f"{output_folder}nhpi_data.csv \n")
+#nhpi.to_csv(f"{output_folder}nhpi_data.csv", index = False)
+#print("NHPI data saved to:", f"{output_folder}nhpi_data.csv \n")
 indics.append(nhpi)
 
 #### UNEMPLOYMENT RATE ####
 unem = dl.get_unem(country_list, start_year, end_year)
-unem.to_csv(f"{output_folder}unem_data.csv", index = False)
-print("UNEM data saved to:", f"{output_folder}unem_data.csv \n")
+#unem.to_csv(f"{output_folder}unem_data.csv", index = False)
+#print("UNEM data saved to:", f"{output_folder}unem_data.csv \n")
 indics.append(unem)
 
 #### LABOUR FORCE PARTICIPATION RATE ####
 lfpr = dl.get_lfpr(country_list, start_year, end_year)
-lfpr.to_csv(f"{output_folder}lfpr_data.csv", index = False)
-print("LFPR data saved to:", f"{output_folder}lfpr_data.csv \n")
+#lfpr.to_csv(f"{output_folder}lfpr_data.csv", index = False)
+#print("LFPR data saved to:", f"{output_folder}lfpr_data.csv \n")
 indics.append(lfpr)
 
 #### TOTAL DATA OF THE MIP SCOREBOARD ####
@@ -142,5 +142,5 @@ for indic in indics:
 # Save a json file with the thresholds
 import json
 print(thresholds_dict)
-with open('colour_thresholds.json', 'w') as f:
+with open(f"{output_folder}colour_thresholds.json", "w") as f:
     json.dump(thresholds_dict, f, indent=4)
