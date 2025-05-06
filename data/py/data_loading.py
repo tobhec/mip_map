@@ -65,6 +65,18 @@ def get_df(url):
     df = pd.DataFrame(records)
     return df
 
+def get_data(dataset, dim_list, country_list, start_year = "", end_year = ""):
+    """Retrieves current account data from the Eurostat MIP database"""
+
+    ## Define dimensions and URL
+    base_url = "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data"
+    full_url = construct_url(base_url, dataset, dim_list, country_list, start_year, end_year)
+
+    # Load data
+    df = get_df(full_url)
+    df["Indicator"] = dataset
+    return(df)
+
 
 def get_ca(country_list, start_year = "", end_year = ""):
     """Retrieves current account data from the Eurostat MIP database"""
