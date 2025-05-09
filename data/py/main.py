@@ -17,81 +17,169 @@ end_year = "2024"
 
 indics = []
 #### CURRENT ACCOUNT ####
-ca = dl.get_ca(country_list, start_year, end_year)
+freq = "A"
+unit = "PC_GDP_3Y"
+s_adj = "NSA"
+bop_item = "CA"
+stk_flow = "BAL"
+partner = "WRL_REST"
+dim_list = [freq, unit, s_adj, bop_item, stk_flow, partner]
+ca = dl.get_data("TIPSBP10", dim_list, country_list, start_year, end_year)
+ca["Indicator"] = "Current account"
+ca = ca.drop('Code', axis = 1)
 #ca.to_csv(f"{output_folder}ca_data.csv", index = False)
-#print("CA data saved to:", f"{output_folder}ca_data.csv \n")
 indics.append(ca)
 
 #### NET INTERNATIONAL INVESTMENT POSITION ####
-niip = dl.get_niip(country_list, start_year, end_year)
+freq = "A"
+s_adj = "NSA"
+bop_item = "FA"
+sector10 = "S1"
+sectpart = "S1"
+stk_flow = "N_LE"
+partner = "WRL_REST"
+unit = "PC_GDP"
+dim_list = [freq, s_adj, bop_item, sector10, sectpart, stk_flow, partner, unit]
+niip = dl.get_data("TIPSII10", dim_list, country_list, start_year, end_year)
+niip["Indicator"] = "Net international investment position"
+niip = niip.drop('Code', axis = 1)
 #niip.to_csv(f"{output_folder}niip_data.csv", index = False)
-#print("NIIP data saved to:", f"{output_folder}niip_data.csv \n")
 indics.append(niip)
 
 #### REAL EFFECTIVE EXCHANGE RATE ####
-reer = dl.get_reer(country_list, start_year, end_year)
+freq = "A"
+unit = "PCH_3Y"
+dim_list = [freq, unit]
+reer = dl.get_data("TIPSER10", dim_list, country_list, start_year, end_year)
+reer["Indicator"] = "Real effective exchange rate"
+reer = reer.drop('Code', axis = 1)
 #reer.to_csv(f"{output_folder}reer_data.csv", index = False)
-#print("REER data saved to:", f"{output_folder}reer_data.csv \n")
 indics.append(reer)
 
 #### EXPORT PERFORMANCE AGAINST ADVANCED ECONOMIES ####
-epaae = dl.get_epaae(country_list, start_year, end_year)
+freq = "A"
+unit = "PCH_OECD_EU_3Y"
+bop_item = "GS"
+stk_flow = "CRE"
+partner = "WRL_REST"
+dim_list = [freq, unit, bop_item, stk_flow, partner]
+epaae = dl.get_data("TIPSBP60", dim_list, country_list, start_year, end_year)
+epaae["Indicator"] = "Export performance against advanced economies"
+epaae = epaae.drop('Code', axis = 1)
 #epaae.to_csv(f"{output_folder}epaae_data.csv", index = False)
-#print("NULC data saved to:", f"{output_folder}epaae_data.csv \n")
 indics.append(epaae)
 
 #### NOMINAL UNIT LABOUR COST ####
-nulc = dl.get_nulc(country_list, start_year, end_year)
+freq = "A"
+na_item = "NULC_HW"
+unit = "PCH_3Y"
+dim_list = [freq, na_item, unit]
+nulc = dl.get_data("TIPSLM10", dim_list, country_list, start_year, end_year)
+nulc["Indicator"] = "Nominal unit labour cost index"
+nulc = nulc.drop('Code', axis = 1)
 #nulc.to_csv(f"{output_folder}nulc_data.csv", index = False)
-#print("NULC data saved to:", f"{output_folder}nulc_data.csv \n")
 indics.append(nulc)
 
 #### GENERAL GOVERNMENT GROSS DEBT ####
-gggd = dl.get_gggd(country_list, start_year, end_year)
+freq = "A"
+na_item = "GD"
+sector = "S13"
+unit = "PC_GDP"
+dim_list = [freq, na_item, sector, unit]
+gggd = dl.get_data("TIPSGO10", dim_list, country_list, start_year, end_year)
+gggd["Indicator"] = "General government gross debt"
+gggd = gggd.drop('Code', axis = 1)
 #gggd.to_csv(f"{output_folder}gggd_data.csv", index = False)
-#print("GGGD data saved to:", f"{output_folder}gggd_data.csv \n")
 indics.append(gggd)
 
 #### HOUSEHOLD DEBT ####
-hhd = dl.get_hhd(country_list, start_year, end_year)
+freq = "A"
+unit = "PC_GDP"
+co_nco = "CO"
+sector = "S14_S15"
+finpos = "LIAB"
+na_item = "F3_F4"
+dim_list = [freq, unit, co_nco, sector, finpos, na_item]
+hhd = dl.get_data("TIPSPD22", dim_list, country_list, start_year, end_year)
+hhd["Indicator"] = "Household debt"
+hhd = hhd.drop('Code', axis = 1)
 #hhd.to_csv(f"{output_folder}hhd_data.csv", index = False)
-#print("HHD data saved to:", f"{output_folder}hhd_data.csv \n")
 indics.append(hhd)
 
 #### NON-FINANCIAL CORPORATIONS DEBT ####
-nfcd = dl.get_nfcd(country_list, start_year, end_year)
+freq = "A"
+unit = "PC_GDP"
+co_nco = "CO"
+sector = "S11"
+finpos = "LIAB"
+na_item = "F3_F4"
+dim_list = [freq, unit, co_nco, sector, finpos, na_item]
+nfcd = dl.get_data("TIPSPD30", dim_list, country_list, start_year, end_year)
+nfcd["Indicator"] = "NFC debt"
+nfcd = nfcd.drop('Code', axis = 1)
 #nfcd.to_csv(f"{output_folder}nfcd_data.csv", index = False)
-#print("NFCD data saved to:", f"{output_folder}nfcd_data.csv \n")
 indics.append(nfcd)
 
 #### HOUSEHOLD CREDIT FLOW ####
-hhcf = dl.get_hhcf(country_list, start_year, end_year)
+freq = "A"
+na_item = "F3_F4"
+co_nco = "CO"
+sector = "S14_S15"
+finpos = "LIAB"
+unit = "PC_LE"
+dim_list = [freq, na_item, co_nco, sector, finpos, unit]
+hhcf = dl.get_data("TIPSPC40", dim_list, country_list, start_year, end_year)
+hhcf["Indicator"] = "Household credit flow"
+hhcf = hhcf.drop('Code', axis = 1)
 #hhcf.to_csv(f"{output_folder}hhcf_data.csv", index = False)
-#print("HHCF data saved to:", f"{output_folder}hhcf_data.csv \n")
 indics.append(hhcf)
 
 #### NON-FINANCIAL CORPORATIONS CREDIT FLOW EXCLUDING FDI ####
-nfccf = dl.get_nfccf(country_list, start_year, end_year)
+freq = "A"
+unit = "PC_LE"
+co_nco = "CO"
+sector = "S11"
+finpos = "LIAB"
+na_item = "F3_F4_X_FDI"
+dim_list = [freq, unit, co_nco, sector, finpos, na_item]
+nfccf = dl.get_data("TIPSPC30", dim_list, country_list, start_year, end_year)
+nfccf["Indicator"] = "NFC credit flow excluding FDI"
+nfccf = nfccf.drop('Code', axis = 1)
 #nfccf.to_csv(f"{output_folder}nfccf_data.csv", index = False)
-#print("NFCCF data saved to:", f"{output_folder}nfccf_data.csv \n")
 indics.append(nfccf)
 
 #### NOMINAL HOUSE PRICE INDEX ####
-nhpi = dl.get_nhpi(country_list, start_year, end_year)
+freq = "A"
+unit = "RCH_A_AVG"
+dim_list = [freq, unit]
+nhpi = dl.get_data("TIPSHO20", dim_list, country_list, start_year, end_year)
+nhpi["Indicator"] = "Nominal house price index"
+nhpi = nhpi.drop('Code', axis = 1)
 #nhpi.to_csv(f"{output_folder}nhpi_data.csv", index = False)
-#print("NHPI data saved to:", f"{output_folder}nhpi_data.csv \n")
 indics.append(nhpi)
 
 #### UNEMPLOYMENT RATE ####
-unem = dl.get_unem(country_list, start_year, end_year)
+freq = "A"
+sex = "T"
+age = "Y15-74"
+unit = "PC_ACT"
+dim_list = [freq, sex, age, unit]
+unem = dl.get_data("TIPSUN20", dim_list, country_list, start_year, end_year)
+unem["Indicator"] = "Unemployment rate"
+unem = unem.drop('Code', axis = 1)
 #unem.to_csv(f"{output_folder}unem_data.csv", index = False)
-#print("UNEM data saved to:", f"{output_folder}unem_data.csv \n")
 indics.append(unem)
 
 #### LABOUR FORCE PARTICIPATION RATE ####
-lfpr = dl.get_lfpr(country_list, start_year, end_year)
+freq = "A"
+unit = "PPCH_3Y"
+age = "Y15-64"
+sex = "T"
+dim_list = [freq, unit, age, sex]
+lfpr = dl.get_data("TIPSLM60", dim_list, country_list, start_year, end_year)
+lfpr["Indicator"] = "Labour force participation rate"
+lfpr = lfpr.drop('Code', axis = 1)
 #lfpr.to_csv(f"{output_folder}lfpr_data.csv", index = False)
-#print("LFPR data saved to:", f"{output_folder}lfpr_data.csv \n")
 indics.append(lfpr)
 
 #### TOTAL DATA OF THE MIP SCOREBOARD ####
