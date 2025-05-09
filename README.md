@@ -3,3 +3,5 @@ enabling automatic data-loading from a CSV file. Furthermore, the HTML file has 
 of the design and structure of the map goes to Eurostat.
 
 The CSV is automatically loaded by a python script, which retrieves the latest data on the 13 MIP Scoreboard indicators as published by Eurostat.
+
+To host the map, run "python -m http.server 8000" while in the mip_map directory. Then open the folder through your localhost.
