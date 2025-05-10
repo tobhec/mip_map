@@ -231,5 +231,5 @@ for indic in indics:
 # Save a json file with the thresholds
 import json
 print(thresholds_dict)
-with open(f"{config_folder}colour_thresholds.json", "w") as f:
+with open(f"{config_folder}scale_dict.json", "w") as f:
     json.dump(thresholds_dict, f, indent=4)
