@@ -158,10 +158,8 @@ opacity:0.5
 
 <script>
   let scale_dict;
-  console.log(scale_dict);
   document.addEventListener('configLoading', function (e) {
-    scale_dict = e.detail;
-    console.log(scale_dict);
+    ({scale_dict} = e.detail)
     const script = document.createElement('script');
     script.src = '../js/csv_to_map.js';
     document.body.appendChild(script);
