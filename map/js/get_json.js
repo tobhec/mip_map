@@ -3,10 +3,13 @@ function loadConfigFile(path) {
     .then(response => response.json());
 }
   
-Promise.all([loadConfigFile("../../data/output/scale_dict.json")])
-  .then(([scale_dict]) => {
+Promise.all([loadConfigFile("../../data/config/scale_dict.json"),
+             loadConfigFile("../../data/config/threshold_dict.json")
+])
+  .then(([scale_dict, threshold_dict]) => {
     const config = {
-      scale_dict: scale_dict
+      scale_dict: scale_dict,
+      threshold_dict: threshold_dict
     };
 
     const event = new CustomEvent('configLoading', {

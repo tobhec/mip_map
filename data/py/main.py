@@ -4,6 +4,7 @@ import pandas as pd
 
 ## SET OUTPUT FOLDER
 output_folder = "../output/"
+config_folder = "../config/"
 
 ## SET COUNTRY LIST
 country_list = ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", 
@@ -230,5 +231,5 @@ for indic in indics:
 # Save a json file with the thresholds
 import json
 print(thresholds_dict)
-with open(f"{output_folder}colour_thresholds.json", "w") as f:
+with open(f"{config_folder}colour_thresholds.json", "w") as f:
     json.dump(thresholds_dict, f, indent=4)

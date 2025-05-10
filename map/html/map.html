@@ -157,9 +157,11 @@ opacity:0.5
 <table id="table" style="display: none;"></table>
 
 <script>
-  let scale_dict;
+  let scale_dict, threshold_dict;
+  console.log(threshold_dict);
   document.addEventListener('configLoading', function (e) {
-    ({scale_dict} = e.detail)
+    ({scale_dict, threshold_dict} = e.detail);
+    console.log(threshold_dict);
     const script = document.createElement('script');
     script.src = '../js/csv_to_map.js';
     document.body.appendChild(script);
@@ -174,19 +176,6 @@ opacity:0.5
     return t.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
     }
 
-    const threshold_dict = {"Current account": "4%/-6%", 
-                            "Net international investment position": "-35%",
-                            "Real effective exchange rate": "+/-3% EA; +/-10% non-EA",
-                            "Export performance against advanced economies": "-3%",
-                            "Nominal unit labour cost index": "9% EA; 12% non-EA",
-                            "General government gross debt": "60%",
-                            "Household debt": "55%",
-                            "NFC debt": "85%",
-                            "Household credit flow": "14%",
-                            "NFC credit flow excluding FDI": "13%",
-                            "Nominal house price index": "9%",
-                            "Unemployment rate": "10%",
-                            "Labour force participation rate": "-0.2%"};
 
     const unit_dict = {"Current account": "% GDP - 3Y average",
                     "Net international investment position": "% GDP",
