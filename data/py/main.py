@@ -17,7 +17,9 @@ start_year = "2015"
 end_year = "2024"
 
 if __name__ == "__main__":
+
     indics = []
+    
     #### CURRENT ACCOUNT ####
     freq = "A"
     unit = "PC_GDP_3Y"
