@@ -135,13 +135,13 @@ function initiate_map(default_year, default_indicator) {
 
             // Trigger the initial filter with default selections
             let myData = extractByYearAndIndicator(default_year, default_indicator);
-            document.dispatchEvent(new CustomEvent("dataReady", {detail: myData})); ///////////////// Denna ska skickas när allt är laddaat
+            document.dispatchEvent(new CustomEvent("dataReady", {detail: myData})); ///////////////// Denna ska skickas när allt är laddat
         })
         .catch(error => console.error("Failed to load CSV:", error));
 }
 
 // Load the CSV and initate the map
-initiate_map("2024", "Current account");
+initiate_map("2024", "Current account balance");
 
 // Listen for dropdown changes
 document.getElementById("yearDropdown").addEventListener("change", updateMap);

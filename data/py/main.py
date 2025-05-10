@@ -19,7 +19,7 @@ end_year = "2024"
 if __name__ == "__main__":
 
     indics = []
-    
+
     #### CURRENT ACCOUNT ####
     freq = "A"
     unit = "PC_GDP_3Y"
@@ -29,7 +29,7 @@ if __name__ == "__main__":
     partner = "WRL_REST"
     dim_list = [freq, unit, s_adj, bop_item, stk_flow, partner]
     ca = dl.get_data("TIPSBP10", dim_list, country_list, start_year, end_year)
-    ca["Indicator"] = "Current account"
+    ca["Indicator"] = "Current account balance"
     ca = ca.drop('Code', axis = 1)
     #ca.to_csv(f"{output_folder}ca_data.csv", index = False)
     indics.append(ca)
@@ -213,7 +213,7 @@ if __name__ == "__main__":
         print("quintiles:", quintiles)
 
         # Add a breaking point from positive to negative for the closest value
-        if (indic["Indicator"].unique()[0] == "Current account" or 
+        if (indic["Indicator"].unique()[0] == "Current account balance" or 
             indic["Indicator"].unique()[0] == "Net international investment position" or 
             indic["Indicator"].unique()[0] == "Real effective exchange rate" or
             indic["Indicator"].unique()[0] == "Export performance against advanced economies" or
