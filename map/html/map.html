@@ -155,7 +155,6 @@ opacity:0.5
 
 
 <table id="table" style="display: none;"></table>
-
 <script>
   let scale_dict, threshold_dict, unit_dict;
   document.addEventListener('configLoading', function (event) {
@@ -165,11 +164,9 @@ opacity:0.5
     document.body.appendChild(script);
 });    
 </script>
-
 <script src="../js/get_json.js"></script>
 
 <script id="IMAGE-map">
-
     function spaceAsThousandSeparator(t) {
     return t.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
     }
