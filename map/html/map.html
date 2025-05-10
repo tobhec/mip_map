@@ -157,11 +157,9 @@ opacity:0.5
 <table id="table" style="display: none;"></table>
 
 <script>
-  let scale_dict, threshold_dict;
-  console.log(threshold_dict);
-  document.addEventListener('configLoading', function (e) {
-    ({scale_dict, threshold_dict} = e.detail);
-    console.log(threshold_dict);
+  let scale_dict, threshold_dict, unit_dict;
+  document.addEventListener('configLoading', function (event) {
+    ({scale_dict, threshold_dict, unit_dict} = event.detail);
     const script = document.createElement('script');
     script.src = '../js/csv_to_map.js';
     document.body.appendChild(script);
@@ -175,21 +173,6 @@ opacity:0.5
     function spaceAsThousandSeparator(t) {
     return t.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
     }
-
-
-    const unit_dict = {"Current account": "% GDP - 3Y average",
-                    "Net international investment position": "% GDP",
-                    "Real effective exchange rate": "3y % change",
-                    "Export performance against advanced economies": "3Y % change",
-                    "Nominal unit labour cost index": "3Y % change",
-                    "General government gross debt": "% GDP",
-                    "Household debt": "% GDP",
-                    "NFC debt": "% GDP",
-                    "Household credit flow": "% debt stock t-1",
-                    "NFC credit flow excluding FDI": "% debt stock excl. FDI t-1",
-                    "Nominal house price index": "1Y % change",
-                    "Unemployment rate": "% labour force Y15-74",
-                    "Labour force participation rate": "% population Y15-64 - 3Y % change"};
 
 
 const rrrrrb = ["#CB181D","#EF3B2C","#FB6A4A","#FC9272","#FC9272","#65BFFF"];
@@ -219,11 +202,7 @@ const colour_dict = {"Current account": rrbbbb,
     
     // Listen for signal that the data has been parsed
     document.addEventListener("dataReady", (event) => {
-        const extractedData = event.detail;
-        
-            //["#E5FFFF","#B2F2FF","#99E5FF","#7FD4FF","#4CA5FF","#1965FF","#003FFF"] //Blue
-            //["#FEE5D9","#FCBBA1","#FC9272","#FB6A4A","#EF3B2C","#CB181D","#99000D"] // Red
-            //["#CB181D", "#EF3B2C", "#FC9272", "#FCBBA1", "#B2F2FF", "#99E5FF", "#4CA5FF", "#1965FF"] // Mix
+            const extractedData = event.detail;
             const indicator = document.getElementById("indicatorDropdown").value;
             const thresholdTitle = unit_dict[indicator] + " (Threshold: " + threshold_dict[indicator] + ")"
             // Data is ready to use
