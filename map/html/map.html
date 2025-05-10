@@ -159,12 +159,12 @@ opacity:0.5
   let scale_dict, threshold_dict, unit_dict;
   document.addEventListener('configLoading', function (event) {
     ({scale_dict, threshold_dict, unit_dict} = event.detail);
-    const script = document.createElement('script');
-    script.src = '../js/csv_to_map.js';
-    document.body.appendChild(script);
+    const dataLoadingScript = document.createElement('script');
+    dataLoadingScript.src = '../js/csv_to_map.js';
+    document.body.appendChild(dataLoadingScript);
 });    
 </script>
-<script src="../js/get_json.js"></script>
+<script src="../js/get_config.js"></script>
 
 <script id="IMAGE-map">
     function spaceAsThousandSeparator(t) {
