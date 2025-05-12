@@ -1,0 +1,3454 @@
+Year,Country,Value,Indicator
+2015,AT,1.9,Current account balance
+2016,AT,2.2,Current account balance
+2017,AT,1.8,Current account balance
+2018,AT,1.6,Current account balance
+2019,AT,1.5,Current account balance
+2020,AT,2.2,Current account balance
+2021,AT,2.5,Current account balance
+2022,AT,1.4,Current account balance
+2023,AT,0.7,Current account balance
+2024,AT,1.0,Current account balance
+2015,BE,1.0,Current account balance
+2016,BE,0.9,Current account balance
+2017,BE,0.9,Current account balance
+2018,BE,0.1,Current account balance
+2019,BE,0.0,Current account balance
+2020,BE,0.0,Current account balance
+2021,BE,0.9,Current account balance
+2022,BE,0.5,Current account balance
+2023,BE,-0.1,Current account balance
+2024,BE,-1.0,Current account balance
+2015,BG,1.1,Current account balance
+2016,BG,1.7,Current account balance
+2017,BG,2.1,Current account balance
+2018,BG,2.3,Current account balance
+2019,BG,1.8,Current account balance
+2020,BG,0.9,Current account balance
+2021,BG,0.3,Current account balance
+2022,BG,-1.1,Current account balance
+2023,BG,-1.5,Current account balance
+2024,BG,-1.8,Current account balance
+2015,CY,-1.9,Current account balance
+2016,CY,-2.7,Current account balance
+2017,CY,-3.1,Current account balance
+2018,CY,-4.3,Current account balance
+2019,CY,-4.8,Current account balance
+2020,CY,-6.4,Current account balance
+2021,CY,-6.9,Current account balance
+2022,CY,-6.8,Current account balance
+2023,CY,-6.7,Current account balance
+2024,CY,-7.2,Current account balance
+2015,CZ,0.0,Current account balance
+2016,CZ,0.8,Current account balance
+2017,CZ,1.2,Current account balance
+2018,CZ,1.2,Current account balance
+2019,CZ,0.8,Current account balance
+2020,CZ,0.8,Current account balance
+2021,CZ,0.0,Current account balance
+2022,CZ,-1.7,Current account balance
+2023,CZ,-2.3,Current account balance
+2024,CZ,-1.0,Current account balance
+2015,DE,7.3,Current account balance
+2016,DE,8.1,Current account balance
+2017,DE,8.4,Current account balance
+2018,DE,8.5,Current account balance
+2019,DE,8.1,Current account balance
+2020,DE,7.5,Current account balance
+2021,DE,7.0,Current account balance
+2022,DE,5.7,Current account balance
+2023,DE,5.4,Current account balance
+2024,DE,5.0,Current account balance
+2015,DK,7.9,Current account balance
+2016,DK,7.8,Current account balance
+2017,DK,7.5,Current account balance
+2018,DK,6.9,Current account balance
+2019,DK,7.0,Current account balance
+2020,DK,7.0,Current account balance
+2021,DK,7.8,Current account balance
+2022,DK,9.2,Current account balance
+2023,DK,10.1,Current account balance
+2024,DK,11.5,Current account balance
+2015,EE,0.6,Current account balance
+2016,EE,1.0,Current account balance
+2017,EE,1.4,Current account balance
+2018,EE,1.1,Current account balance
+2019,EE,1.4,Current account balance
+2020,EE,0.0,Current account balance
+2021,EE,-1.4,Current account balance
+2022,EE,-3.3,Current account balance
+2023,EE,-3.1,Current account balance
+2024,EE,-2.3,Current account balance
+2015,EL,-1.0,Current account balance
+2016,EL,-1.1,Current account balance
+2017,EL,-1.5,Current account balance
+2018,EL,-2.2,Current account balance
+2019,EL,-2.1,Current account balance
+2020,EL,-3.6,Current account balance
+2021,EL,-4.9,Current account balance
+2022,EL,-7.8,Current account balance
+2023,EL,-7.7,Current account balance
+2024,EL,-7.6,Current account balance
+2015,ES,2.0,Current account balance
+2016,ES,2.3,Current account balance
+2017,ES,2.7,Current account balance
+2018,ES,2.6,Current account balance
+2019,ES,2.3,Current account balance
+2020,ES,1.6,Current account balance
+2021,ES,1.2,Current account balance
+2022,ES,0.6,Current account balance
+2023,ES,1.3,Current account balance
+2024,ES,2.0,Current account balance
+2015,FI,-1.4,Current account balance
+2016,FI,-1.4,Current account balance
+2017,FI,-1.2,Current account balance
+2018,FI,-1.4,Current account balance
+2019,FI,-0.8,Current account balance
+2020,FI,-0.4,Current account balance
+2021,FI,0.2,Current account balance
+2022,FI,-0.6,Current account balance
+2023,FI,-0.9,Current account balance
+2024,FI,-0.9,Current account balance
+2015,FR,-0.6,Current account balance
+2016,FR,-0.6,Current account balance
+2017,FR,-0.5,Current account balance
+2018,FR,-0.6,Current account balance
+2019,FR,-0.2,Current account balance
+2020,FR,-0.7,Current account balance
+2021,FR,-0.4,Current account balance
+2022,FR,-1.0,Current account balance
+2023,FR,-0.6,Current account balance
+2024,FR,-0.6,Current account balance
+2015,HR,0.8,Current account balance
+2016,HR,1.9,Current account balance
+2017,HR,2.9,Current account balance
+2018,HR,2.5,Current account balance
+2019,HR,2.6,Current account balance
+2020,HR,1.0,Current account balance
+2021,HR,0.8,Current account balance
+2022,HR,-1.1,Current account balance
+2023,HR,-0.6,Current account balance
+2024,HR,-1.2,Current account balance
+2015,HU,2.0,Current account balance
+2016,HU,2.4,Current account balance
+2017,HU,2.7,Current account balance
+2018,HU,2.1,Current account balance
+2019,HU,0.5,Current account balance
+2020,HU,-0.4,Current account balance
+2021,HU,-1.8,Current account balance
+2022,HU,-4.5,Current account balance
+2023,HU,-4.1,Current account balance
+2024,HU,-2.0,Current account balance
+2015,IE,3.5,Current account balance
+2016,IE,2.3,Current account balance
+2017,IE,2.0,Current account balance
+2018,IE,1.4,Current account balance
+2019,IE,-5.1,Current account balance
+2020,IE,-7.8,Current account balance
+2021,IE,-5.2,Current account balance
+2022,IE,4.6,Current account balance
+2023,IE,9.7,Current account balance
+2024,IE,11.3,Current account balance
+2015,IT,1.3,Current account balance
+2016,IT,1.8,Current account balance
+2017,IT,2.0,Current account balance
+2018,IT,2.5,Current account balance
+2019,IT,2.7,Current account balance
+2020,IT,3.1,Current account balance
+2021,IT,3.0,Current account balance
+2022,IT,1.4,Current account balance
+2023,IT,0.2,Current account balance
+2024,IT,-0.2,Current account balance
+2015,LT,0.9,Current account balance
+2016,LT,0.0,Current account balance
+2017,LT,-0.8,Current account balance
+2018,LT,0.1,Current account balance
+2019,LT,1.7,Current account balance
+2020,LT,3.8,Current account balance
+2021,LT,4.1,Current account balance
+2022,LT,0.9,Current account balance
+2023,LT,-1.2,Current account balance
+2024,LT,-0.8,Current account balance
+2015,LU,4.5,Current account balance
+2016,LU,5.7,Current account balance
+2017,LU,6.5,Current account balance
+2018,LU,7.4,Current account balance
+2019,LU,7.8,Current account balance
+2020,LU,7.3,Current account balance
+2021,LU,6.6,Current account balance
+2022,LU,6.9,Current account balance
+2023,LU,9.1,Current account balance
+2024,LU,11.5,Current account balance
+2015,LV,-1.5,Current account balance
+2016,LV,0.1,Current account balance
+2017,LV,1.0,Current account balance
+2018,LV,1.0,Current account balance
+2019,LV,0.3,Current account balance
+2020,LV,0.8,Current account balance
+2021,LV,-0.4,Current account balance
+2022,LV,-2.2,Current account balance
+2023,LV,-4.5,Current account balance
+2024,LV,-3.8,Current account balance
+2015,MT,2.8,Current account balance
+2016,MT,2.5,Current account balance
+2017,MT,7.0,Current account balance
+2018,MT,10.6,Current account balance
+2019,MT,16.7,Current account balance
+2020,MT,15.7,Current account balance
+2021,MT,14.4,Current account balance
+2022,MT,8.2,Current account balance
+2023,MT,5.0,Current account balance
+2024,MT,3.8,Current account balance
+2015,NL,7.4,Current account balance
+2016,NL,7.0,Current account balance
+2017,NL,6.8,Current account balance
+2018,NL,8.1,Current account balance
+2019,NL,8.0,Current account balance
+2020,NL,7.1,Current account balance
+2021,NL,7.5,Current account balance
+2022,NL,7.4,Current account balance
+2023,NL,8.8,Current account balance
+2024,NL,8.8,Current account balance
+2015,PL,-2.1,Current account balance
+2016,PL,-1.7,Current account balance
+2017,PL,-1.2,Current account balance
+2018,PL,-1.4,Current account balance
+2019,PL,-1.1,Current account balance
+2020,PL,0.1,Current account balance
+2021,PL,0.3,Current account balance
+2022,PL,-0.4,Current account balance
+2023,PL,-0.6,Current account balance
+2024,PL,-0.1,Current account balance
+2015,PT,0.8,Current account balance
+2016,PT,0.8,Current account balance
+2017,PT,1.1,Current account balance
+2018,PT,1.2,Current account balance
+2019,PT,1.0,Current account balance
+2020,PT,0.3,Current account balance
+2021,PT,-0.2,Current account balance
+2022,PT,-1.1,Current account balance
+2023,PT,-0.7,Current account balance
+2024,PT,0.2,Current account balance
+2015,RO,-0.7,Current account balance
+2016,RO,-1.0,Current account balance
+2017,RO,-2.0,Current account balance
+2018,RO,-3.3,Current account balance
+2019,RO,-4.2,Current account balance
+2020,RO,-4.8,Current account balance
+2021,RO,-5.7,Current account balance
+2022,RO,-7.3,Current account balance
+2023,RO,-7.8,Current account balance
+2024,RO,-8.2,Current account balance
+2015,SE,3.4,Current account balance
+2016,SE,2.6,Current account balance
+2017,SE,2.2,Current account balance
+2018,SE,2.1,Current account balance
+2019,SE,3.2,Current account balance
+2020,SE,4.5,Current account balance
+2021,SE,5.9,Current account balance
+2022,SE,5.7,Current account balance
+2023,SE,6.1,Current account balance
+2024,SE,6.4,Current account balance
+2015,SI,4.3,Current account balance
+2016,SI,4.9,Current account balance
+2017,SI,5.4,Current account balance
+2018,SI,6.2,Current account balance
+2019,SI,6.6,Current account balance
+2020,SI,6.9,Current account balance
+2021,SI,6.0,Current account balance
+2022,SI,3.4,Current account balance
+2023,SI,2.4,Current account balance
+2024,SI,2.6,Current account balance
+2015,SK,0.9,Current account balance
+2016,SK,-0.6,Current account balance
+2017,SK,-1.8,Current account balance
+2018,SK,-1.6,Current account balance
+2019,SK,-2.3,Current account balance
+2020,SK,-1.9,Current account balance
+2021,SK,-2.9,Current account balance
+2022,SK,-5.0,Current account balance
+2023,SK,-5.1,Current account balance
+2024,SK,-4.4,Current account balance
+2015,AT,2.8,Net international investment position
+2016,AT,2.9,Net international investment position
+2017,AT,3.7,Net international investment position
+2018,AT,5.4,Net international investment position
+2019,AT,13.3,Net international investment position
+2020,AT,11.5,Net international investment position
+2021,AT,14.4,Net international investment position
+2022,AT,16.1,Net international investment position
+2023,AT,16.6,Net international investment position
+2024,AT,24.2,Net international investment position
+2015,BE,45.4,Net international investment position
+2016,BE,54.7,Net international investment position
+2017,BE,56.2,Net international investment position
+2018,BE,34.4,Net international investment position
+2019,BE,47.2,Net international investment position
+2020,BE,51.9,Net international investment position
+2021,BE,67.7,Net international investment position
+2022,BE,57.0,Net international investment position
+2023,BE,51.5,Net international investment position
+2024,BE,60.1,Net international investment position
+2015,BG,-61.5,Net international investment position
+2016,BG,-47.5,Net international investment position
+2017,BG,-43.6,Net international investment position
+2018,BG,-37.6,Net international investment position
+2019,BG,-30.8,Net international investment position
+2020,BG,-23.4,Net international investment position
+2021,BG,-15.6,Net international investment position
+2022,BG,-8.7,Net international investment position
+2023,BG,-6.3,Net international investment position
+2024,BG,-3.7,Net international investment position
+2015,CY,-152.8,Net international investment position
+2016,CY,-133.4,Net international investment position
+2017,CY,-136.6,Net international investment position
+2018,CY,-124.9,Net international investment position
+2019,CY,-113.2,Net international investment position
+2020,CY,-123.8,Net international investment position
+2021,CY,-105.7,Net international investment position
+2022,CY,-95.1,Net international investment position
+2023,CY,-92.7,Net international investment position
+2024,CY,-80.6,Net international investment position
+2015,CZ,-32.7,Net international investment position
+2016,CZ,-26.9,Net international investment position
+2017,CZ,-24.7,Net international investment position
+2018,CZ,-24.2,Net international investment position
+2019,CZ,-19.5,Net international investment position
+2020,CZ,-16.0,Net international investment position
+2021,CZ,-14.9,Net international investment position
+2022,CZ,-20.2,Net international investment position
+2023,CZ,-14.5,Net international investment position
+2024,CZ,-7.2,Net international investment position
+2015,DE,34.1,Net international investment position
+2016,DE,38.8,Net international investment position
+2017,DE,44.0,Net international investment position
+2018,DE,52.5,Net international investment position
+2019,DE,58.5,Net international investment position
+2020,DE,64.2,Net international investment position
+2021,DE,70.3,Net international investment position
+2022,DE,70.0,Net international investment position
+2023,DE,70.1,Net international investment position
+2024,DE,81.3,Net international investment position
+2015,DK,27.9,Net international investment position
+2016,DK,46.4,Net international investment position
+2017,DK,49.5,Net international investment position
+2018,DK,58.4,Net international investment position
+2019,DK,69.9,Net international investment position
+2020,DK,60.0,Net international investment position
+2021,DK,65.7,Net international investment position
+2022,DK,51.1,Net international investment position
+2023,DK,51.3,Net international investment position
+2024,DK,78.3,Net international investment position
+2015,EE,-39.9,Net international investment position
+2016,EE,-39.0,Net international investment position
+2017,EE,-32.7,Net international investment position
+2018,EE,-29.4,Net international investment position
+2019,EE,-22.1,Net international investment position
+2020,EE,-19.9,Net international investment position
+2021,EE,-15.1,Net international investment position
+2022,EE,-21.4,Net international investment position
+2023,EE,-21.1,Net international investment position
+2024,EE,-9.5,Net international investment position
+2015,EL,-136.9,Net international investment position
+2016,EL,-139.2,Net international investment position
+2017,EL,-143.0,Net international investment position
+2018,EL,-147.8,Net international investment position
+2019,EL,-152.6,Net international investment position
+2020,EL,-171.6,Net international investment position
+2021,EL,-170.1,Net international investment position
+2022,EL,-143.4,Net international investment position
+2023,EL,-139.8,Net international investment position
+2024,EL,-131.6,Net international investment position
+2015,ES,-87.7,Net international investment position
+2016,ES,-84.3,Net international investment position
+2017,ES,-84.4,Net international investment position
+2018,ES,-78.0,Net international investment position
+2019,ES,-72.0,Net international investment position
+2020,ES,-83.7,Net international investment position
+2021,ES,-69.4,Net international investment position
+2022,ES,-57.7,Net international investment position
+2023,ES,-51.3,Net international investment position
+2024,ES,-44.0,Net international investment position
+2015,FI,4.7,Net international investment position
+2016,FI,5.4,Net international investment position
+2017,FI,1.2,Net international investment position
+2018,FI,-5.0,Net international investment position
+2019,FI,-0.8,Net international investment position
+2020,FI,-3.5,Net international investment position
+2021,FI,2.3,Net international investment position
+2022,FI,0.1,Net international investment position
+2023,FI,12.8,Net international investment position
+2024,FI,25.5,Net international investment position
+2015,FR,-18.7,Net international investment position
+2016,FR,-19.0,Net international investment position
+2017,FR,-25.6,Net international investment position
+2018,FR,-23.3,Net international investment position
+2019,FR,-28.2,Net international investment position
+2020,FR,-32.3,Net international investment position
+2021,FR,-33.5,Net international investment position
+2022,FR,-24.8,Net international investment position
+2023,FR,-28.1,Net international investment position
+2024,FR,-20.3,Net international investment position
+2015,HR,-81.0,Net international investment position
+2016,HR,-74.6,Net international investment position
+2017,HR,-67.1,Net international investment position
+2018,HR,-59.6,Net international investment position
+2019,HR,-51.0,Net international investment position
+2020,HR,-50.8,Net international investment position
+2021,HR,-39.5,Net international investment position
+2022,HR,-33.9,Net international investment position
+2023,HR,-26.0,Net international investment position
+2024,HR,-27.1,Net international investment position
+2015,HU,-62.9,Net international investment position
+2016,HU,-53.7,Net international investment position
+2017,HU,-50.7,Net international investment position
+2018,HU,-45.9,Net international investment position
+2019,HU,-42.9,Net international investment position
+2020,HU,-50.6,Net international investment position
+2021,HU,-49.8,Net international investment position
+2022,HU,-44.7,Net international investment position
+2023,HU,-37.6,Net international investment position
+2024,HU,-37.8,Net international investment position
+2015,IE,-197.4,Net international investment position
+2016,IE,-174.0,Net international investment position
+2017,IE,-169.6,Net international investment position
+2018,IE,-182.3,Net international investment position
+2019,IE,-188.8,Net international investment position
+2020,IE,-158.9,Net international investment position
+2021,IE,-120.9,Net international investment position
+2022,IE,-110.3,Net international investment position
+2023,IE,-101.4,Net international investment position
+2024,IE,-80.7,Net international investment position
+2015,IT,-19.4,Net international investment position
+2016,IT,-12.1,Net international investment position
+2017,IT,-8.9,Net international investment position
+2018,IT,-6.4,Net international investment position
+2019,IT,-3.1,Net international investment position
+2020,IT,-0.2,Net international investment position
+2021,IT,6.3,Net international investment position
+2022,IT,4.2,Net international investment position
+2023,IT,7.2,Net international investment position
+2024,IT,15.3,Net international investment position
+2015,LT,-43.9,Net international investment position
+2016,LT,-43.1,Net international investment position
+2017,LT,-37.6,Net international investment position
+2018,LT,-30.1,Net international investment position
+2019,LT,-23.5,Net international investment position
+2020,LT,-18.2,Net international investment position
+2021,LT,-9.9,Net international investment position
+2022,LT,-12.0,Net international investment position
+2023,LT,-4.6,Net international investment position
+2024,LT,0.5,Net international investment position
+2015,LU,70.7,Net international investment position
+2016,LU,62.7,Net international investment position
+2017,LU,70.7,Net international investment position
+2018,LU,48.7,Net international investment position
+2019,LU,52.0,Net international investment position
+2020,LU,62.2,Net international investment position
+2021,LU,40.0,Net international investment position
+2022,LU,37.8,Net international investment position
+2023,LU,36.1,Net international investment position
+2024,LU,37.6,Net international investment position
+2015,LV,-61.7,Net international investment position
+2016,LV,-55.8,Net international investment position
+2017,LV,-53.0,Net international investment position
+2018,LV,-47.0,Net international investment position
+2019,LV,-41.4,Net international investment position
+2020,LV,-35.0,Net international investment position
+2021,LV,-27.9,Net international investment position
+2022,LV,-28.2,Net international investment position
+2023,LV,-25.8,Net international investment position
+2024,LV,-20.5,Net international investment position
+2015,MT,35.3,Net international investment position
+2016,MT,46.4,Net international investment position
+2017,MT,71.2,Net international investment position
+2018,MT,75.5,Net international investment position
+2019,MT,101.2,Net international investment position
+2020,MT,114.5,Net international investment position
+2021,MT,104.7,Net international investment position
+2022,MT,99.7,Net international investment position
+2023,MT,93.4,Net international investment position
+2024,MT,82.1,Net international investment position
+2015,NL,27.9,Net international investment position
+2016,NL,39.2,Net international investment position
+2017,NL,39.3,Net international investment position
+2018,NL,50.5,Net international investment position
+2019,NL,68.1,Net international investment position
+2020,NL,87.9,Net international investment position
+2021,NL,70.9,Net international investment position
+2022,NL,53.4,Net international investment position
+2023,NL,52.9,Net international investment position
+2024,NL,59.6,Net international investment position
+2015,PL,-60.9,Net international investment position
+2016,PL,-60.0,Net international investment position
+2017,PL,-60.7,Net international investment position
+2018,PL,-55.0,Net international investment position
+2019,PL,-49.2,Net international investment position
+2020,PL,-44.5,Net international investment position
+2021,PL,-40.6,Net international investment position
+2022,PL,-34.6,Net international investment position
+2023,PL,-31.8,Net international investment position
+2024,PL,-29.2,Net international investment position
+2015,PT,-119.7,Net international investment position
+2016,PT,-111.0,Net international investment position
+2017,PT,-110.7,Net international investment position
+2018,PT,-106.4,Net international investment position
+2019,PT,-99.5,Net international investment position
+2020,PT,-103.1,Net international investment position
+2021,PT,-93.0,Net international investment position
+2022,PT,-82.7,Net international investment position
+2023,PT,-72.3,Net international investment position
+2024,PT,-58.3,Net international investment position
+2015,RO,-54.9,Net international investment position
+2016,RO,-51.9,Net international investment position
+2017,RO,-49.9,Net international investment position
+2018,RO,-45.4,Net international investment position
+2019,RO,-44.3,Net international investment position
+2020,RO,-48.4,Net international investment position
+2021,RO,-47.0,Net international investment position
+2022,RO,-42.5,Net international investment position
+2023,RO,-41.4,Net international investment position
+2024,RO,-42.3,Net international investment position
+2015,SE,-5.0,Net international investment position
+2016,SE,-1.6,Net international investment position
+2017,SE,-0.8,Net international investment position
+2018,SE,8.2,Net international investment position
+2019,SE,13.9,Net international investment position
+2020,SE,7.4,Net international investment position
+2021,SE,21.0,Net international investment position
+2022,SE,34.8,Net international investment position
+2023,SE,38.5,Net international investment position
+2024,SE,66.0,Net international investment position
+2015,SI,-31.5,Net international investment position
+2016,SI,-29.1,Net international investment position
+2017,SI,-24.4,Net international investment position
+2018,SI,-19.1,Net international investment position
+2019,SI,-16.4,Net international investment position
+2020,SI,-15.8,Net international investment position
+2021,SI,-7.7,Net international investment position
+2022,SI,-1.6,Net international investment position
+2023,SI,2.3,Net international investment position
+2024,SI,8.2,Net international investment position
+2015,SK,-63.5,Net international investment position
+2016,SK,-66.3,Net international investment position
+2017,SK,-67.9,Net international investment position
+2018,SK,-69.1,Net international investment position
+2019,SK,-65.6,Net international investment position
+2020,SK,-64.1,Net international investment position
+2021,SK,-59.5,Net international investment position
+2022,SK,-63.2,Net international investment position
+2023,SK,-54.9,Net international investment position
+2024,SK,-51.4,Net international investment position
+2015,AT,1.4,Real effective exchange rate
+2016,AT,1.0,Real effective exchange rate
+2017,AT,0.4,Real effective exchange rate
+2018,AT,4.9,Real effective exchange rate
+2019,AT,2.1,Real effective exchange rate
+2020,AT,3.1,Real effective exchange rate
+2021,AT,1.2,Real effective exchange rate
+2022,AT,0.1,Real effective exchange rate
+2023,AT,1.8,Real effective exchange rate
+2024,AT,2.4,Real effective exchange rate
+2015,BE,-1.6,Real effective exchange rate
+2016,BE,-0.3,Real effective exchange rate
+2017,BE,1.0,Real effective exchange rate
+2018,BE,7.0,Real effective exchange rate
+2019,BE,2.8,Real effective exchange rate
+2020,BE,2.4,Real effective exchange rate
+2021,BE,0.6,Real effective exchange rate
+2022,BE,1.8,Real effective exchange rate
+2023,BE,0.0,Real effective exchange rate
+2024,BE,1.6,Real effective exchange rate
+2015,BG,-4.2,Real effective exchange rate
+2016,BG,-4.7,Real effective exchange rate
+2017,BG,-3.2,Real effective exchange rate
+2018,BG,4.2,Real effective exchange rate
+2019,BG,4.7,Real effective exchange rate
+2020,BG,6.9,Real effective exchange rate
+2021,BG,3.7,Real effective exchange rate
+2022,BG,5.8,Real effective exchange rate
+2023,BG,8.5,Real effective exchange rate
+2024,BG,7.3,Real effective exchange rate
+2015,CY,-6.1,Real effective exchange rate
+2016,CY,-7.3,Real effective exchange rate
+2017,CY,-6.2,Real effective exchange rate
+2018,CY,2.1,Real effective exchange rate
+2019,CY,-0.3,Real effective exchange rate
+2020,CY,-0.4,Real effective exchange rate
+2021,CY,-2.4,Real effective exchange rate
+2022,CY,-3.0,Real effective exchange rate
+2023,CY,0.3,Real effective exchange rate
+2024,CY,1.0,Real effective exchange rate
+2015,CZ,-8.2,Real effective exchange rate
+2016,CZ,-3.7,Real effective exchange rate
+2017,CZ,5.5,Real effective exchange rate
+2018,CZ,11.1,Real effective exchange rate
+2019,CZ,8.7,Real effective exchange rate
+2020,CZ,5.5,Real effective exchange rate
+2021,CZ,5.0,Real effective exchange rate
+2022,CZ,13.7,Real effective exchange rate
+2023,CZ,24.3,Real effective exchange rate
+2024,CZ,14.4,Real effective exchange rate
+2015,DE,-1.4,Real effective exchange rate
+2016,DE,-2.0,Real effective exchange rate
+2017,DE,-1.7,Real effective exchange rate
+2018,DE,5.4,Real effective exchange rate
+2019,DE,2.1,Real effective exchange rate
+2020,DE,2.4,Real effective exchange rate
+2021,DE,0.6,Real effective exchange rate
+2022,DE,-0.4,Real effective exchange rate
+2023,DE,1.9,Real effective exchange rate
+2024,DE,1.6,Real effective exchange rate
+2015,DK,-1.6,Real effective exchange rate
+2016,DK,-1.6,Real effective exchange rate
+2017,DK,-1.9,Real effective exchange rate
+2018,DK,2.7,Real effective exchange rate
+2019,DK,-0.2,Real effective exchange rate
+2020,DK,0.9,Real effective exchange rate
+2021,DK,-1.1,Real effective exchange rate
+2022,DK,-1.2,Real effective exchange rate
+2023,DK,-1.0,Real effective exchange rate
+2024,DK,-0.9,Real effective exchange rate
+2015,EE,5.9,Real effective exchange rate
+2016,EE,4.4,Real effective exchange rate
+2017,EE,3.2,Real effective exchange rate
+2018,EE,7.7,Real effective exchange rate
+2019,EE,5.9,Real effective exchange rate
+2020,EE,4.9,Real effective exchange rate
+2021,EE,1.9,Real effective exchange rate
+2022,EE,8.7,Real effective exchange rate
+2023,EE,15.7,Real effective exchange rate
+2024,EE,16.0,Real effective exchange rate
+2015,EL,-5.6,Real effective exchange rate
+2016,EL,-4.0,Real effective exchange rate
+2017,EL,-2.8,Real effective exchange rate
+2018,EL,3.9,Real effective exchange rate
+2019,EL,0.5,Real effective exchange rate
+2020,EL,0.3,Real effective exchange rate
+2021,EL,-3.2,Real effective exchange rate
+2022,EL,-2.4,Real effective exchange rate
+2023,EL,-1.2,Real effective exchange rate
+2024,EL,0.8,Real effective exchange rate
+2015,ES,-3.1,Real effective exchange rate
+2016,ES,-4.2,Real effective exchange rate
+2017,ES,-2.4,Real effective exchange rate
+2018,ES,4.3,Real effective exchange rate
+2019,ES,1.8,Real effective exchange rate
+2020,ES,1.0,Real effective exchange rate
+2021,ES,-0.5,Real effective exchange rate
+2022,ES,-0.7,Real effective exchange rate
+2023,ES,-0.8,Real effective exchange rate
+2024,ES,-0.7,Real effective exchange rate
+2015,FI,2.2,Real effective exchange rate
+2016,FI,0.5,Real effective exchange rate
+2017,FI,-2.3,Real effective exchange rate
+2018,FI,3.0,Real effective exchange rate
+2019,FI,0.2,Real effective exchange rate
+2020,FI,2.3,Real effective exchange rate
+2021,FI,-0.7,Real effective exchange rate
+2022,FI,-3.1,Real effective exchange rate
+2023,FI,-1.8,Real effective exchange rate
+2024,FI,-1.9,Real effective exchange rate
+2015,FR,-2.7,Real effective exchange rate
+2016,FR,-3.0,Real effective exchange rate
+2017,FR,-2.8,Real effective exchange rate
+2018,FR,4.6,Real effective exchange rate
+2019,FR,1.7,Real effective exchange rate
+2020,FR,2.6,Real effective exchange rate
+2021,FR,-0.5,Real effective exchange rate
+2022,FR,-3.7,Real effective exchange rate
+2023,FR,-1.8,Real effective exchange rate
+2024,FR,-1.1,Real effective exchange rate
+2015,HR,0.2,Real effective exchange rate
+2016,HR,0.1,Real effective exchange rate
+2017,HR,0.2,Real effective exchange rate
+2018,HR,4.2,Real effective exchange rate
+2019,HR,1.6,Real effective exchange rate
+2020,HR,0.5,Real effective exchange rate
+2021,HR,-1.5,Real effective exchange rate
+2022,HR,-0.6,Real effective exchange rate
+2023,HR,4.3,Real effective exchange rate
+2024,HR,5.4,Real effective exchange rate
+2015,HU,-7.2,Real effective exchange rate
+2016,HU,-5.1,Real effective exchange rate
+2017,HU,0.2,Real effective exchange rate
+2018,HU,2.1,Real effective exchange rate
+2019,HU,0.4,Real effective exchange rate
+2020,HU,-5.0,Real effective exchange rate
+2021,HU,-4.1,Real effective exchange rate
+2022,HU,-7.9,Real effective exchange rate
+2023,HU,10.3,Real effective exchange rate
+2024,HU,7.3,Real effective exchange rate
+2015,IE,-6.1,Real effective exchange rate
+2016,IE,-6.7,Real effective exchange rate
+2017,IE,-5.9,Real effective exchange rate
+2018,IE,2.6,Real effective exchange rate
+2019,IE,-1.3,Real effective exchange rate
+2020,IE,-1.2,Real effective exchange rate
+2021,IE,-2.6,Real effective exchange rate
+2022,IE,-4.4,Real effective exchange rate
+2023,IE,-1.3,Real effective exchange rate
+2024,IE,-1.8,Real effective exchange rate
+2015,IT,-2.3,Real effective exchange rate
+2016,IT,-3.3,Real effective exchange rate
+2017,IT,-2.9,Real effective exchange rate
+2018,IT,3.5,Real effective exchange rate
+2019,IT,0.3,Real effective exchange rate
+2020,IT,0.5,Real effective exchange rate
+2021,IT,-1.8,Real effective exchange rate
+2022,IT,-1.8,Real effective exchange rate
+2023,IT,0.7,Real effective exchange rate
+2024,IT,0.0,Real effective exchange rate
+2015,LT,4.3,Real effective exchange rate
+2016,LT,5.4,Real effective exchange rate
+2017,LT,2.9,Real effective exchange rate
+2018,LT,6.6,Real effective exchange rate
+2019,LT,3.8,Real effective exchange rate
+2020,LT,6.7,Real effective exchange rate
+2021,LT,4.4,Real effective exchange rate
+2022,LT,9.8,Real effective exchange rate
+2023,LT,13.0,Real effective exchange rate
+2024,LT,9.2,Real effective exchange rate
+2015,LU,-0.6,Real effective exchange rate
+2016,LU,-1.4,Real effective exchange rate
+2017,LU,-0.9,Real effective exchange rate
+2018,LU,3.4,Real effective exchange rate
+2019,LU,2.1,Real effective exchange rate
+2020,LU,1.5,Real effective exchange rate
+2021,LU,0.7,Real effective exchange rate
+2022,LU,-0.5,Real effective exchange rate
+2023,LU,-1.5,Real effective exchange rate
+2024,LU,-2.4,Real effective exchange rate
+2015,LV,2.6,Real effective exchange rate
+2016,LV,4.8,Real effective exchange rate
+2017,LV,1.9,Real effective exchange rate
+2018,LV,5.1,Real effective exchange rate
+2019,LV,3.8,Real effective exchange rate
+2020,LV,5.9,Real effective exchange rate
+2021,LV,2.3,Real effective exchange rate
+2022,LV,5.6,Real effective exchange rate
+2023,LV,11.0,Real effective exchange rate
+2024,LV,9.6,Real effective exchange rate
+2015,MT,-2.7,Real effective exchange rate
+2016,MT,-2.8,Real effective exchange rate
+2017,MT,-2.2,Real effective exchange rate
+2018,MT,4.7,Real effective exchange rate
+2019,MT,1.7,Real effective exchange rate
+2020,MT,1.9,Real effective exchange rate
+2021,MT,-1.2,Real effective exchange rate
+2022,MT,-3.1,Real effective exchange rate
+2023,MT,-0.5,Real effective exchange rate
+2024,MT,1.5,Real effective exchange rate
+2015,NL,-0.8,Real effective exchange rate
+2016,NL,-2.2,Real effective exchange rate
+2017,NL,-1.6,Real effective exchange rate
+2018,NL,3.3,Real effective exchange rate
+2019,NL,2.4,Real effective exchange rate
+2020,NL,3.7,Real effective exchange rate
+2021,NL,2.3,Real effective exchange rate
+2022,NL,3.2,Real effective exchange rate
+2023,NL,2.4,Real effective exchange rate
+2024,NL,3.3,Real effective exchange rate
+2015,PL,-1.4,Real effective exchange rate
+2016,PL,-5.0,Real effective exchange rate
+2017,PL,-3.4,Real effective exchange rate
+2018,PL,0.2,Real effective exchange rate
+2019,PL,2.8,Real effective exchange rate
+2020,PL,1.0,Real effective exchange rate
+2021,PL,-0.4,Real effective exchange rate
+2022,PL,-0.1,Real effective exchange rate
+2023,PL,9.3,Real effective exchange rate
+2024,PL,17.5,Real effective exchange rate
+2015,PT,-3.0,Real effective exchange rate
+2016,PT,-1.8,Real effective exchange rate
+2017,PT,-0.6,Real effective exchange rate
+2018,PT,3.3,Real effective exchange rate
+2019,PT,-0.2,Real effective exchange rate
+2020,PT,-0.1,Real effective exchange rate
+2021,PT,-2.8,Real effective exchange rate
+2022,PT,-2.8,Real effective exchange rate
+2023,PT,-1.4,Real effective exchange rate
+2024,PT,0.6,Real effective exchange rate
+2015,RO,2.7,Real effective exchange rate
+2016,RO,-2.5,Real effective exchange rate
+2017,RO,-5.5,Real effective exchange rate
+2018,RO,-0.7,Real effective exchange rate
+2019,RO,0.3,Real effective exchange rate
+2020,RO,3.4,Real effective exchange rate
+2021,RO,1.1,Real effective exchange rate
+2022,RO,2.6,Real effective exchange rate
+2023,RO,6.8,Real effective exchange rate
+2024,RO,9.7,Real effective exchange rate
+2015,SE,-8.2,Real effective exchange rate
+2016,SE,-9.0,Real effective exchange rate
+2017,SE,-5.4,Real effective exchange rate
+2018,SE,-3.9,Real effective exchange rate
+2019,SE,-8.3,Real effective exchange rate
+2020,SE,-4.7,Real effective exchange rate
+2021,SE,2.1,Real effective exchange rate
+2022,SE,-1.3,Real effective exchange rate
+2023,SE,-7.5,Real effective exchange rate
+2024,SE,-9.7,Real effective exchange rate
+2015,SI,0.4,Real effective exchange rate
+2016,SI,-0.5,Real effective exchange rate
+2017,SI,-1.8,Real effective exchange rate
+2018,SI,2.0,Real effective exchange rate
+2019,SI,1.1,Real effective exchange rate
+2020,SI,1.7,Real effective exchange rate
+2021,SI,-0.4,Real effective exchange rate
+2022,SI,-1.3,Real effective exchange rate
+2023,SI,1.1,Real effective exchange rate
+2024,SI,1.1,Real effective exchange rate
+2015,SK,-1.2,Real effective exchange rate
+2016,SK,-1.6,Real effective exchange rate
+2017,SK,-1.9,Real effective exchange rate
+2018,SK,2.5,Real effective exchange rate
+2019,SK,2.6,Real effective exchange rate
+2020,SK,5.3,Real effective exchange rate
+2021,SK,3.1,Real effective exchange rate
+2022,SK,3.8,Real effective exchange rate
+2023,SK,7.5,Real effective exchange rate
+2024,SK,8.3,Real effective exchange rate
+2015,AT,-3.2065,Export performance against advanced economies
+2016,AT,-2.7454,Export performance against advanced economies
+2017,AT,-2.9673,Export performance against advanced economies
+2018,AT,5.2355,Export performance against advanced economies
+2019,AT,1.9079,Export performance against advanced economies
+2020,AT,2.6792,Export performance against advanced economies
+2021,AT,-1.8817,Export performance against advanced economies
+2022,AT,-3.8203,Export performance against advanced economies
+2023,AT,-1.4492,Export performance against advanced economies
+2015,BE,-7.8051,Export performance against advanced economies
+2016,BE,-4.39,Export performance against advanced economies
+2017,BE,-2.4575,Export performance against advanced economies
+2018,BE,6.0369,Export performance against advanced economies
+2019,BE,0.4067,Export performance against advanced economies
+2020,BE,3.4804,Export performance against advanced economies
+2021,BE,8.9073,Export performance against advanced economies
+2022,BE,3.4269,Export performance against advanced economies
+2023,BE,-5.9994,Export performance against advanced economies
+2015,BG,3.2417,Export performance against advanced economies
+2016,BG,3.172,Export performance against advanced economies
+2017,BG,8.2506,Export performance against advanced economies
+2018,BG,13.6893,Export performance against advanced economies
+2019,BG,9.0355,Export performance against advanced economies
+2020,BG,3.6004,Export performance against advanced economies
+2021,BG,9.7083,Export performance against advanced economies
+2022,BG,17.3121,Export performance against advanced economies
+2023,BG,15.4265,Export performance against advanced economies
+2015,CY,5.0562,Export performance against advanced economies
+2016,CY,8.9163,Export performance against advanced economies
+2017,CY,12.5469,Export performance against advanced economies
+2018,CY,16.3317,Export performance against advanced economies
+2019,CY,14.0672,Export performance against advanced economies
+2020,CY,23.9335,Export performance against advanced economies
+2021,CY,31.6419,Export performance against advanced economies
+2022,CY,29.9848,Export performance against advanced economies
+2023,CY,17.3839,Export performance against advanced economies
+2015,CZ,-0.1033,Export performance against advanced economies
+2016,CZ,4.0394,Export performance against advanced economies
+2017,CZ,2.9455,Export performance against advanced economies
+2018,CZ,7.2058,Export performance against advanced economies
+2019,CZ,2.6688,Export performance against advanced economies
+2020,CZ,1.2925,Export performance against advanced economies
+2021,CZ,-2.1883,Export performance against advanced economies
+2022,CZ,-4.3452,Export performance against advanced economies
+2023,CZ,0.794,Export performance against advanced economies
+2015,DE,-0.8327,Export performance against advanced economies
+2016,DE,0.0703,Export performance against advanced economies
+2017,DE,-1.9864,Export performance against advanced economies
+2018,DE,0.0622,Export performance against advanced economies
+2019,DE,-2.9842,Export performance against advanced economies
+2020,DE,-0.2024,Export performance against advanced economies
+2021,DE,-1.723,Export performance against advanced economies
+2022,DE,-7.5902,Export performance against advanced economies
+2023,DE,-8.5777,Export performance against advanced economies
+2015,DK,-2.2589,Export performance against advanced economies
+2016,DK,-4.3489,Export performance against advanced economies
+2017,DK,-3.2267,Export performance against advanced economies
+2018,DK,1.553,Export performance against advanced economies
+2019,DK,3.3864,Export performance against advanced economies
+2020,DK,9.9808,Export performance against advanced economies
+2021,DK,8.6685,Export performance against advanced economies
+2022,DK,13.633,Export performance against advanced economies
+2023,DK,2.4548,Export performance against advanced economies
+2015,EE,-6.7914,Export performance against advanced economies
+2016,EE,-5.8865,Export performance against advanced economies
+2017,EE,-4.7466,Export performance against advanced economies
+2018,EE,8.5167,Export performance against advanced economies
+2019,EE,5.5773,Export performance against advanced economies
+2020,EE,9.6117,Export performance against advanced economies
+2021,EE,19.152,Export performance against advanced economies
+2022,EE,18.029,Export performance against advanced economies
+2023,EE,7.728,Export performance against advanced economies
+2015,EL,-5.7652,Export performance against advanced economies
+2016,EL,-9.8395,Export performance against advanced economies
+2017,EL,-6.6685,Export performance against advanced economies
+2018,EL,10.7817,Export performance against advanced economies
+2019,EL,15.0507,Export performance against advanced economies
+2020,EL,-12.745,Export performance against advanced economies
+2021,EL,-1.8188,Export performance against advanced economies
+2022,EL,7.1624,Export performance against advanced economies
+2023,EL,32.0526,Export performance against advanced economies
+2015,ES,0.6039,Export performance against advanced economies
+2016,ES,0.8656,Export performance against advanced economies
+2017,ES,2.372,Export performance against advanced economies
+2018,ES,5.0507,Export performance against advanced economies
+2019,ES,-0.5821,Export performance against advanced economies
+2020,ES,-12.0798,Export performance against advanced economies
+2021,ES,-9.463,Export performance against advanced economies
+2022,ES,-3.7394,Export performance against advanced economies
+2023,ES,13.9795,Export performance against advanced economies
+2015,FI,-13.1246,Export performance against advanced economies
+2016,FI,-11.9976,Export performance against advanced economies
+2017,FI,-2.0648,Export performance against advanced economies
+2018,FI,8.572,Export performance against advanced economies
+2019,FI,9.6054,Export performance against advanced economies
+2020,FI,4.118,Export performance against advanced economies
+2021,FI,0.3973,Export performance against advanced economies
+2022,FI,-2.5679,Export performance against advanced economies
+2023,FI,-5.9544,Export performance against advanced economies
+2015,FR,-0.215,Export performance against advanced economies
+2016,FR,-2.5916,Export performance against advanced economies
+2017,FR,-3.6026,Export performance against advanced economies
+2018,FR,-0.7182,Export performance against advanced economies
+2019,FR,-1.7903,Export performance against advanced economies
+2020,FR,-6.591,Export performance against advanced economies
+2021,FR,-5.9539,Export performance against advanced economies
+2022,FR,-5.9577,Export performance against advanced economies
+2023,FR,2.092,Export performance against advanced economies
+2015,HR,30.7411,Export performance against advanced economies
+2016,HR,12.7783,Export performance against advanced economies
+2017,HR,13.1943,Export performance against advanced economies
+2018,HR,13.2363,Export performance against advanced economies
+2019,HR,9.3729,Export performance against advanced economies
+2020,HR,-11.1412,Export performance against advanced economies
+2021,HR,2.5187,Export performance against advanced economies
+2022,HR,9.4511,Export performance against advanced economies
+2023,HR,36.6053,Export performance against advanced economies
+2015,HU,3.3055,Export performance against advanced economies
+2016,HU,3.3816,Export performance against advanced economies
+2017,HU,1.9735,Export performance against advanced economies
+2018,HU,3.8207,Export performance against advanced economies
+2019,HU,2.6143,Export performance against advanced economies
+2020,HU,3.7617,Export performance against advanced economies
+2021,HU,-0.8414,Export performance against advanced economies
+2022,HU,-3.0915,Export performance against advanced economies
+2023,HU,1.2435,Export performance against advanced economies
+2015,IE,69.8514,Export performance against advanced economies
+2016,IE,59.5843,Export performance against advanced economies
+2017,IE,48.494,Export performance against advanced economies
+2018,IE,10.082,Export performance against advanced economies
+2019,IE,15.4732,Export performance against advanced economies
+2020,IE,40.4912,Export performance against advanced economies
+2021,IE,32.9756,Export performance against advanced economies
+2022,IE,16.622,Export performance against advanced economies
+2023,IE,-9.1617,Export performance against advanced economies
+2015,IT,-4.5613,Export performance against advanced economies
+2016,IT,-3.4125,Export performance against advanced economies
+2017,IT,-2.774,Export performance against advanced economies
+2018,IT,1.7271,Export performance against advanced economies
+2019,IT,-1.8624,Export performance against advanced economies
+2020,IT,-4.8647,Export performance against advanced economies
+2021,IT,-3.8754,Export performance against advanced economies
+2022,IT,-3.8551,Export performance against advanced economies
+2023,IT,3.0998,Export performance against advanced economies
+2015,LT,-11.4352,Export performance against advanced economies
+2016,LT,-14.3021,Export performance against advanced economies
+2017,LT,1.839,Export performance against advanced economies
+2018,LT,19.9169,Export performance against advanced economies
+2019,LT,24.085,Export performance against advanced economies
+2020,LT,22.0453,Export performance against advanced economies
+2021,LT,20.9634,Export performance against advanced economies
+2022,LT,18.5942,Export performance against advanced economies
+2023,LT,6.6302,Export performance against advanced economies
+2015,LU,19.7238,Export performance against advanced economies
+2016,LU,11.4723,Export performance against advanced economies
+2017,LU,3.8409,Export performance against advanced economies
+2018,LU,0.845,Export performance against advanced economies
+2019,LU,3.655,Export performance against advanced economies
+2020,LU,20.9111,Export performance against advanced economies
+2021,LU,22.6469,Export performance against advanced economies
+2022,LU,-2.2275,Export performance against advanced economies
+2023,LU,-14.3958,Export performance against advanced economies
+2015,LV,-0.5285,Export performance against advanced economies
+2016,LV,-0.5452,Export performance against advanced economies
+2017,LV,-0.3495,Export performance against advanced economies
+2018,LV,8.8225,Export performance against advanced economies
+2019,LV,5.0936,Export performance against advanced economies
+2020,LV,14.4565,Export performance against advanced economies
+2021,LV,10.0859,Export performance against advanced economies
+2022,LV,15.9208,Export performance against advanced economies
+2023,LV,-1.6873,Export performance against advanced economies
+2015,MT,12.6431,Export performance against advanced economies
+2016,MT,13.2519,Export performance against advanced economies
+2017,MT,2.9761,Export performance against advanced economies
+2018,MT,-0.1381,Export performance against advanced economies
+2019,MT,8.6789,Export performance against advanced economies
+2020,MT,32.2192,Export performance against advanced economies
+2021,MT,6.5372,Export performance against advanced economies
+2022,MT,-9.7245,Export performance against advanced economies
+2023,MT,-10.7057,Export performance against advanced economies
+2015,NL,1.0329,Export performance against advanced economies
+2016,NL,-2.1045,Export performance against advanced economies
+2017,NL,0.2014,Export performance against advanced economies
+2018,NL,4.9761,Export performance against advanced economies
+2019,NL,4.7678,Export performance against advanced economies
+2020,NL,8.1748,Export performance against advanced economies
+2021,NL,3.2106,Export performance against advanced economies
+2022,NL,3.747,Export performance against advanced economies
+2023,NL,-1.9638,Export performance against advanced economies
+2015,PL,7.69,Export performance against advanced economies
+2016,PL,7.4005,Export performance against advanced economies
+2017,PL,11.0968,Export performance against advanced economies
+2018,PL,16.0501,Export performance against advanced economies
+2019,PL,14.4725,Export performance against advanced economies
+2020,PL,19.9418,Export performance against advanced economies
+2021,PL,15.9339,Export performance against advanced economies
+2022,PL,12.3255,Export performance against advanced economies
+2023,PL,7.6583,Export performance against advanced economies
+2015,PT,3.9126,Export performance against advanced economies
+2016,PT,-0.4524,Export performance against advanced economies
+2017,PT,3.504,Export performance against advanced economies
+2018,PT,9.2206,Export performance against advanced economies
+2019,PT,6.985,Export performance against advanced economies
+2020,PT,-7.1949,Export performance against advanced economies
+2021,PT,-8.0984,Export performance against advanced economies
+2022,PT,-1.56,Export performance against advanced economies
+2023,PT,16.1751,Export performance against advanced economies
+2015,RO,20.1129,Export performance against advanced economies
+2016,RO,11.0092,Export performance against advanced economies
+2017,RO,9.3171,Export performance against advanced economies
+2018,RO,16.1216,Export performance against advanced economies
+2019,RO,9.3349,Export performance against advanced economies
+2020,RO,7.4603,Export performance against advanced economies
+2021,RO,5.1661,Export performance against advanced economies
+2022,RO,3.9465,Export performance against advanced economies
+2023,RO,6.8166,Export performance against advanced economies
+2015,SE,-6.0189,Export performance against advanced economies
+2016,SE,-4.4629,Export performance against advanced economies
+2017,SE,-4.6157,Export performance against advanced economies
+2018,SE,-3.1179,Export performance against advanced economies
+2019,SE,-1.2589,Export performance against advanced economies
+2020,SE,5.4062,Export performance against advanced economies
+2021,SE,8.6569,Export performance against advanced economies
+2022,SE,-0.5768,Export performance against advanced economies
+2023,SE,-2.8728,Export performance against advanced economies
+2015,SI,2.029,Export performance against advanced economies
+2016,SI,4.4411,Export performance against advanced economies
+2017,SI,8.3212,Export performance against advanced economies
+2018,SI,17.1192,Export performance against advanced economies
+2019,SI,11.6488,Export performance against advanced economies
+2020,SI,6.7552,Export performance against advanced economies
+2021,SI,3.0805,Export performance against advanced economies
+2022,SI,0.9214,Export performance against advanced economies
+2023,SI,0.2146,Export performance against advanced economies
+2015,SK,-2.3166,Export performance against advanced economies
+2016,SK,-1.9393,Export performance against advanced economies
+2017,SK,0.5716,Export performance against advanced economies
+2018,SK,7.3511,Export performance against advanced economies
+2019,SK,-0.5763,Export performance against advanced economies
+2020,SK,3.8767,Export performance against advanced economies
+2021,SK,-0.9858,Export performance against advanced economies
+2022,SK,-3.9152,Export performance against advanced economies
+2023,SK,-3.1009,Export performance against advanced economies
+2015,AT,5.9,Nominal unit labour cost index
+2016,AT,4.8,Nominal unit labour cost index
+2017,AT,4.2,Nominal unit labour cost index
+2018,AT,5.1,Nominal unit labour cost index
+2019,AT,5.6,Nominal unit labour cost index
+2020,AT,11.9,Nominal unit labour cost index
+2021,AT,8.8,Nominal unit labour cost index
+2022,AT,8.9,Nominal unit labour cost index
+2023,AT,10.3,Nominal unit labour cost index
+2024,AT,22.0,Nominal unit labour cost index
+2015,BE,1.0,Nominal unit labour cost index
+2016,BE,-0.6,Nominal unit labour cost index
+2017,BE,1.6,Nominal unit labour cost index
+2018,BE,3.6,Nominal unit labour cost index
+2019,BE,4.5,Nominal unit labour cost index
+2020,BE,4.1,Nominal unit labour cost index
+2021,BE,5.1,Nominal unit labour cost index
+2022,BE,9.2,Nominal unit labour cost index
+2023,BE,15.9,Nominal unit labour cost index
+2024,BE,15.8,Nominal unit labour cost index
+2015,BG,17.3,Nominal unit labour cost index
+2016,BG,11.2,Nominal unit labour cost index
+2017,BG,15.9,Nominal unit labour cost index
+2018,BG,20.8,Nominal unit labour cost index
+2019,BG,18.8,Nominal unit labour cost index
+2020,BG,17.8,Nominal unit labour cost index
+2021,BG,14.0,Nominal unit labour cost index
+2022,BG,24.1,Nominal unit labour cost index
+2023,BG,26.9,Nominal unit labour cost index
+2024,BG,33.8,Nominal unit labour cost index
+2015,CY,-10.7,Nominal unit labour cost index
+2016,CY,-9.6,Nominal unit labour cost index
+2017,CY,-5.2,Nominal unit labour cost index
+2018,CY,-0.7,Nominal unit labour cost index
+2019,CY,6.8,Nominal unit labour cost index
+2020,CY,9.3,Nominal unit labour cost index
+2021,CY,3.8,Nominal unit labour cost index
+2022,CY,3.5,Nominal unit labour cost index
+2023,CY,3.7,Nominal unit labour cost index
+2024,CY,11.2,Nominal unit labour cost index
+2015,CZ,0.8,Nominal unit labour cost index
+2016,CZ,4.3,Nominal unit labour cost index
+2017,CZ,7.0,Nominal unit labour cost index
+2018,CZ,14.2,Nominal unit labour cost index
+2019,CZ,14.3,Nominal unit labour cost index
+2020,CZ,18.1,Nominal unit labour cost index
+2021,CZ,14.8,Nominal unit labour cost index
+2022,CZ,17.0,Nominal unit labour cost index
+2023,CZ,17.2,Nominal unit labour cost index
+2024,CZ,18.8,Nominal unit labour cost index
+2015,DE,5.8,Nominal unit labour cost index
+2016,DE,4.6,Nominal unit labour cost index
+2017,DE,4.4,Nominal unit labour cost index
+2018,DE,5.6,Nominal unit labour cost index
+2019,DE,7.6,Nominal unit labour cost index
+2020,DE,9.7,Nominal unit labour cost index
+2021,DE,6.1,Nominal unit labour cost index
+2022,DE,7.4,Nominal unit labour cost index
+2023,DE,11.0,Nominal unit labour cost index
+2024,DE,17.5,Nominal unit labour cost index
+2015,DK,2.5,Nominal unit labour cost index
+2016,DK,1.8,Nominal unit labour cost index
+2017,DK,0.9,Nominal unit labour cost index
+2018,DK,0.9,Nominal unit labour cost index
+2019,DK,2.3,Nominal unit labour cost index
+2020,DK,5.6,Nominal unit labour cost index
+2021,DK,2.9,Nominal unit labour cost index
+2022,DK,7.0,Nominal unit labour cost index
+2023,DK,5.7,Nominal unit labour cost index
+2024,DK,8.5,Nominal unit labour cost index
+2015,EE,13.5,Nominal unit labour cost index
+2016,EE,12.6,Nominal unit labour cost index
+2017,EE,12.4,Nominal unit labour cost index
+2018,EE,15.4,Nominal unit labour cost index
+2019,EE,16.7,Nominal unit labour cost index
+2020,EE,17.5,Nominal unit labour cost index
+2021,EE,12.3,Nominal unit labour cost index
+2022,EE,20.2,Nominal unit labour cost index
+2023,EE,32.5,Nominal unit labour cost index
+2024,EE,37.6,Nominal unit labour cost index
+2015,EL,-12.3,Nominal unit labour cost index
+2016,EL,-7.4,Nominal unit labour cost index
+2017,EL,-5.2,Nominal unit labour cost index
+2018,EL,-2.6,Nominal unit labour cost index
+2019,EL,-2.5,Nominal unit labour cost index
+2020,EL,4.6,Nominal unit labour cost index
+2021,EL,4.2,Nominal unit labour cost index
+2022,EL,3.4,Nominal unit labour cost index
+2023,EL,-1.8,Nominal unit labour cost index
+2024,EL,4.9,Nominal unit labour cost index
+2015,ES,-0.6,Nominal unit labour cost index
+2016,ES,-0.9,Nominal unit labour cost index
+2017,ES,-0.5,Nominal unit labour cost index
+2018,ES,1.2,Nominal unit labour cost index
+2019,ES,6.3,Nominal unit labour cost index
+2020,ES,12.8,Nominal unit labour cost index
+2021,ES,13.0,Nominal unit labour cost index
+2022,ES,10.3,Nominal unit labour cost index
+2023,ES,10.0,Nominal unit labour cost index
+2024,ES,12.8,Nominal unit labour cost index
+2015,FI,3.2,Nominal unit labour cost index
+2016,FI,0.7,Nominal unit labour cost index
+2017,FI,-3.5,Nominal unit labour cost index
+2018,FI,-1.7,Nominal unit labour cost index
+2019,FI,1.1,Nominal unit labour cost index
+2020,FI,5.1,Nominal unit labour cost index
+2021,FI,6.3,Nominal unit labour cost index
+2022,FI,9.8,Nominal unit labour cost index
+2023,FI,14.7,Nominal unit labour cost index
+2024,FI,10.3,Nominal unit labour cost index
+2015,FR,2.3,Nominal unit labour cost index
+2016,FR,1.8,Nominal unit labour cost index
+2017,FR,2.0,Nominal unit labour cost index
+2018,FR,2.5,Nominal unit labour cost index
+2019,FR,0.8,Nominal unit labour cost index
+2020,FR,4.3,Nominal unit labour cost index
+2021,FR,3.9,Nominal unit labour cost index
+2022,FR,9.7,Nominal unit labour cost index
+2023,FR,9.5,Nominal unit labour cost index
+2024,FR,11.7,Nominal unit labour cost index
+2015,HR,-5.0,Nominal unit labour cost index
+2016,HR,-4.2,Nominal unit labour cost index
+2017,HR,-2.8,Nominal unit labour cost index
+2018,HR,1.2,Nominal unit labour cost index
+2019,HR,2.3,Nominal unit labour cost index
+2020,HR,11.6,Nominal unit labour cost index
+2021,HR,2.2,Nominal unit labour cost index
+2022,HR,10.9,Nominal unit labour cost index
+2023,HR,17.1,Nominal unit labour cost index
+2024,HR,40.0,Nominal unit labour cost index
+2015,HU,0.2,Nominal unit labour cost index
+2016,HU,4.6,Nominal unit labour cost index
+2017,HU,8.7,Nominal unit labour cost index
+2018,HU,11.1,Nominal unit labour cost index
+2019,HU,12.1,Nominal unit labour cost index
+2020,HU,14.0,Nominal unit labour cost index
+2021,HU,14.6,Nominal unit labour cost index
+2022,HU,25.2,Nominal unit labour cost index
+2023,HU,36.6,Nominal unit labour cost index
+2024,HU,47.7,Nominal unit labour cost index
+2015,IE,-19.6,Nominal unit labour cost index
+2016,IE,-15.4,Nominal unit labour cost index
+2017,IE,-14.1,Nominal unit labour cost index
+2018,IE,-0.8,Nominal unit labour cost index
+2019,IE,-3.5,Nominal unit labour cost index
+2020,IE,-8.3,Nominal unit labour cost index
+2021,IE,-11.3,Nominal unit labour cost index
+2022,IE,-11.9,Nominal unit labour cost index
+2023,IE,12.2,Nominal unit labour cost index
+2024,IE,23.9,Nominal unit labour cost index
+2015,IT,1.6,Nominal unit labour cost index
+2016,IT,0.9,Nominal unit labour cost index
+2017,IT,0.6,Nominal unit labour cost index
+2018,IT,1.4,Nominal unit labour cost index
+2019,IT,2.9,Nominal unit labour cost index
+2020,IT,5.0,Nominal unit labour cost index
+2021,IT,3.5,Nominal unit labour cost index
+2022,IT,2.8,Nominal unit labour cost index
+2023,IT,4.7,Nominal unit labour cost index
+2024,IT,8.9,Nominal unit labour cost index
+2015,LT,10.1,Nominal unit labour cost index
+2016,LT,13.2,Nominal unit labour cost index
+2017,LT,14.6,Nominal unit labour cost index
+2018,LT,14.4,Nominal unit labour cost index
+2019,LT,15.0,Nominal unit labour cost index
+2020,LT,15.2,Nominal unit labour cost index
+2021,LT,17.5,Nominal unit labour cost index
+2022,LT,27.2,Nominal unit labour cost index
+2023,LT,37.3,Nominal unit labour cost index
+2024,LT,39.5,Nominal unit labour cost index
+2015,LU,5.8,Nominal unit labour cost index
+2016,LU,2.7,Nominal unit labour cost index
+2017,LU,5.9,Nominal unit labour cost index
+2018,LU,8.6,Nominal unit labour cost index
+2019,LU,12.9,Nominal unit labour cost index
+2020,LU,10.7,Nominal unit labour cost index
+2021,LU,7.5,Nominal unit labour cost index
+2022,LU,14.2,Nominal unit labour cost index
+2023,LU,16.6,Nominal unit labour cost index
+2024,LU,17.5,Nominal unit labour cost index
+2015,LV,16.9,Nominal unit labour cost index
+2016,LV,14.7,Nominal unit labour cost index
+2017,LV,14.0,Nominal unit labour cost index
+2018,LV,13.1,Nominal unit labour cost index
+2019,LV,16.0,Nominal unit labour cost index
+2020,LV,17.4,Nominal unit labour cost index
+2021,LV,11.3,Nominal unit labour cost index
+2022,LV,16.2,Nominal unit labour cost index
+2023,LV,24.4,Nominal unit labour cost index
+2024,LV,36.2,Nominal unit labour cost index
+2015,MT,1.1,Nominal unit labour cost index
+2016,MT,4.9,Nominal unit labour cost index
+2017,MT,1.0,Nominal unit labour cost index
+2018,MT,8.3,Nominal unit labour cost index
+2019,MT,9.1,Nominal unit labour cost index
+2020,MT,21.4,Nominal unit labour cost index
+2021,MT,7.9,Nominal unit labour cost index
+2022,MT,8.9,Nominal unit labour cost index
+2023,MT,3.1,Nominal unit labour cost index
+2024,MT,13.1,Nominal unit labour cost index
+2015,NL,-0.3,Nominal unit labour cost index
+2016,NL,0.2,Nominal unit labour cost index
+2017,NL,0.8,Nominal unit labour cost index
+2018,NL,4.5,Nominal unit labour cost index
+2019,NL,6.5,Nominal unit labour cost index
+2020,NL,13.2,Nominal unit labour cost index
+2021,NL,8.6,Nominal unit labour cost index
+2022,NL,8.2,Nominal unit labour cost index
+2023,NL,9.2,Nominal unit labour cost index
+2024,NL,17.5,Nominal unit labour cost index
+2015,PL,0.5,Nominal unit labour cost index
+2016,PL,2.3,Nominal unit labour cost index
+2017,PL,3.8,Nominal unit labour cost index
+2018,PL,6.1,Nominal unit labour cost index
+2019,PL,7.1,Nominal unit labour cost index
+2020,PL,12.6,Nominal unit labour cost index
+2021,PL,12.4,Nominal unit labour cost index
+2022,PL,17.3,Nominal unit labour cost index
+2023,PL,25.1,Nominal unit labour cost index
+2024,PL,33.1,Nominal unit labour cost index
+2015,PT,0.7,Nominal unit labour cost index
+2016,PT,0.3,Nominal unit labour cost index
+2017,PT,3.5,Nominal unit labour cost index
+2018,PT,6.7,Nominal unit labour cost index
+2019,PT,9.2,Nominal unit labour cost index
+2020,PT,15.5,Nominal unit labour cost index
+2021,PT,12.5,Nominal unit labour cost index
+2022,PT,11.7,Nominal unit labour cost index
+2023,PT,10.9,Nominal unit labour cost index
+2024,PT,17.4,Nominal unit labour cost index
+2015,RO,4.1,Nominal unit labour cost index
+2016,RO,12.3,Nominal unit labour cost index
+2017,RO,18.0,Nominal unit labour cost index
+2018,RO,29.0,Nominal unit labour cost index
+2019,RO,23.7,Nominal unit labour cost index
+2020,RO,21.0,Nominal unit labour cost index
+2021,RO,15.9,Nominal unit labour cost index
+2022,RO,19.5,Nominal unit labour cost index
+2023,RO,27.5,Nominal unit labour cost index
+2024,RO,47.6,Nominal unit labour cost index
+2015,SE,2.8,Nominal unit labour cost index
+2016,SE,3.1,Nominal unit labour cost index
+2017,SE,4.4,Nominal unit labour cost index
+2018,SE,8.6,Nominal unit labour cost index
+2019,SE,7.7,Nominal unit labour cost index
+2020,SE,7.9,Nominal unit labour cost index
+2021,SE,3.9,Nominal unit labour cost index
+2022,SE,7.2,Nominal unit labour cost index
+2023,SE,11.1,Nominal unit labour cost index
+2024,SE,14.9,Nominal unit labour cost index
+2015,SI,-0.6,Nominal unit labour cost index
+2016,SI,1.7,Nominal unit labour cost index
+2017,SI,3.2,Nominal unit labour cost index
+2018,SI,6.0,Nominal unit labour cost index
+2019,SI,7.7,Nominal unit labour cost index
+2020,SI,14.5,Nominal unit labour cost index
+2021,SI,12.0,Nominal unit labour cost index
+2022,SI,14.0,Nominal unit labour cost index
+2023,SI,15.2,Nominal unit labour cost index
+2024,SI,20.4,Nominal unit labour cost index
+2015,SK,1.9,Nominal unit labour cost index
+2016,SK,3.6,Nominal unit labour cost index
+2017,SK,7.9,Nominal unit labour cost index
+2018,SK,11.7,Nominal unit labour cost index
+2019,SK,14.8,Nominal unit labour cost index
+2020,SK,14.0,Nominal unit labour cost index
+2021,SK,10.1,Nominal unit labour cost index
+2022,SK,12.1,Nominal unit labour cost index
+2023,SK,17.3,Nominal unit labour cost index
+2024,SK,22.8,Nominal unit labour cost index
+2015,AT,85.6,General government gross debt
+2016,AT,83.4,General government gross debt
+2017,AT,79.1,General government gross debt
+2018,AT,74.6,General government gross debt
+2019,AT,71.0,General government gross debt
+2020,AT,83.2,General government gross debt
+2021,AT,82.4,General government gross debt
+2022,AT,78.4,General government gross debt
+2023,AT,78.5,General government gross debt
+2024,AT,81.8,General government gross debt
+2015,BE,105.6,General government gross debt
+2016,BE,105.5,General government gross debt
+2017,BE,102.5,General government gross debt
+2018,BE,100.1,General government gross debt
+2019,BE,97.6,General government gross debt
+2020,BE,111.2,General government gross debt
+2021,BE,108.5,General government gross debt
+2022,BE,102.7,General government gross debt
+2023,BE,103.2,General government gross debt
+2024,BE,104.7,General government gross debt
+2015,BG,25.9,General government gross debt
+2016,BG,29.1,General government gross debt
+2017,BG,25.1,General government gross debt
+2018,BG,22.1,General government gross debt
+2019,BG,20.1,General government gross debt
+2020,BG,24.4,General government gross debt
+2021,BG,23.8,General government gross debt
+2022,BG,22.5,General government gross debt
+2023,BG,22.9,General government gross debt
+2024,BG,24.1,General government gross debt
+2015,CY,111.6,General government gross debt
+2016,CY,106.9,General government gross debt
+2017,CY,96.5,General government gross debt
+2018,CY,100.7,General government gross debt
+2019,CY,92.3,General government gross debt
+2020,CY,113.6,General government gross debt
+2021,CY,96.5,General government gross debt
+2022,CY,81.1,General government gross debt
+2023,CY,73.6,General government gross debt
+2024,CY,65.0,General government gross debt
+2015,CZ,39.5,General government gross debt
+2016,CZ,36.2,General government gross debt
+2017,CZ,33.8,General government gross debt
+2018,CZ,31.7,General government gross debt
+2019,CZ,29.6,General government gross debt
+2020,CZ,36.9,General government gross debt
+2021,CZ,40.7,General government gross debt
+2022,CZ,42.5,General government gross debt
+2023,CZ,42.5,General government gross debt
+2024,CZ,43.6,General government gross debt
+2015,DE,71.2,General government gross debt
+2016,DE,68.3,General government gross debt
+2017,DE,64.0,General government gross debt
+2018,DE,60.8,General government gross debt
+2019,DE,58.7,General government gross debt
+2020,DE,68.1,General government gross debt
+2021,DE,68.1,General government gross debt
+2022,DE,65.0,General government gross debt
+2023,DE,62.9,General government gross debt
+2024,DE,62.5,General government gross debt
+2015,DK,44.6,General government gross debt
+2016,DK,41.7,General government gross debt
+2017,DK,40.2,General government gross debt
+2018,DK,38.5,General government gross debt
+2019,DK,38.3,General government gross debt
+2020,DK,46.3,General government gross debt
+2021,DK,40.5,General government gross debt
+2022,DK,34.1,General government gross debt
+2023,DK,33.6,General government gross debt
+2024,DK,31.1,General government gross debt
+2015,EE,10.8,General government gross debt
+2016,EE,10.2,General government gross debt
+2017,EE,9.4,General government gross debt
+2018,EE,8.5,General government gross debt
+2019,EE,9.0,General government gross debt
+2020,EE,19.1,General government gross debt
+2021,EE,18.4,General government gross debt
+2022,EE,19.1,General government gross debt
+2023,EE,20.2,General government gross debt
+2024,EE,23.6,General government gross debt
+2015,EL,179.6,General government gross debt
+2016,EL,183.1,General government gross debt
+2017,EL,182.1,General government gross debt
+2018,EL,189.0,General government gross debt
+2019,EL,183.2,General government gross debt
+2020,EL,209.4,General government gross debt
+2021,EL,197.3,General government gross debt
+2022,EL,177.0,General government gross debt
+2023,EL,163.9,General government gross debt
+2024,EL,153.6,General government gross debt
+2015,ES,102.5,General government gross debt
+2016,ES,102.0,General government gross debt
+2017,ES,101.2,General government gross debt
+2018,ES,99.8,General government gross debt
+2019,ES,97.7,General government gross debt
+2020,ES,119.3,General government gross debt
+2021,ES,115.7,General government gross debt
+2022,ES,109.5,General government gross debt
+2023,ES,105.1,General government gross debt
+2024,ES,101.8,General government gross debt
+2015,FI,68.8,General government gross debt
+2016,FI,68.6,General government gross debt
+2017,FI,66.6,General government gross debt
+2018,FI,65.4,General government gross debt
+2019,FI,65.3,General government gross debt
+2020,FI,75.3,General government gross debt
+2021,FI,73.2,General government gross debt
+2022,FI,74.0,General government gross debt
+2023,FI,77.5,General government gross debt
+2024,FI,82.1,General government gross debt
+2015,FR,97.0,General government gross debt
+2016,FR,98.1,General government gross debt
+2017,FR,98.8,General government gross debt
+2018,FR,98.5,General government gross debt
+2019,FR,98.2,General government gross debt
+2020,FR,114.9,General government gross debt
+2021,FR,112.8,General government gross debt
+2022,FR,111.4,General government gross debt
+2023,FR,109.8,General government gross debt
+2024,FR,113.0,General government gross debt
+2015,HR,82.8,General government gross debt
+2016,HR,79.3,General government gross debt
+2017,HR,76.2,General government gross debt
+2018,HR,72.8,General government gross debt
+2019,HR,70.9,General government gross debt
+2020,HR,86.5,General government gross debt
+2021,HR,78.2,General government gross debt
+2022,HR,68.5,General government gross debt
+2023,HR,61.8,General government gross debt
+2024,HR,57.6,General government gross debt
+2015,HU,75.7,General government gross debt
+2016,HU,74.6,General government gross debt
+2017,HU,72.0,General government gross debt
+2018,HU,68.8,General government gross debt
+2019,HU,65.0,General government gross debt
+2020,HU,78.7,General government gross debt
+2021,HU,76.2,General government gross debt
+2022,HU,73.9,General government gross debt
+2023,HU,73.0,General government gross debt
+2024,HU,73.5,General government gross debt
+2015,IE,74.0,General government gross debt
+2016,IE,72.6,General government gross debt
+2017,IE,65.2,General government gross debt
+2018,IE,61.5,General government gross debt
+2019,IE,55.9,General government gross debt
+2020,IE,57.0,General government gross debt
+2021,IE,52.6,General government gross debt
+2022,IE,43.1,General government gross debt
+2023,IE,43.3,General government gross debt
+2024,IE,40.9,General government gross debt
+2015,IT,134.8,General government gross debt
+2016,IT,134.2,General government gross debt
+2017,IT,133.7,General government gross debt
+2018,IT,134.2,General government gross debt
+2019,IT,133.9,General government gross debt
+2020,IT,154.4,General government gross debt
+2021,IT,145.8,General government gross debt
+2022,IT,138.3,General government gross debt
+2023,IT,134.6,General government gross debt
+2024,IT,135.3,General government gross debt
+2015,LT,42.4,General government gross debt
+2016,LT,39.8,General government gross debt
+2017,LT,39.1,General government gross debt
+2018,LT,33.3,General government gross debt
+2019,LT,35.6,General government gross debt
+2020,LT,45.9,General government gross debt
+2021,LT,43.3,General government gross debt
+2022,LT,38.1,General government gross debt
+2023,LT,37.3,General government gross debt
+2024,LT,38.2,General government gross debt
+2015,LU,21.1,General government gross debt
+2016,LU,19.6,General government gross debt
+2017,LU,21.8,General government gross debt
+2018,LU,20.9,General government gross debt
+2019,LU,22.3,General government gross debt
+2020,LU,24.5,General government gross debt
+2021,LU,24.2,General government gross debt
+2022,LU,24.9,General government gross debt
+2023,LU,25.0,General government gross debt
+2024,LU,26.3,General government gross debt
+2015,LV,38.3,General government gross debt
+2016,LV,41.7,General government gross debt
+2017,LV,40.3,General government gross debt
+2018,LV,38.3,General government gross debt
+2019,LV,37.9,General government gross debt
+2020,LV,44.0,General government gross debt
+2021,LV,45.9,General government gross debt
+2022,LV,44.4,General government gross debt
+2023,LV,44.6,General government gross debt
+2024,LV,46.8,General government gross debt
+2015,MT,55.0,General government gross debt
+2016,MT,53.1,General government gross debt
+2017,MT,45.6,General government gross debt
+2018,MT,41.4,General government gross debt
+2019,MT,39.3,General government gross debt
+2020,MT,48.8,General government gross debt
+2021,MT,49.8,General government gross debt
+2022,MT,49.5,General government gross debt
+2023,MT,47.9,General government gross debt
+2024,MT,47.4,General government gross debt
+2015,NL,63.8,General government gross debt
+2016,NL,60.9,General government gross debt
+2017,NL,56.0,General government gross debt
+2018,NL,51.6,General government gross debt
+2019,NL,47.7,General government gross debt
+2020,NL,53.4,General government gross debt
+2021,NL,50.5,General government gross debt
+2022,NL,48.4,General government gross debt
+2023,NL,45.2,General government gross debt
+2024,NL,43.3,General government gross debt
+2015,PL,51.1,General government gross debt
+2016,PL,54.1,General government gross debt
+2017,PL,50.4,General government gross debt
+2018,PL,48.2,General government gross debt
+2019,PL,45.2,General government gross debt
+2020,PL,56.6,General government gross debt
+2021,PL,53.0,General government gross debt
+2022,PL,48.8,General government gross debt
+2023,PL,49.5,General government gross debt
+2024,PL,55.3,General government gross debt
+2015,PT,131.0,General government gross debt
+2016,PT,131.2,General government gross debt
+2017,PT,126.0,General government gross debt
+2018,PT,121.1,General government gross debt
+2019,PT,116.1,General government gross debt
+2020,PT,134.1,General government gross debt
+2021,PT,123.9,General government gross debt
+2022,PT,111.2,General government gross debt
+2023,PT,97.7,General government gross debt
+2024,PT,94.9,General government gross debt
+2015,RO,37.7,General government gross debt
+2016,RO,37.8,General government gross debt
+2017,RO,35.3,General government gross debt
+2018,RO,34.4,General government gross debt
+2019,RO,35.0,General government gross debt
+2020,RO,46.6,General government gross debt
+2021,RO,48.3,General government gross debt
+2022,RO,47.9,General government gross debt
+2023,RO,48.9,General government gross debt
+2024,RO,54.8,General government gross debt
+2015,SE,44.5,General government gross debt
+2016,SE,42.8,General government gross debt
+2017,SE,41.6,General government gross debt
+2018,SE,39.8,General government gross debt
+2019,SE,35.7,General government gross debt
+2020,SE,40.4,General government gross debt
+2021,SE,36.9,General government gross debt
+2022,SE,33.8,General government gross debt
+2023,SE,31.6,General government gross debt
+2024,SE,33.5,General government gross debt
+2015,SI,83.4,General government gross debt
+2016,SI,79.4,General government gross debt
+2017,SI,74.9,General government gross debt
+2018,SI,71.0,General government gross debt
+2019,SI,66.0,General government gross debt
+2020,SI,80.2,General government gross debt
+2021,SI,74.8,General government gross debt
+2022,SI,72.7,General government gross debt
+2023,SI,68.4,General government gross debt
+2024,SI,67.0,General government gross debt
+2015,SK,51.6,General government gross debt
+2016,SK,52.1,General government gross debt
+2017,SK,51.4,General government gross debt
+2018,SK,49.3,General government gross debt
+2019,SK,48.0,General government gross debt
+2020,SK,58.4,General government gross debt
+2021,SK,60.2,General government gross debt
+2022,SK,57.7,General government gross debt
+2023,SK,55.6,General government gross debt
+2024,SK,59.3,General government gross debt
+2015,AT,51.3,Household debt
+2016,AT,51.0,Household debt
+2017,AT,50.2,Household debt
+2018,AT,49.5,Household debt
+2019,AT,49.4,Household debt
+2020,AT,52.8,Household debt
+2021,AT,51.7,Household debt
+2022,AT,48.3,Household debt
+2023,AT,45.0,Household debt
+2024,AT,43.9,Household debt
+2015,BE,58.1,Household debt
+2016,BE,58.5,Household debt
+2017,BE,59.1,Household debt
+2018,BE,59.2,Household debt
+2019,BE,60.4,Household debt
+2020,BE,64.9,Household debt
+2021,BE,62.6,Household debt
+2022,BE,59.1,Household debt
+2023,BE,57.1,Household debt
+2024,BE,56.8,Household debt
+2015,BG,23.2,Household debt
+2016,BG,22.6,Household debt
+2017,BG,22.6,Household debt
+2018,BG,23.0,Household debt
+2019,BG,23.1,Household debt
+2020,BG,24.2,Household debt
+2021,BG,23.7,Household debt
+2022,BG,22.4,Household debt
+2023,BG,23.5,Household debt
+2015,CY,128.1,Household debt
+2016,CY,117.8,Household debt
+2017,CY,106.1,Household debt
+2018,CY,96.6,Household debt
+2019,CY,86.6,Household debt
+2020,CY,89.1,Household debt
+2021,CY,79.7,Household debt
+2022,CY,69.5,Household debt
+2023,CY,64.3,Household debt
+2024,CY,59.3,Household debt
+2015,CZ,30.0,Household debt
+2016,CZ,30.8,Household debt
+2017,CZ,31.1,Household debt
+2018,CZ,31.4,Household debt
+2019,CZ,31.0,Household debt
+2020,CZ,33.2,Household debt
+2021,CZ,33.9,Household debt
+2022,CZ,31.9,Household debt
+2023,CZ,31.0,Household debt
+2015,DE,52.6,Household debt
+2016,DE,52.3,Household debt
+2017,DE,51.9,Household debt
+2018,DE,51.6,Household debt
+2019,DE,52.5,Household debt
+2020,DE,56.0,Household debt
+2021,DE,55.3,Household debt
+2022,DE,53.6,Household debt
+2023,DE,51.0,Household debt
+2015,DK,118.7,Household debt
+2016,DK,116.9,Household debt
+2017,DK,113.8,Household debt
+2018,DK,112.3,Household debt
+2019,DK,110.8,Household debt
+2020,DK,111.8,Household debt
+2021,DK,101.5,Household debt
+2022,DK,84.5,Household debt
+2023,DK,88.3,Household debt
+2015,EE,39.0,Household debt
+2016,EE,39.2,Household debt
+2017,EE,38.5,Household debt
+2018,EE,37.7,Household debt
+2019,EE,37.5,Household debt
+2020,EE,39.9,Household debt
+2021,EE,38.0,Household debt
+2022,EE,36.4,Household debt
+2023,EE,36.8,Household debt
+2024,EE,38.4,Household debt
+2015,EL,63.2,Household debt
+2016,EL,61.3,Household debt
+2017,EL,58.2,Household debt
+2018,EL,58.5,Household debt
+2019,EL,55.4,Household debt
+2020,EL,58.7,Household debt
+2021,EL,54.7,Household debt
+2022,EL,44.9,Household debt
+2023,EL,40.8,Household debt
+2024,EL,38.8,Household debt
+2015,ES,67.6,Household debt
+2016,ES,64.1,Household debt
+2017,ES,60.9,Household debt
+2018,ES,58.6,Household debt
+2019,ES,56.5,Household debt
+2020,ES,62.1,Household debt
+2021,ES,57.2,Household debt
+2022,ES,51.5,Household debt
+2023,ES,46.1,Household debt
+2024,ES,43.7,Household debt
+2015,FI,63.6,Household debt
+2016,FI,64.6,Household debt
+2017,FI,64.8,Household debt
+2018,FI,65.6,Household debt
+2019,FI,66.2,Household debt
+2020,FI,69.5,Household debt
+2021,FI,68.5,Household debt
+2022,FI,66.1,Household debt
+2023,FI,64.2,Household debt
+2024,FI,63.3,Household debt
+2015,FR,56.9,Household debt
+2016,FR,58.1,Household debt
+2017,FR,59.4,Household debt
+2018,FR,60.9,Household debt
+2019,FR,62.3,Household debt
+2020,FR,68.2,Household debt
+2021,FR,66.4,Household debt
+2022,FR,65.8,Household debt
+2023,FR,62.6,Household debt
+2024,FR,60.5,Household debt
+2015,HR,38.7,Household debt
+2016,HR,35.7,Household debt
+2017,HR,34.7,Household debt
+2018,HR,34.5,Household debt
+2019,HR,35.1,Household debt
+2020,HR,38.7,Household debt
+2021,HR,34.9,Household debt
+2022,HR,31.7,Household debt
+2023,HR,30.0,Household debt
+2024,HR,30.3,Household debt
+2015,HU,21.4,Household debt
+2016,HU,20.3,Household debt
+2017,HU,18.7,Household debt
+2018,HU,17.7,Household debt
+2019,HU,18.4,Household debt
+2020,HU,20.7,Household debt
+2021,HU,20.9,Household debt
+2022,HU,18.6,Household debt
+2023,HU,16.8,Household debt
+2024,HU,17.0,Household debt
+2015,IE,59.2,Household debt
+2016,IE,55.0,Household debt
+2017,IE,54.2,Household debt
+2018,IE,48.2,Household debt
+2019,IE,41.4,Household debt
+2020,IE,34.3,Household debt
+2021,IE,29.9,Household debt
+2022,IE,27.5,Household debt
+2023,IE,28.9,Household debt
+2015,IT,41.6,Household debt
+2016,IT,41.1,Household debt
+2017,IT,40.8,Household debt
+2018,IT,40.8,Household debt
+2019,IT,41.1,Household debt
+2020,IT,44.8,Household debt
+2021,IT,42.1,Household debt
+2022,IT,40.0,Household debt
+2023,IT,37.1,Household debt
+2024,IT,36.1,Household debt
+2015,LT,22.2,Household debt
+2016,LT,22.8,Household debt
+2017,LT,22.4,Household debt
+2018,LT,22.4,Household debt
+2019,LT,22.8,Household debt
+2020,LT,24.0,Household debt
+2021,LT,23.3,Household debt
+2022,LT,21.8,Household debt
+2023,LT,21.2,Household debt
+2024,LT,22.0,Household debt
+2015,LU,59.0,Household debt
+2016,LU,60.5,Household debt
+2017,LU,62.5,Household debt
+2018,LU,65.6,Household debt
+2019,LU,67.1,Household debt
+2020,LU,68.8,Household debt
+2021,LU,65.9,Household debt
+2022,LU,67.5,Household debt
+2023,LU,66.5,Household debt
+2024,LU,61.0,Household debt
+2015,LV,27.0,Household debt
+2016,LV,24.9,Household debt
+2017,LV,23.6,Household debt
+2018,LV,21.2,Household debt
+2019,LV,20.5,Household debt
+2020,LV,20.7,Household debt
+2021,LV,20.3,Household debt
+2022,LV,19.2,Household debt
+2023,LV,18.5,Household debt
+2024,LV,19.4,Household debt
+2015,MT,49.6,Household debt
+2016,MT,48.8,Household debt
+2017,MT,50.7,Household debt
+2018,MT,50.9,Household debt
+2019,MT,54.0,Household debt
+2020,MT,57.9,Household debt
+2021,MT,53.4,Household debt
+2022,MT,52.3,Household debt
+2023,MT,49.1,Household debt
+2015,NL,117.9,Household debt
+2016,NL,116.8,Household debt
+2017,NL,114.7,Household debt
+2018,NL,111.9,Household debt
+2019,NL,108.4,Household debt
+2020,NL,113.4,Household debt
+2021,NL,107.9,Household debt
+2022,NL,100.5,Household debt
+2023,NL,94.5,Household debt
+2024,NL,92.7,Household debt
+2015,PL,35.8,Household debt
+2016,PL,36.5,Household debt
+2017,PL,34.8,Household debt
+2018,PL,34.6,Household debt
+2019,PL,34.0,Household debt
+2020,PL,34.3,Household debt
+2021,PL,31.9,Household debt
+2022,PL,26.2,Household debt
+2023,PL,23.6,Household debt
+2024,PL,22.7,Household debt
+2015,PT,76.0,Household debt
+2016,PT,71.6,Household debt
+2017,PT,68.4,Household debt
+2018,PT,65.4,Household debt
+2019,PT,62.9,Household debt
+2020,PT,68.3,Household debt
+2021,PT,66.0,Household debt
+2022,PT,60.3,Household debt
+2023,PT,54.8,Household debt
+2024,PT,53.3,Household debt
+2015,RO,17.4,Household debt
+2016,RO,17.0,Household debt
+2017,RO,16.3,Household debt
+2018,RO,15.7,Household debt
+2019,RO,15.3,Household debt
+2020,RO,16.0,Household debt
+2021,RO,15.7,Household debt
+2022,RO,14.1,Household debt
+2023,RO,12.5,Household debt
+2015,SE,83.0,Household debt
+2016,SE,85.9,Household debt
+2017,SE,88.0,Household debt
+2018,SE,88.8,Household debt
+2019,SE,88.8,Household debt
+2020,SE,94.0,Household debt
+2021,SE,92.2,Household debt
+2022,SE,89.1,Household debt
+2023,SE,84.5,Household debt
+2024,SE,82.7,Household debt
+2015,SI,27.8,Household debt
+2016,SI,27.5,Household debt
+2017,SI,27.3,Household debt
+2018,SI,27.1,Household debt
+2019,SI,26.9,Household debt
+2020,SI,27.9,Household debt
+2021,SI,26.4,Household debt
+2022,SI,25.9,Household debt
+2023,SI,23.9,Household debt
+2024,SI,24.3,Household debt
+2015,SK,34.2,Household debt
+2016,SK,38.1,Household debt
+2017,SK,40.7,Household debt
+2018,SK,42.2,Household debt
+2019,SK,43.4,Household debt
+2020,SK,46.1,Household debt
+2021,SK,46.2,Household debt
+2022,SK,47.0,Household debt
+2023,SK,44.0,Household debt
+2024,SK,43.4,Household debt
+2015,AT,74.2,NFC debt
+2016,AT,73.1,NFC debt
+2017,AT,72.4,NFC debt
+2018,AT,73.4,NFC debt
+2019,AT,72.3,NFC debt
+2020,AT,78.0,NFC debt
+2021,AT,78.8,NFC debt
+2022,AT,74.1,NFC debt
+2023,AT,71.4,NFC debt
+2024,AT,71.4,NFC debt
+2015,BE,116.0,NFC debt
+2016,BE,135.7,NFC debt
+2017,BE,127.2,NFC debt
+2018,BE,121.3,NFC debt
+2019,BE,119.8,NFC debt
+2020,BE,121.3,NFC debt
+2021,BE,114.4,NFC debt
+2022,BE,104.3,NFC debt
+2023,BE,96.3,NFC debt
+2024,BE,93.3,NFC debt
+2015,BG,85.5,NFC debt
+2016,BG,81.3,NFC debt
+2017,BG,76.2,NFC debt
+2018,BG,72.2,NFC debt
+2019,BG,68.1,NFC debt
+2020,BG,66.9,NFC debt
+2021,BG,59.4,NFC debt
+2022,BG,50.7,NFC debt
+2023,BG,48.3,NFC debt
+2015,CY,213.6,NFC debt
+2016,CY,206.1,NFC debt
+2017,CY,201.6,NFC debt
+2018,CY,189.5,NFC debt
+2019,CY,182.7,NFC debt
+2020,CY,181.1,NFC debt
+2021,CY,163.5,NFC debt
+2022,CY,138.7,NFC debt
+2023,CY,130.2,NFC debt
+2024,CY,120.9,NFC debt
+2015,CZ,47.9,NFC debt
+2016,CZ,48.8,NFC debt
+2017,CZ,48.2,NFC debt
+2018,CZ,50.6,NFC debt
+2019,CZ,46.3,NFC debt
+2020,CZ,46.8,NFC debt
+2021,CZ,46.6,NFC debt
+2022,CZ,44.6,NFC debt
+2023,CZ,41.8,NFC debt
+2015,DE,52.1,NFC debt
+2016,DE,53.4,NFC debt
+2017,DE,53.7,NFC debt
+2018,DE,55.0,NFC debt
+2019,DE,57.9,NFC debt
+2020,DE,63.7,NFC debt
+2021,DE,63.6,NFC debt
+2022,DE,62.6,NFC debt
+2023,DE,59.6,NFC debt
+2015,DK,109.8,NFC debt
+2016,DK,110.8,NFC debt
+2017,DK,107.3,NFC debt
+2018,DK,107.7,NFC debt
+2019,DK,114.7,NFC debt
+2020,DK,108.7,NFC debt
+2021,DK,104.4,NFC debt
+2022,DK,102.8,NFC debt
+2023,DK,108.6,NFC debt
+2015,EE,72.3,NFC debt
+2016,EE,70.4,NFC debt
+2017,EE,65.5,NFC debt
+2018,EE,61.5,NFC debt
+2019,EE,58.8,NFC debt
+2020,EE,60.0,NFC debt
+2021,EE,57.9,NFC debt
+2022,EE,56.1,NFC debt
+2023,EE,54.5,NFC debt
+2024,EE,58.5,NFC debt
+2015,EL,67.0,NFC debt
+2016,EL,66.1,NFC debt
+2017,EL,62.3,NFC debt
+2018,EL,60.3,NFC debt
+2019,EL,54.3,NFC debt
+2020,EL,65.0,NFC debt
+2021,EL,65.4,NFC debt
+2022,EL,54.5,NFC debt
+2023,EL,52.3,NFC debt
+2024,EL,55.3,NFC debt
+2015,ES,89.3,NFC debt
+2016,ES,86.2,NFC debt
+2017,ES,82.6,NFC debt
+2018,ES,77.1,NFC debt
+2019,ES,75.6,NFC debt
+2020,ES,89.9,NFC debt
+2021,ES,84.4,NFC debt
+2022,ES,73.2,NFC debt
+2023,ES,66.0,NFC debt
+2024,ES,63.5,NFC debt
+2015,FI,89.4,NFC debt
+2016,FI,84.7,NFC debt
+2017,FI,83.9,NFC debt
+2018,FI,79.3,NFC debt
+2019,FI,80.6,NFC debt
+2020,FI,84.2,NFC debt
+2021,FI,82.9,NFC debt
+2022,FI,79.9,NFC debt
+2023,FI,77.5,NFC debt
+2024,FI,77.3,NFC debt
+2015,FR,85.2,NFC debt
+2016,FR,86.0,NFC debt
+2017,FR,86.4,NFC debt
+2018,FR,88.4,NFC debt
+2019,FR,91.1,NFC debt
+2020,FR,105.6,NFC debt
+2021,FR,100.3,NFC debt
+2022,FR,95.9,NFC debt
+2023,FR,91.9,NFC debt
+2024,FR,90.9,NFC debt
+2015,HR,72.4,NFC debt
+2016,HR,68.2,NFC debt
+2017,HR,62.5,NFC debt
+2018,HR,58.7,NFC debt
+2019,HR,54.5,NFC debt
+2020,HR,58.5,NFC debt
+2021,HR,52.2,NFC debt
+2022,HR,48.0,NFC debt
+2023,HR,42.8,NFC debt
+2024,HR,42.1,NFC debt
+2015,HU,62.4,NFC debt
+2016,HU,56.3,NFC debt
+2017,HU,51.2,NFC debt
+2018,HU,50.8,NFC debt
+2019,HU,48.8,NFC debt
+2020,HU,55.8,NFC debt
+2021,HU,61.3,NFC debt
+2022,HU,62.7,NFC debt
+2023,HU,55.1,NFC debt
+2024,HU,55.8,NFC debt
+2015,IE,255.7,NFC debt
+2016,IE,244.9,NFC debt
+2017,IE,213.8,NFC debt
+2018,IE,197.8,NFC debt
+2019,IE,173.2,NFC debt
+2020,IE,152.7,NFC debt
+2021,IE,130.8,NFC debt
+2022,IE,118.1,NFC debt
+2023,IE,109.7,NFC debt
+2015,IT,72.7,NFC debt
+2016,IT,69.5,NFC debt
+2017,IT,67.3,NFC debt
+2018,IT,65.7,NFC debt
+2019,IT,63.6,NFC debt
+2020,IT,72.0,NFC debt
+2021,IT,67.2,NFC debt
+2022,IT,62.2,NFC debt
+2023,IT,58.1,NFC debt
+2024,IT,55.9,NFC debt
+2015,LT,34.3,NFC debt
+2016,LT,35.3,NFC debt
+2017,LT,35.1,NFC debt
+2018,LT,34.4,NFC debt
+2019,LT,33.2,NFC debt
+2020,LT,31.2,NFC debt
+2021,LT,31.1,NFC debt
+2022,LT,29.5,NFC debt
+2023,LT,29.9,NFC debt
+2024,LT,30.7,NFC debt
+2015,LU,239.4,NFC debt
+2016,LU,219.2,NFC debt
+2017,LU,227.7,NFC debt
+2018,LU,227.7,NFC debt
+2019,LU,239.3,NFC debt
+2020,LU,269.5,NFC debt
+2021,LU,262.0,NFC debt
+2022,LU,270.1,NFC debt
+2023,LU,269.0,NFC debt
+2024,LU,278.2,NFC debt
+2015,LV,55.8,NFC debt
+2016,LV,56.7,NFC debt
+2017,LV,55.1,NFC debt
+2018,LV,49.4,NFC debt
+2019,LV,47.3,NFC debt
+2020,LV,45.3,NFC debt
+2021,LV,39.9,NFC debt
+2022,LV,37.2,NFC debt
+2023,LV,35.6,NFC debt
+2024,LV,36.3,NFC debt
+2015,MT,78.7,NFC debt
+2016,MT,81.4,NFC debt
+2017,MT,75.3,NFC debt
+2018,MT,67.0,NFC debt
+2019,MT,74.0,NFC debt
+2020,MT,79.1,NFC debt
+2021,MT,73.1,NFC debt
+2022,MT,69.6,NFC debt
+2023,MT,69.6,NFC debt
+2015,NL,151.6,NFC debt
+2016,NL,149.8,NFC debt
+2017,NL,143.6,NFC debt
+2018,NL,140.8,NFC debt
+2019,NL,133.6,NFC debt
+2020,NL,140.3,NFC debt
+2021,NL,138.7,NFC debt
+2022,NL,129.3,NFC debt
+2023,NL,114.3,NFC debt
+2024,NL,106.1,NFC debt
+2015,PL,43.0,NFC debt
+2016,PL,44.8,NFC debt
+2017,PL,41.5,NFC debt
+2018,PL,40.7,NFC debt
+2019,PL,38.6,NFC debt
+2020,PL,39.8,NFC debt
+2021,PL,37.5,NFC debt
+2022,PL,35.5,NFC debt
+2023,PL,32.2,NFC debt
+2024,PL,31.1,NFC debt
+2015,PT,102.7,NFC debt
+2016,PT,97.9,NFC debt
+2017,PT,92.5,NFC debt
+2018,PT,87.7,NFC debt
+2019,PT,84.0,NFC debt
+2020,PT,92.3,NFC debt
+2021,PT,87.9,NFC debt
+2022,PT,78.6,NFC debt
+2023,PT,70.9,NFC debt
+2024,PT,66.7,NFC debt
+2015,RO,40.8,NFC debt
+2016,RO,37.7,NFC debt
+2017,RO,35.1,NFC debt
+2018,RO,31.5,NFC debt
+2019,RO,31.1,NFC debt
+2020,RO,32.0,NFC debt
+2021,RO,32.0,NFC debt
+2022,RO,30.0,NFC debt
+2023,RO,28.2,NFC debt
+2015,SE,109.7,NFC debt
+2016,SE,108.4,NFC debt
+2017,SE,113.8,NFC debt
+2018,SE,108.4,NFC debt
+2019,SE,110.6,NFC debt
+2020,SE,117.5,NFC debt
+2021,SE,120.8,NFC debt
+2022,SE,121.4,NFC debt
+2023,SE,115.4,NFC debt
+2024,SE,114.1,NFC debt
+2015,SI,56.0,NFC debt
+2016,SI,50.8,NFC debt
+2017,SI,47.2,NFC debt
+2018,SI,44.1,NFC debt
+2019,SI,40.7,NFC debt
+2020,SI,40.8,NFC debt
+2021,SI,39.2,NFC debt
+2022,SI,39.4,NFC debt
+2023,SI,34.7,NFC debt
+2024,SI,32.6,NFC debt
+2015,SK,45.7,NFC debt
+2016,SK,49.5,NFC debt
+2017,SK,48.8,NFC debt
+2018,SK,48.2,NFC debt
+2019,SK,48.3,NFC debt
+2020,SK,47.8,NFC debt
+2021,SK,44.8,NFC debt
+2022,SK,46.3,NFC debt
+2023,SK,41.4,NFC debt
+2024,SK,39.3,NFC debt
+2015,AT,1.6,Household credit flow
+2016,AT,2.5,Household credit flow
+2017,AT,2.4,Household credit flow
+2018,AT,3.0,Household credit flow
+2019,AT,3.2,Household credit flow
+2020,AT,2.8,Household credit flow
+2021,AT,4.3,Household credit flow
+2022,AT,3.0,Household credit flow
+2023,AT,-1.6,Household credit flow
+2024,AT,-0.4,Household credit flow
+2015,BE,4.1,Household credit flow
+2016,BE,4.1,Household credit flow
+2017,BE,4.6,Household credit flow
+2018,BE,4.8,Household credit flow
+2019,BE,6.4,Household credit flow
+2020,BE,3.9,Household credit flow
+2021,BE,5.2,Household credit flow
+2022,BE,5.2,Household credit flow
+2023,BE,2.3,Household credit flow
+2024,BE,2.4,Household credit flow
+2015,BG,-0.4,Household credit flow
+2016,BG,5.6,Household credit flow
+2017,BG,9.6,Household credit flow
+2018,BG,9.8,Household credit flow
+2019,BG,10.5,Household credit flow
+2020,BG,6.6,Household credit flow
+2021,BG,14.1,Household credit flow
+2022,BG,15.1,Household credit flow
+2023,BG,16.3,Household credit flow
+2015,CY,-0.5,Household credit flow
+2016,CY,-0.3,Household credit flow
+2017,CY,0.7,Household credit flow
+2018,CY,2.9,Household credit flow
+2019,CY,0.4,Household credit flow
+2020,CY,3.7,Household credit flow
+2021,CY,3.6,Household credit flow
+2022,CY,-2.2,Household credit flow
+2023,CY,1.0,Household credit flow
+2024,CY,0.4,Household credit flow
+2015,CZ,6.5,Household credit flow
+2016,CZ,7.8,Household credit flow
+2017,CZ,8.3,Household credit flow
+2018,CZ,6.9,Household credit flow
+2019,CZ,6.5,Household credit flow
+2020,CZ,6.2,Household credit flow
+2021,CZ,9.5,Household credit flow
+2022,CZ,5.0,Household credit flow
+2023,CZ,4.9,Household credit flow
+2015,DE,2.4,Household credit flow
+2016,DE,2.9,Household credit flow
+2017,DE,3.3,Household credit flow
+2018,DE,3.8,Household credit flow
+2019,DE,4.7,Household credit flow
+2020,DE,4.6,Household credit flow
+2021,DE,5.1,Household credit flow
+2022,DE,4.1,Household credit flow
+2023,DE,0.7,Household credit flow
+2015,DK,1.2,Household credit flow
+2016,DK,0.9,Household credit flow
+2017,DK,0.5,Household credit flow
+2018,DK,1.5,Household credit flow
+2019,DK,1.4,Household credit flow
+2020,DK,1.0,Household credit flow
+2021,DK,2.7,Household credit flow
+2022,DK,1.4,Household credit flow
+2023,DK,0.4,Household credit flow
+2015,EE,5.3,Household credit flow
+2016,EE,6.8,Household credit flow
+2017,EE,7.4,Household credit flow
+2018,EE,6.7,Household credit flow
+2019,EE,7.8,Household credit flow
+2020,EE,4.2,Household credit flow
+2021,EE,7.3,Household credit flow
+2022,EE,11.2,Household credit flow
+2023,EE,6.3,Household credit flow
+2024,EE,8.0,Household credit flow
+2015,EL,-3.4,Household credit flow
+2016,EL,-2.9,Household credit flow
+2017,EL,-2.2,Household credit flow
+2018,EL,-1.9,Household credit flow
+2019,EL,-2.4,Household credit flow
+2020,EL,-3.1,Household credit flow
+2021,EL,-1.9,Household credit flow
+2022,EL,-2.1,Household credit flow
+2023,EL,-1.0,Household credit flow
+2024,EL,0.2,Household credit flow
+2015,ES,-2.3,Household credit flow
+2016,ES,-1.7,Household credit flow
+2017,ES,-0.6,Household credit flow
+2018,ES,0.2,Household credit flow
+2019,ES,0.1,Household credit flow
+2020,ES,-0.6,Household credit flow
+2021,ES,1.1,Household credit flow
+2022,ES,0.7,Household credit flow
+2023,ES,-1.9,Household credit flow
+2024,ES,1.1,Household credit flow
+2015,FI,3.6,Household credit flow
+2016,FI,4.3,Household credit flow
+2017,FI,4.0,Household credit flow
+2018,FI,4.6,Household credit flow
+2019,FI,3.8,Household credit flow
+2020,FI,4.4,Household credit flow
+2021,FI,3.9,Household credit flow
+2022,FI,3.1,Household credit flow
+2023,FI,-0.5,Household credit flow
+2024,FI,-0.4,Household credit flow
+2015,FR,3.1,Household credit flow
+2016,FR,4.4,Household credit flow
+2017,FR,5.2,Household credit flow
+2018,FR,5.3,Household credit flow
+2019,FR,6.0,Household credit flow
+2020,FR,4.6,Household credit flow
+2021,FR,5.6,Household credit flow
+2022,FR,5.0,Household credit flow
+2023,FR,1.3,Household credit flow
+2024,FR,0.2,Household credit flow
+2015,HR,-2.1,Household credit flow
+2016,HR,0.7,Household credit flow
+2017,HR,4.2,Household credit flow
+2018,HR,6.1,Household credit flow
+2019,HR,7.3,Household credit flow
+2020,HR,1.7,Household credit flow
+2021,HR,4.6,Household credit flow
+2022,HR,5.7,Household credit flow
+2023,HR,9.5,Household credit flow
+2024,HR,10.9,Household credit flow
+2015,HU,-13.8,Household credit flow
+2016,HU,0.8,Household credit flow
+2017,HU,2.2,Household credit flow
+2018,HU,5.3,Household credit flow
+2019,HU,14.9,Household credit flow
+2020,HU,14.8,Household credit flow
+2021,HU,15.1,Household credit flow
+2022,HU,5.8,Household credit flow
+2023,HU,3.7,Household credit flow
+2024,HU,9.6,Household credit flow
+2015,IE,0.5,Household credit flow
+2016,IE,-4.7,Household credit flow
+2017,IE,-5.8,Household credit flow
+2018,IE,-1.5,Household credit flow
+2019,IE,-0.1,Household credit flow
+2020,IE,-4.4,Household credit flow
+2021,IE,3.3,Household credit flow
+2022,IE,0.5,Household credit flow
+2023,IE,3.7,Household credit flow
+2015,IT,0.0,Household credit flow
+2016,IT,1.2,Household credit flow
+2017,IT,2.5,Household credit flow
+2018,IT,2.6,Household credit flow
+2019,IT,2.4,Household credit flow
+2020,IT,1.1,Household credit flow
+2021,IT,3.7,Household credit flow
+2022,IT,3.4,Household credit flow
+2023,IT,-0.6,Household credit flow
+2024,IT,0.6,Household credit flow
+2015,LT,7.0,Household credit flow
+2016,LT,7.3,Household credit flow
+2017,LT,7.4,Household credit flow
+2018,LT,8.8,Household credit flow
+2019,LT,8.6,Household credit flow
+2020,LT,7.6,Household credit flow
+2021,LT,10.5,Household credit flow
+2022,LT,11.5,Household credit flow
+2023,LT,6.6,Household credit flow
+2024,LT,10.5,Household credit flow
+2015,LU,5.3,Household credit flow
+2016,LU,6.4,Household credit flow
+2017,LU,7.1,Household credit flow
+2018,LU,8.6,Household credit flow
+2019,LU,6.1,Household credit flow
+2020,LU,6.0,Household credit flow
+2021,LU,8.5,Household credit flow
+2022,LU,7.5,Household credit flow
+2023,LU,1.0,Household credit flow
+2024,LU,1.2,Household credit flow
+2015,LV,-2.4,Household credit flow
+2016,LV,-3.6,Household credit flow
+2017,LV,2.0,Household credit flow
+2018,LV,1.6,Household credit flow
+2019,LV,2.4,Household credit flow
+2020,LV,0.3,Household credit flow
+2021,LV,8.7,Household credit flow
+2022,LV,6.1,Household credit flow
+2023,LV,5.2,Household credit flow
+2024,LV,8.0,Household credit flow
+2015,MT,3.1,Household credit flow
+2016,MT,5.1,Household credit flow
+2017,MT,9.6,Household credit flow
+2018,MT,9.0,Household credit flow
+2019,MT,12.1,Household credit flow
+2020,MT,5.4,Household credit flow
+2021,MT,7.1,Household credit flow
+2022,MT,6.8,Household credit flow
+2023,MT,6.8,Household credit flow
+2015,NL,1.8,Household credit flow
+2016,NL,2.1,Household credit flow
+2017,NL,2.4,Household credit flow
+2018,NL,2.3,Household credit flow
+2019,NL,2.2,Household credit flow
+2020,NL,3.0,Household credit flow
+2021,NL,3.9,Household credit flow
+2022,NL,3.8,Household credit flow
+2023,NL,1.1,Household credit flow
+2024,NL,4.2,Household credit flow
+2015,PL,4.0,Household credit flow
+2016,PL,4.4,Household credit flow
+2017,PL,5.0,Household credit flow
+2018,PL,6.1,Household credit flow
+2019,PL,5.9,Household credit flow
+2020,PL,1.6,Household credit flow
+2021,PL,4.6,Household credit flow
+2022,PL,-3.4,Household credit flow
+2023,PL,-0.2,Household credit flow
+2024,PL,3.7,Household credit flow
+2015,PT,-2.2,Household credit flow
+2016,PT,-1.7,Household credit flow
+2017,PT,0.7,Household credit flow
+2018,PT,0.7,Household credit flow
+2019,PT,1.2,Household credit flow
+2020,PT,1.7,Household credit flow
+2021,PT,3.7,Household credit flow
+2022,PT,3.2,Household credit flow
+2023,PT,-0.3,Household credit flow
+2024,PT,3.7,Household credit flow
+2015,RO,4.9,Household credit flow
+2016,RO,4.2,Household credit flow
+2017,RO,7.8,Household credit flow
+2018,RO,8.5,Household credit flow
+2019,RO,7.6,Household credit flow
+2020,RO,3.6,Household credit flow
+2021,RO,8.9,Household credit flow
+2022,RO,4.6,Household credit flow
+2023,RO,2.8,Household credit flow
+2015,SE,7.1,Household credit flow
+2016,SE,6.9,Household credit flow
+2017,SE,6.6,Household credit flow
+2018,SE,5.4,Household credit flow
+2019,SE,5.2,Household credit flow
+2020,SE,5.7,Household credit flow
+2021,SE,6.9,Household credit flow
+2022,SE,3.8,Household credit flow
+2023,SE,0.6,Household credit flow
+2024,SE,1.6,Household credit flow
+2015,SI,0.8,Household credit flow
+2016,SI,3.9,Household credit flow
+2017,SI,6.3,Household credit flow
+2018,SI,6.4,Household credit flow
+2019,SI,5.7,Household credit flow
+2020,SI,1.0,Household credit flow
+2021,SI,5.7,Household credit flow
+2022,SI,7.6,Household credit flow
+2023,SI,3.9,Household credit flow
+2024,SI,6.7,Household credit flow
+2015,SK,11.2,Household credit flow
+2016,SK,13.1,Household credit flow
+2017,SK,11.3,Household credit flow
+2018,SK,10.0,Household credit flow
+2019,SK,8.2,Household credit flow
+2020,SK,5.9,Household credit flow
+2021,SK,8.4,Household credit flow
+2022,SK,9.6,Household credit flow
+2023,SK,4.6,Household credit flow
+2024,SK,4.3,Household credit flow
+2015,AT,3.3,NFC credit flow excluding FDI
+2016,AT,2.5,NFC credit flow excluding FDI
+2017,AT,2.5,NFC credit flow excluding FDI
+2018,AT,4.7,NFC credit flow excluding FDI
+2019,AT,4.7,NFC credit flow excluding FDI
+2020,AT,5.2,NFC credit flow excluding FDI
+2021,AT,5.7,NFC credit flow excluding FDI
+2022,AT,5.1,NFC credit flow excluding FDI
+2023,AT,1.4,NFC credit flow excluding FDI
+2024,AT,0.7,NFC credit flow excluding FDI
+2015,BE,9.1,NFC credit flow excluding FDI
+2016,BE,11.2,NFC credit flow excluding FDI
+2017,BE,-3.1,NFC credit flow excluding FDI
+2018,BE,-2.7,NFC credit flow excluding FDI
+2019,BE,4.6,NFC credit flow excluding FDI
+2020,BE,2.6,NFC credit flow excluding FDI
+2021,BE,-0.6,NFC credit flow excluding FDI
+2022,BE,3.6,NFC credit flow excluding FDI
+2023,BE,1.2,NFC credit flow excluding FDI
+2024,BE,6.9,NFC credit flow excluding FDI
+2015,BG,-3.5,NFC credit flow excluding FDI
+2016,BG,3.0,NFC credit flow excluding FDI
+2017,BG,1.6,NFC credit flow excluding FDI
+2018,BG,4.4,NFC credit flow excluding FDI
+2019,BG,4.0,NFC credit flow excluding FDI
+2020,BG,0.3,NFC credit flow excluding FDI
+2021,BG,5.7,NFC credit flow excluding FDI
+2022,BG,6.4,NFC credit flow excluding FDI
+2023,BG,8.5,NFC credit flow excluding FDI
+2015,CY,1.4,NFC credit flow excluding FDI
+2016,CY,2.3,NFC credit flow excluding FDI
+2017,CY,9.6,NFC credit flow excluding FDI
+2018,CY,2.4,NFC credit flow excluding FDI
+2019,CY,-3.5,NFC credit flow excluding FDI
+2020,CY,1.3,NFC credit flow excluding FDI
+2021,CY,1.5,NFC credit flow excluding FDI
+2022,CY,-2.8,NFC credit flow excluding FDI
+2023,CY,0.4,NFC credit flow excluding FDI
+2024,CY,-0.7,NFC credit flow excluding FDI
+2015,CZ,-4.4,NFC credit flow excluding FDI
+2016,CZ,5.6,NFC credit flow excluding FDI
+2017,CZ,10.6,NFC credit flow excluding FDI
+2018,CZ,12.7,NFC credit flow excluding FDI
+2019,CZ,-1.7,NFC credit flow excluding FDI
+2020,CZ,-5.6,NFC credit flow excluding FDI
+2021,CZ,7.6,NFC credit flow excluding FDI
+2022,CZ,13.2,NFC credit flow excluding FDI
+2023,CZ,0.6,NFC credit flow excluding FDI
+2015,DE,2.5,NFC credit flow excluding FDI
+2016,DE,6.5,NFC credit flow excluding FDI
+2017,DE,1.5,NFC credit flow excluding FDI
+2018,DE,6.1,NFC credit flow excluding FDI
+2019,DE,8.5,NFC credit flow excluding FDI
+2020,DE,6.5,NFC credit flow excluding FDI
+2021,DE,6.5,NFC credit flow excluding FDI
+2022,DE,10.1,NFC credit flow excluding FDI
+2023,DE,2.7,NFC credit flow excluding FDI
+2015,DK,3.5,NFC credit flow excluding FDI
+2016,DK,3.8,NFC credit flow excluding FDI
+2017,DK,0.2,NFC credit flow excluding FDI
+2018,DK,2.1,NFC credit flow excluding FDI
+2019,DK,5.3,NFC credit flow excluding FDI
+2020,DK,5.1,NFC credit flow excluding FDI
+2021,DK,3.2,NFC credit flow excluding FDI
+2022,DK,9.5,NFC credit flow excluding FDI
+2023,DK,4.7,NFC credit flow excluding FDI
+2015,EE,0.9,NFC credit flow excluding FDI
+2016,EE,6.8,NFC credit flow excluding FDI
+2017,EE,3.0,NFC credit flow excluding FDI
+2018,EE,2.0,NFC credit flow excluding FDI
+2019,EE,-0.5,NFC credit flow excluding FDI
+2020,EE,1.7,NFC credit flow excluding FDI
+2021,EE,8.5,NFC credit flow excluding FDI
+2022,EE,7.8,NFC credit flow excluding FDI
+2023,EE,3.8,NFC credit flow excluding FDI
+2024,EE,9.0,NFC credit flow excluding FDI
+2015,EL,-1.5,NFC credit flow excluding FDI
+2016,EL,-0.5,NFC credit flow excluding FDI
+2017,EL,-0.2,NFC credit flow excluding FDI
+2018,EL,0.9,NFC credit flow excluding FDI
+2019,EL,0.6,NFC credit flow excluding FDI
+2020,EL,12.6,NFC credit flow excluding FDI
+2021,EL,2.3,NFC credit flow excluding FDI
+2022,EL,6.1,NFC credit flow excluding FDI
+2023,EL,4.6,NFC credit flow excluding FDI
+2024,EL,10.8,NFC credit flow excluding FDI
+2015,ES,-2.3,NFC credit flow excluding FDI
+2016,ES,2.3,NFC credit flow excluding FDI
+2017,ES,2.7,NFC credit flow excluding FDI
+2018,ES,-4.1,NFC credit flow excluding FDI
+2019,ES,2.7,NFC credit flow excluding FDI
+2020,ES,8.3,NFC credit flow excluding FDI
+2021,ES,2.2,NFC credit flow excluding FDI
+2022,ES,-2.9,NFC credit flow excluding FDI
+2023,ES,-3.1,NFC credit flow excluding FDI
+2024,ES,2.0,NFC credit flow excluding FDI
+2015,FI,-2.9,NFC credit flow excluding FDI
+2016,FI,2.0,NFC credit flow excluding FDI
+2017,FI,4.7,NFC credit flow excluding FDI
+2018,FI,5.4,NFC credit flow excluding FDI
+2019,FI,3.7,NFC credit flow excluding FDI
+2020,FI,8.4,NFC credit flow excluding FDI
+2021,FI,0.3,NFC credit flow excluding FDI
+2022,FI,3.6,NFC credit flow excluding FDI
+2023,FI,4.3,NFC credit flow excluding FDI
+2015,FR,3.7,NFC credit flow excluding FDI
+2016,FR,6.1,NFC credit flow excluding FDI
+2017,FR,5.4,NFC credit flow excluding FDI
+2018,FR,6.1,NFC credit flow excluding FDI
+2019,FR,5.1,NFC credit flow excluding FDI
+2020,FR,13.4,NFC credit flow excluding FDI
+2021,FR,1.3,NFC credit flow excluding FDI
+2022,FR,4.7,NFC credit flow excluding FDI
+2023,FR,3.1,NFC credit flow excluding FDI
+2024,FR,1.5,NFC credit flow excluding FDI
+2015,HR,0.2,NFC credit flow excluding FDI
+2016,HR,-0.2,NFC credit flow excluding FDI
+2017,HR,-1.7,NFC credit flow excluding FDI
+2018,HR,1.5,NFC credit flow excluding FDI
+2019,HR,-10.0,NFC credit flow excluding FDI
+2020,HR,-0.6,NFC credit flow excluding FDI
+2021,HR,0.2,NFC credit flow excluding FDI
+2022,HR,8.9,NFC credit flow excluding FDI
+2023,HR,7.5,NFC credit flow excluding FDI
+2024,HR,4.6,NFC credit flow excluding FDI
+2015,HU,-3.3,NFC credit flow excluding FDI
+2016,HU,3.5,NFC credit flow excluding FDI
+2017,HU,4.6,NFC credit flow excluding FDI
+2018,HU,7.9,NFC credit flow excluding FDI
+2019,HU,15.2,NFC credit flow excluding FDI
+2020,HU,18.2,NFC credit flow excluding FDI
+2021,HU,21.6,NFC credit flow excluding FDI
+2022,HU,14.8,NFC credit flow excluding FDI
+2023,HU,7.6,NFC credit flow excluding FDI
+2024,HU,3.3,NFC credit flow excluding FDI
+2015,IE,-0.5,NFC credit flow excluding FDI
+2016,IE,-14.7,NFC credit flow excluding FDI
+2017,IE,-14.7,NFC credit flow excluding FDI
+2018,IE,-46.0,NFC credit flow excluding FDI
+2019,IE,-96.1,NFC credit flow excluding FDI
+2020,IE,-1340.5,NFC credit flow excluding FDI
+2021,IE,1.7,NFC credit flow excluding FDI
+2022,IE,28.6,NFC credit flow excluding FDI
+2023,IE,39.5,NFC credit flow excluding FDI
+2015,IT,-1.7,NFC credit flow excluding FDI
+2016,IT,-1.1,NFC credit flow excluding FDI
+2017,IT,0.8,NFC credit flow excluding FDI
+2018,IT,0.5,NFC credit flow excluding FDI
+2019,IT,-3.0,NFC credit flow excluding FDI
+2020,IT,5.9,NFC credit flow excluding FDI
+2021,IT,3.0,NFC credit flow excluding FDI
+2022,IT,-0.3,NFC credit flow excluding FDI
+2023,IT,-1.8,NFC credit flow excluding FDI
+2024,IT,-1.8,NFC credit flow excluding FDI
+2015,LT,3.6,NFC credit flow excluding FDI
+2016,LT,9.4,NFC credit flow excluding FDI
+2017,LT,9.8,NFC credit flow excluding FDI
+2018,LT,10.5,NFC credit flow excluding FDI
+2019,LT,1.7,NFC credit flow excluding FDI
+2020,LT,-8.3,NFC credit flow excluding FDI
+2021,LT,16.5,NFC credit flow excluding FDI
+2022,LT,20.0,NFC credit flow excluding FDI
+2023,LT,12.1,NFC credit flow excluding FDI
+2024,LT,8.7,NFC credit flow excluding FDI
+2015,LU,25.8,NFC credit flow excluding FDI
+2016,LU,-2.1,NFC credit flow excluding FDI
+2017,LU,-0.9,NFC credit flow excluding FDI
+2018,LU,-11.5,NFC credit flow excluding FDI
+2019,LU,-11.1,NFC credit flow excluding FDI
+2020,LU,11.2,NFC credit flow excluding FDI
+2021,LU,-11.0,NFC credit flow excluding FDI
+2022,LU,2.3,NFC credit flow excluding FDI
+2023,LU,-22.9,NFC credit flow excluding FDI
+2024,LU,-9.9,NFC credit flow excluding FDI
+2015,LV,-0.3,NFC credit flow excluding FDI
+2016,LV,-2.7,NFC credit flow excluding FDI
+2017,LV,7.8,NFC credit flow excluding FDI
+2018,LV,-4.4,NFC credit flow excluding FDI
+2019,LV,1.9,NFC credit flow excluding FDI
+2020,LV,-4.3,NFC credit flow excluding FDI
+2021,LV,-4.6,NFC credit flow excluding FDI
+2022,LV,7.7,NFC credit flow excluding FDI
+2023,LV,1.8,NFC credit flow excluding FDI
+2015,MT,-7.7,NFC credit flow excluding FDI
+2016,MT,12.2,NFC credit flow excluding FDI
+2017,MT,2.9,NFC credit flow excluding FDI
+2018,MT,-1.2,NFC credit flow excluding FDI
+2019,MT,14.0,NFC credit flow excluding FDI
+2020,MT,5.6,NFC credit flow excluding FDI
+2021,MT,12.1,NFC credit flow excluding FDI
+2022,MT,7.5,NFC credit flow excluding FDI
+2023,MT,18.1,NFC credit flow excluding FDI
+2015,NL,-3.0,NFC credit flow excluding FDI
+2016,NL,6.3,NFC credit flow excluding FDI
+2017,NL,0.9,NFC credit flow excluding FDI
+2018,NL,0.2,NFC credit flow excluding FDI
+2019,NL,-1.6,NFC credit flow excluding FDI
+2020,NL,2.3,NFC credit flow excluding FDI
+2021,NL,7.2,NFC credit flow excluding FDI
+2022,NL,7.1,NFC credit flow excluding FDI
+2023,NL,-1.4,NFC credit flow excluding FDI
+2024,NL,-1.1,NFC credit flow excluding FDI
+2015,PL,9.2,NFC credit flow excluding FDI
+2016,PL,5.7,NFC credit flow excluding FDI
+2017,PL,5.8,NFC credit flow excluding FDI
+2018,PL,2.7,NFC credit flow excluding FDI
+2019,PL,3.6,NFC credit flow excluding FDI
+2020,PL,1.3,NFC credit flow excluding FDI
+2021,PL,3.1,NFC credit flow excluding FDI
+2022,PL,7.2,NFC credit flow excluding FDI
+2023,PL,4.0,NFC credit flow excluding FDI
+2024,PL,6.9,NFC credit flow excluding FDI
+2015,PT,5.1,NFC credit flow excluding FDI
+2016,PT,-1.0,NFC credit flow excluding FDI
+2017,PT,-3.2,NFC credit flow excluding FDI
+2018,PT,-0.6,NFC credit flow excluding FDI
+2019,PT,0.3,NFC credit flow excluding FDI
+2020,PT,5.2,NFC credit flow excluding FDI
+2021,PT,2.8,NFC credit flow excluding FDI
+2022,PT,1.1,NFC credit flow excluding FDI
+2023,PT,-0.8,NFC credit flow excluding FDI
+2024,PT,0.7,NFC credit flow excluding FDI
+2015,RO,-3.0,NFC credit flow excluding FDI
+2016,RO,-3.6,NFC credit flow excluding FDI
+2017,RO,-0.5,NFC credit flow excluding FDI
+2018,RO,2.0,NFC credit flow excluding FDI
+2019,RO,1.6,NFC credit flow excluding FDI
+2020,RO,7.8,NFC credit flow excluding FDI
+2021,RO,11.4,NFC credit flow excluding FDI
+2022,RO,12.9,NFC credit flow excluding FDI
+2023,RO,9.6,NFC credit flow excluding FDI
+2015,SE,4.0,NFC credit flow excluding FDI
+2016,SE,3.8,NFC credit flow excluding FDI
+2017,SE,7.0,NFC credit flow excluding FDI
+2018,SE,7.3,NFC credit flow excluding FDI
+2019,SE,6.1,NFC credit flow excluding FDI
+2020,SE,7.4,NFC credit flow excluding FDI
+2021,SE,6.4,NFC credit flow excluding FDI
+2022,SE,7.1,NFC credit flow excluding FDI
+2023,SE,-0.5,NFC credit flow excluding FDI
+2024,SE,-1.1,NFC credit flow excluding FDI
+2015,SI,-8.9,NFC credit flow excluding FDI
+2016,SI,-3.2,NFC credit flow excluding FDI
+2017,SI,-2.2,NFC credit flow excluding FDI
+2018,SI,-2.5,NFC credit flow excluding FDI
+2019,SI,-3.0,NFC credit flow excluding FDI
+2020,SI,-2.8,NFC credit flow excluding FDI
+2021,SI,1.1,NFC credit flow excluding FDI
+2022,SI,11.1,NFC credit flow excluding FDI
+2023,SI,-2.1,NFC credit flow excluding FDI
+2024,SI,-5.0,NFC credit flow excluding FDI
+2015,SK,1.3,NFC credit flow excluding FDI
+2016,SK,6.1,NFC credit flow excluding FDI
+2017,SK,-5.7,NFC credit flow excluding FDI
+2018,SK,2.4,NFC credit flow excluding FDI
+2019,SK,5.5,NFC credit flow excluding FDI
+2020,SK,5.4,NFC credit flow excluding FDI
+2021,SK,3.4,NFC credit flow excluding FDI
+2022,SK,9.3,NFC credit flow excluding FDI
+2023,SK,1.7,NFC credit flow excluding FDI
+2024,SK,-2.2,NFC credit flow excluding FDI
+2015,AT,5.6,Nominal house price index
+2016,AT,6.7,Nominal house price index
+2017,AT,5.1,Nominal house price index
+2018,AT,6.0,Nominal house price index
+2019,AT,6.0,Nominal house price index
+2020,AT,7.6,Nominal house price index
+2021,AT,11.4,Nominal house price index
+2022,AT,11.6,Nominal house price index
+2023,AT,-2.9,Nominal house price index
+2024,AT,-0.2,Nominal house price index
+2015,BE,1.8,Nominal house price index
+2016,BE,2.3,Nominal house price index
+2017,BE,3.5,Nominal house price index
+2018,BE,3.0,Nominal house price index
+2019,BE,3.7,Nominal house price index
+2020,BE,4.3,Nominal house price index
+2021,BE,6.7,Nominal house price index
+2022,BE,5.5,Nominal house price index
+2023,BE,2.3,Nominal house price index
+2024,BE,3.2,Nominal house price index
+2015,BG,2.8,Nominal house price index
+2016,BG,7.0,Nominal house price index
+2017,BG,8.7,Nominal house price index
+2018,BG,6.6,Nominal house price index
+2019,BG,6.0,Nominal house price index
+2020,BG,4.6,Nominal house price index
+2021,BG,8.7,Nominal house price index
+2022,BG,13.8,Nominal house price index
+2023,BG,9.9,Nominal house price index
+2024,BG,16.5,Nominal house price index
+2015,CY,-1.5,Nominal house price index
+2016,CY,0.3,Nominal house price index
+2017,CY,2.2,Nominal house price index
+2018,CY,1.8,Nominal house price index
+2019,CY,3.7,Nominal house price index
+2020,CY,-0.2,Nominal house price index
+2021,CY,-3.4,Nominal house price index
+2022,CY,2.7,Nominal house price index
+2023,CY,2.9,Nominal house price index
+2024,CY,2.1,Nominal house price index
+2015,CZ,4.0,Nominal house price index
+2016,CZ,7.2,Nominal house price index
+2017,CZ,11.7,Nominal house price index
+2018,CZ,8.6,Nominal house price index
+2019,CZ,9.2,Nominal house price index
+2020,CZ,8.4,Nominal house price index
+2021,CZ,19.7,Nominal house price index
+2022,CZ,16.9,Nominal house price index
+2023,CZ,-1.7,Nominal house price index
+2024,CZ,5.0,Nominal house price index
+2015,DE,4.7,Nominal house price index
+2016,DE,7.5,Nominal house price index
+2017,DE,6.1,Nominal house price index
+2018,DE,6.6,Nominal house price index
+2019,DE,5.8,Nominal house price index
+2020,DE,7.8,Nominal house price index
+2021,DE,11.6,Nominal house price index
+2022,DE,5.1,Nominal house price index
+2023,DE,-8.5,Nominal house price index
+2024,DE,-1.6,Nominal house price index
+2015,DK,7.0,Nominal house price index
+2016,DK,4.6,Nominal house price index
+2017,DK,5.0,Nominal house price index
+2018,DK,4.4,Nominal house price index
+2019,DK,2.2,Nominal house price index
+2020,DK,4.3,Nominal house price index
+2021,DK,11.5,Nominal house price index
+2022,DK,4.7,Nominal house price index
+2023,DK,-3.8,Nominal house price index
+2024,DK,3.5,Nominal house price index
+2015,EE,6.9,Nominal house price index
+2016,EE,4.7,Nominal house price index
+2017,EE,5.5,Nominal house price index
+2018,EE,5.9,Nominal house price index
+2019,EE,7.0,Nominal house price index
+2020,EE,6.0,Nominal house price index
+2021,EE,15.0,Nominal house price index
+2022,EE,22.2,Nominal house price index
+2023,EE,5.9,Nominal house price index
+2024,EE,6.1,Nominal house price index
+2015,EL,-5.1,Nominal house price index
+2016,EL,-2.4,Nominal house price index
+2017,EL,-1.0,Nominal house price index
+2018,EL,1.8,Nominal house price index
+2019,EL,7.2,Nominal house price index
+2020,EL,4.5,Nominal house price index
+2021,EL,7.6,Nominal house price index
+2022,EL,11.9,Nominal house price index
+2023,EL,13.9,Nominal house price index
+2024,EL,8.7,Nominal house price index
+2015,ES,3.6,Nominal house price index
+2016,ES,4.6,Nominal house price index
+2017,ES,6.2,Nominal house price index
+2018,ES,6.7,Nominal house price index
+2019,ES,5.2,Nominal house price index
+2020,ES,2.2,Nominal house price index
+2021,ES,3.7,Nominal house price index
+2022,ES,7.4,Nominal house price index
+2023,ES,4.0,Nominal house price index
+2024,ES,8.5,Nominal house price index
+2015,FI,0.0,Nominal house price index
+2016,FI,1.3,Nominal house price index
+2017,FI,1.1,Nominal house price index
+2018,FI,0.9,Nominal house price index
+2019,FI,0.4,Nominal house price index
+2020,FI,1.8,Nominal house price index
+2021,FI,4.6,Nominal house price index
+2022,FI,1.2,Nominal house price index
+2023,FI,-5.7,Nominal house price index
+2024,FI,-3.5,Nominal house price index
+2015,FR,-1.3,Nominal house price index
+2016,FR,1.0,Nominal house price index
+2017,FR,3.2,Nominal house price index
+2018,FR,2.9,Nominal house price index
+2019,FR,3.3,Nominal house price index
+2020,FR,5.2,Nominal house price index
+2021,FR,6.3,Nominal house price index
+2022,FR,6.3,Nominal house price index
+2023,FR,-0.4,Nominal house price index
+2024,FR,-3.7,Nominal house price index
+2015,HR,-2.9,Nominal house price index
+2016,HR,0.9,Nominal house price index
+2017,HR,3.8,Nominal house price index
+2018,HR,6.1,Nominal house price index
+2019,HR,9.0,Nominal house price index
+2020,HR,7.7,Nominal house price index
+2021,HR,7.3,Nominal house price index
+2022,HR,14.8,Nominal house price index
+2023,HR,11.9,Nominal house price index
+2024,HR,10.4,Nominal house price index
+2015,HU,13.1,Nominal house price index
+2016,HU,13.4,Nominal house price index
+2017,HU,12.2,Nominal house price index
+2018,HU,14.3,Nominal house price index
+2019,HU,17.0,Nominal house price index
+2020,HU,4.9,Nominal house price index
+2021,HU,16.5,Nominal house price index
+2022,HU,22.3,Nominal house price index
+2023,HU,7.1,Nominal house price index
+2024,HU,12.8,Nominal house price index
+2015,IE,11.5,Nominal house price index
+2016,IE,7.5,Nominal house price index
+2017,IE,10.9,Nominal house price index
+2018,IE,10.2,Nominal house price index
+2019,IE,2.3,Nominal house price index
+2020,IE,0.3,Nominal house price index
+2021,IE,8.3,Nominal house price index
+2022,IE,12.3,Nominal house price index
+2023,IE,3.1,Nominal house price index
+2024,IE,8.5,Nominal house price index
+2015,IT,-3.8,Nominal house price index
+2016,IT,0.3,Nominal house price index
+2017,IT,-1.1,Nominal house price index
+2018,IT,-0.6,Nominal house price index
+2019,IT,-0.1,Nominal house price index
+2020,IT,1.9,Nominal house price index
+2021,IT,2.5,Nominal house price index
+2022,IT,3.8,Nominal house price index
+2023,IT,1.3,Nominal house price index
+2024,IT,3.2,Nominal house price index
+2015,LT,3.7,Nominal house price index
+2016,LT,5.4,Nominal house price index
+2017,LT,8.9,Nominal house price index
+2018,LT,7.3,Nominal house price index
+2019,LT,6.8,Nominal house price index
+2020,LT,7.3,Nominal house price index
+2021,LT,16.1,Nominal house price index
+2022,LT,19.0,Nominal house price index
+2023,LT,9.8,Nominal house price index
+2024,LT,9.7,Nominal house price index
+2015,LU,5.4,Nominal house price index
+2016,LU,6.0,Nominal house price index
+2017,LU,5.6,Nominal house price index
+2018,LU,7.1,Nominal house price index
+2019,LU,10.1,Nominal house price index
+2020,LU,14.5,Nominal house price index
+2021,LU,13.9,Nominal house price index
+2022,LU,9.6,Nominal house price index
+2023,LU,-9.1,Nominal house price index
+2024,LU,-5.2,Nominal house price index
+2015,LV,-3.4,Nominal house price index
+2016,LV,8.5,Nominal house price index
+2017,LV,8.8,Nominal house price index
+2018,LV,9.6,Nominal house price index
+2019,LV,9.0,Nominal house price index
+2020,LV,3.5,Nominal house price index
+2021,LV,10.9,Nominal house price index
+2022,LV,13.8,Nominal house price index
+2023,LV,3.7,Nominal house price index
+2024,LV,4.4,Nominal house price index
+2015,MT,5.8,Nominal house price index
+2016,MT,5.4,Nominal house price index
+2017,MT,5.3,Nominal house price index
+2018,MT,5.8,Nominal house price index
+2019,MT,6.1,Nominal house price index
+2020,MT,3.4,Nominal house price index
+2021,MT,5.1,Nominal house price index
+2022,MT,6.7,Nominal house price index
+2023,MT,6.2,Nominal house price index
+2024,MT,6.4,Nominal house price index
+2015,NL,3.5,Nominal house price index
+2016,NL,5.3,Nominal house price index
+2017,NL,8.1,Nominal house price index
+2018,NL,9.3,Nominal house price index
+2019,NL,7.2,Nominal house price index
+2020,NL,8.0,Nominal house price index
+2021,NL,14.5,Nominal house price index
+2022,NL,13.3,Nominal house price index
+2023,NL,-1.9,Nominal house price index
+2024,NL,8.2,Nominal house price index
+2015,PL,1.5,Nominal house price index
+2016,PL,1.9,Nominal house price index
+2017,PL,3.9,Nominal house price index
+2018,PL,6.6,Nominal house price index
+2019,PL,8.7,Nominal house price index
+2020,PL,10.5,Nominal house price index
+2021,PL,9.2,Nominal house price index
+2022,PL,11.8,Nominal house price index
+2023,PL,8.8,Nominal house price index
+2024,PL,15.0,Nominal house price index
+2015,PT,3.1,Nominal house price index
+2016,PT,7.1,Nominal house price index
+2017,PT,9.2,Nominal house price index
+2018,PT,10.3,Nominal house price index
+2019,PT,10.0,Nominal house price index
+2020,PT,8.8,Nominal house price index
+2021,PT,9.4,Nominal house price index
+2022,PT,12.6,Nominal house price index
+2023,PT,8.2,Nominal house price index
+2024,PT,9.1,Nominal house price index
+2015,RO,2.9,Nominal house price index
+2016,RO,6.0,Nominal house price index
+2017,RO,6.0,Nominal house price index
+2018,RO,5.6,Nominal house price index
+2019,RO,3.4,Nominal house price index
+2020,RO,4.7,Nominal house price index
+2021,RO,4.4,Nominal house price index
+2022,RO,7.2,Nominal house price index
+2023,RO,3.3,Nominal house price index
+2024,RO,5.0,Nominal house price index
+2015,SE,13.1,Nominal house price index
+2016,SE,8.2,Nominal house price index
+2017,SE,6.6,Nominal house price index
+2018,SE,-0.9,Nominal house price index
+2019,SE,2.5,Nominal house price index
+2020,SE,4.2,Nominal house price index
+2021,SE,10.1,Nominal house price index
+2022,SE,3.6,Nominal house price index
+2023,SE,-5.3,Nominal house price index
+2024,SE,0.1,Nominal house price index
+2015,SI,0.8,Nominal house price index
+2016,SI,3.3,Nominal house price index
+2017,SI,8.3,Nominal house price index
+2018,SI,8.7,Nominal house price index
+2019,SI,6.7,Nominal house price index
+2020,SI,4.6,Nominal house price index
+2021,SI,11.5,Nominal house price index
+2022,SI,14.8,Nominal house price index
+2023,SI,7.2,Nominal house price index
+2024,SI,7.4,Nominal house price index
+2015,SK,5.3,Nominal house price index
+2016,SK,6.7,Nominal house price index
+2017,SK,5.9,Nominal house price index
+2018,SK,7.4,Nominal house price index
+2019,SK,9.1,Nominal house price index
+2020,SK,9.5,Nominal house price index
+2021,SK,6.4,Nominal house price index
+2022,SK,13.7,Nominal house price index
+2023,SK,-0.2,Nominal house price index
+2024,SK,3.8,Nominal house price index
+2015,AT,6.1,Unemployment rate
+2016,AT,6.5,Unemployment rate
+2017,AT,5.9,Unemployment rate
+2018,AT,5.2,Unemployment rate
+2019,AT,4.8,Unemployment rate
+2020,AT,6.0,Unemployment rate
+2021,AT,6.2,Unemployment rate
+2022,AT,4.8,Unemployment rate
+2023,AT,5.1,Unemployment rate
+2024,AT,5.2,Unemployment rate
+2015,BE,8.7,Unemployment rate
+2016,BE,7.9,Unemployment rate
+2017,BE,7.2,Unemployment rate
+2018,BE,6.0,Unemployment rate
+2019,BE,5.5,Unemployment rate
+2020,BE,5.8,Unemployment rate
+2021,BE,6.3,Unemployment rate
+2022,BE,5.6,Unemployment rate
+2023,BE,5.5,Unemployment rate
+2024,BE,5.7,Unemployment rate
+2015,BG,10.1,Unemployment rate
+2016,BG,8.6,Unemployment rate
+2017,BG,7.2,Unemployment rate
+2018,BG,6.2,Unemployment rate
+2019,BG,5.2,Unemployment rate
+2020,BG,6.1,Unemployment rate
+2021,BG,5.2,Unemployment rate
+2022,BG,4.2,Unemployment rate
+2023,BG,4.3,Unemployment rate
+2024,BG,4.2,Unemployment rate
+2015,CY,15.0,Unemployment rate
+2016,CY,13.0,Unemployment rate
+2017,CY,11.1,Unemployment rate
+2018,CY,8.4,Unemployment rate
+2019,CY,7.2,Unemployment rate
+2020,CY,7.6,Unemployment rate
+2021,CY,7.2,Unemployment rate
+2022,CY,6.3,Unemployment rate
+2023,CY,5.8,Unemployment rate
+2024,CY,4.9,Unemployment rate
+2015,CZ,5.1,Unemployment rate
+2016,CZ,4.0,Unemployment rate
+2017,CZ,2.9,Unemployment rate
+2018,CZ,2.2,Unemployment rate
+2019,CZ,2.0,Unemployment rate
+2020,CZ,2.6,Unemployment rate
+2021,CZ,2.8,Unemployment rate
+2022,CZ,2.2,Unemployment rate
+2023,CZ,2.6,Unemployment rate
+2024,CZ,2.6,Unemployment rate
+2015,DE,4.4,Unemployment rate
+2016,DE,3.9,Unemployment rate
+2017,DE,3.6,Unemployment rate
+2018,DE,3.2,Unemployment rate
+2019,DE,3.0,Unemployment rate
+2020,DE,3.7,Unemployment rate
+2021,DE,3.7,Unemployment rate
+2022,DE,3.2,Unemployment rate
+2023,DE,3.1,Unemployment rate
+2024,DE,3.4,Unemployment rate
+2015,DK,6.3,Unemployment rate
+2016,DK,6.0,Unemployment rate
+2017,DK,5.8,Unemployment rate
+2018,DK,5.1,Unemployment rate
+2019,DK,5.0,Unemployment rate
+2020,DK,5.6,Unemployment rate
+2021,DK,5.1,Unemployment rate
+2022,DK,4.5,Unemployment rate
+2023,DK,5.1,Unemployment rate
+2024,DK,6.2,Unemployment rate
+2015,EE,6.4,Unemployment rate
+2016,EE,6.8,Unemployment rate
+2017,EE,5.8,Unemployment rate
+2018,EE,5.4,Unemployment rate
+2019,EE,4.5,Unemployment rate
+2020,EE,6.9,Unemployment rate
+2021,EE,6.2,Unemployment rate
+2022,EE,5.6,Unemployment rate
+2023,EE,6.4,Unemployment rate
+2024,EE,7.6,Unemployment rate
+2015,EL,25.0,Unemployment rate
+2016,EL,23.9,Unemployment rate
+2017,EL,21.8,Unemployment rate
+2018,EL,19.7,Unemployment rate
+2019,EL,17.9,Unemployment rate
+2020,EL,17.6,Unemployment rate
+2021,EL,14.7,Unemployment rate
+2022,EL,12.5,Unemployment rate
+2023,EL,11.1,Unemployment rate
+2024,EL,10.1,Unemployment rate
+2015,ES,22.1,Unemployment rate
+2016,ES,19.6,Unemployment rate
+2017,ES,17.2,Unemployment rate
+2018,ES,15.3,Unemployment rate
+2019,ES,14.1,Unemployment rate
+2020,ES,15.5,Unemployment rate
+2021,ES,14.9,Unemployment rate
+2022,ES,13.0,Unemployment rate
+2023,ES,12.2,Unemployment rate
+2024,ES,11.4,Unemployment rate
+2015,FI,9.4,Unemployment rate
+2016,FI,8.9,Unemployment rate
+2017,FI,8.7,Unemployment rate
+2018,FI,7.5,Unemployment rate
+2019,FI,6.8,Unemployment rate
+2020,FI,7.7,Unemployment rate
+2021,FI,7.7,Unemployment rate
+2022,FI,6.8,Unemployment rate
+2023,FI,7.2,Unemployment rate
+2024,FI,8.4,Unemployment rate
+2015,FR,10.3,Unemployment rate
+2016,FR,10.1,Unemployment rate
+2017,FR,9.4,Unemployment rate
+2018,FR,9.0,Unemployment rate
+2019,FR,8.4,Unemployment rate
+2020,FR,8.0,Unemployment rate
+2021,FR,7.9,Unemployment rate
+2022,FR,7.3,Unemployment rate
+2023,FR,7.3,Unemployment rate
+2024,FR,7.4,Unemployment rate
+2015,HR,16.2,Unemployment rate
+2016,HR,13.0,Unemployment rate
+2017,HR,11.1,Unemployment rate
+2018,HR,8.3,Unemployment rate
+2019,HR,6.6,Unemployment rate
+2020,HR,7.4,Unemployment rate
+2021,HR,7.5,Unemployment rate
+2022,HR,6.8,Unemployment rate
+2023,HR,6.1,Unemployment rate
+2024,HR,5.0,Unemployment rate
+2015,HU,6.6,Unemployment rate
+2016,HU,5.0,Unemployment rate
+2017,HU,4.0,Unemployment rate
+2018,HU,3.6,Unemployment rate
+2019,HU,3.3,Unemployment rate
+2020,HU,4.1,Unemployment rate
+2021,HU,4.0,Unemployment rate
+2022,HU,3.6,Unemployment rate
+2023,HU,4.1,Unemployment rate
+2024,HU,4.5,Unemployment rate
+2015,IE,9.9,Unemployment rate
+2016,IE,8.4,Unemployment rate
+2017,IE,6.7,Unemployment rate
+2018,IE,5.8,Unemployment rate
+2019,IE,5.0,Unemployment rate
+2020,IE,5.9,Unemployment rate
+2021,IE,6.2,Unemployment rate
+2022,IE,4.5,Unemployment rate
+2023,IE,4.3,Unemployment rate
+2024,IE,4.3,Unemployment rate
+2015,IT,12.0,Unemployment rate
+2016,IT,11.7,Unemployment rate
+2017,IT,11.3,Unemployment rate
+2018,IT,10.6,Unemployment rate
+2019,IT,9.9,Unemployment rate
+2020,IT,9.3,Unemployment rate
+2021,IT,9.5,Unemployment rate
+2022,IT,8.1,Unemployment rate
+2023,IT,7.7,Unemployment rate
+2024,IT,6.5,Unemployment rate
+2015,LT,9.1,Unemployment rate
+2016,LT,7.9,Unemployment rate
+2017,LT,7.1,Unemployment rate
+2018,LT,6.2,Unemployment rate
+2019,LT,6.3,Unemployment rate
+2020,LT,8.5,Unemployment rate
+2021,LT,7.1,Unemployment rate
+2022,LT,6.0,Unemployment rate
+2023,LT,6.9,Unemployment rate
+2024,LT,7.1,Unemployment rate
+2015,LU,6.7,Unemployment rate
+2016,LU,6.3,Unemployment rate
+2017,LU,5.5,Unemployment rate
+2018,LU,5.6,Unemployment rate
+2019,LU,5.6,Unemployment rate
+2020,LU,6.8,Unemployment rate
+2021,LU,5.3,Unemployment rate
+2022,LU,4.6,Unemployment rate
+2023,LU,5.2,Unemployment rate
+2024,LU,6.4,Unemployment rate
+2015,LV,9.9,Unemployment rate
+2016,LV,9.7,Unemployment rate
+2017,LV,8.7,Unemployment rate
+2018,LV,7.4,Unemployment rate
+2019,LV,6.3,Unemployment rate
+2020,LV,8.1,Unemployment rate
+2021,LV,7.6,Unemployment rate
+2022,LV,6.9,Unemployment rate
+2023,LV,6.5,Unemployment rate
+2024,LV,6.9,Unemployment rate
+2015,MT,5.4,Unemployment rate
+2016,MT,4.7,Unemployment rate
+2017,MT,4.0,Unemployment rate
+2018,MT,4.0,Unemployment rate
+2019,MT,4.1,Unemployment rate
+2020,MT,4.9,Unemployment rate
+2021,MT,3.8,Unemployment rate
+2022,MT,3.5,Unemployment rate
+2023,MT,3.5,Unemployment rate
+2024,MT,3.1,Unemployment rate
+2015,NL,7.9,Unemployment rate
+2016,NL,7.0,Unemployment rate
+2017,NL,5.9,Unemployment rate
+2018,NL,4.9,Unemployment rate
+2019,NL,4.4,Unemployment rate
+2020,NL,4.9,Unemployment rate
+2021,NL,4.2,Unemployment rate
+2022,NL,3.5,Unemployment rate
+2023,NL,3.6,Unemployment rate
+2024,NL,3.7,Unemployment rate
+2015,PL,7.7,Unemployment rate
+2016,PL,6.3,Unemployment rate
+2017,PL,5.0,Unemployment rate
+2018,PL,3.9,Unemployment rate
+2019,PL,3.3,Unemployment rate
+2020,PL,3.2,Unemployment rate
+2021,PL,3.4,Unemployment rate
+2022,PL,2.9,Unemployment rate
+2023,PL,2.8,Unemployment rate
+2024,PL,2.9,Unemployment rate
+2015,PT,13.0,Unemployment rate
+2016,PT,11.5,Unemployment rate
+2017,PT,9.2,Unemployment rate
+2018,PT,7.2,Unemployment rate
+2019,PT,6.6,Unemployment rate
+2020,PT,7.1,Unemployment rate
+2021,PT,6.7,Unemployment rate
+2022,PT,6.2,Unemployment rate
+2023,PT,6.5,Unemployment rate
+2024,PT,6.5,Unemployment rate
+2015,RO,8.4,Unemployment rate
+2016,RO,7.2,Unemployment rate
+2017,RO,6.1,Unemployment rate
+2018,RO,5.3,Unemployment rate
+2019,RO,4.9,Unemployment rate
+2020,RO,6.1,Unemployment rate
+2021,RO,5.6,Unemployment rate
+2022,RO,5.6,Unemployment rate
+2023,RO,5.6,Unemployment rate
+2024,RO,5.4,Unemployment rate
+2015,SE,7.5,Unemployment rate
+2016,SE,7.1,Unemployment rate
+2017,SE,6.8,Unemployment rate
+2018,SE,6.5,Unemployment rate
+2019,SE,6.9,Unemployment rate
+2020,SE,8.5,Unemployment rate
+2021,SE,8.9,Unemployment rate
+2022,SE,7.5,Unemployment rate
+2023,SE,7.7,Unemployment rate
+2024,SE,8.4,Unemployment rate
+2015,SI,9.0,Unemployment rate
+2016,SI,8.0,Unemployment rate
+2017,SI,6.6,Unemployment rate
+2018,SI,5.1,Unemployment rate
+2019,SI,4.4,Unemployment rate
+2020,SI,5.0,Unemployment rate
+2021,SI,4.8,Unemployment rate
+2022,SI,4.0,Unemployment rate
+2023,SI,3.7,Unemployment rate
+2024,SI,3.7,Unemployment rate
+2015,SK,11.5,Unemployment rate
+2016,SK,9.6,Unemployment rate
+2017,SK,8.1,Unemployment rate
+2018,SK,6.5,Unemployment rate
+2019,SK,5.7,Unemployment rate
+2020,SK,6.7,Unemployment rate
+2021,SK,6.8,Unemployment rate
+2022,SK,6.1,Unemployment rate
+2023,SK,5.8,Unemployment rate
+2024,SK,5.3,Unemployment rate
+2015,AT,0.4,Labour force participation rate
+2016,AT,0.8,Labour force participation rate
+2017,AT,1.1,Labour force participation rate
+2018,AT,1.3,Labour force participation rate
+2019,AT,0.7,Labour force participation rate
+2020,AT,-0.4,Labour force participation rate
+2021,AT,0.1,Labour force participation rate
+2022,AT,0.5,Labour force participation rate
+2023,AT,1.8,Labour force participation rate
+2024,AT,1.0,Labour force participation rate
+2015,BE,0.7,Labour force participation rate
+2016,BE,0.1,Labour force participation rate
+2017,BE,0.2,Labour force participation rate
+2018,BE,0.9,Labour force participation rate
+2019,BE,1.4,Labour force participation rate
+2020,BE,0.4,Labour force participation rate
+2021,BE,1.1,Labour force participation rate
+2022,BE,1.4,Labour force participation rate
+2023,BE,2.1,Labour force participation rate
+2024,BE,1.1,Labour force participation rate
+2015,BG,2.2,Labour force participation rate
+2016,BG,0.4,Labour force participation rate
+2017,BG,2.3,Labour force participation rate
+2018,BG,2.2,Labour force participation rate
+2019,BG,5.0,Labour force participation rate
+2020,BG,1.4,Labour force participation rate
+2021,BG,0.9,Labour force participation rate
+2022,BG,0.1,Labour force participation rate
+2023,BG,1.3,Labour force participation rate
+2024,BG,1.7,Labour force participation rate
+2015,CY,0.4,Labour force participation rate
+2016,CY,-0.2,Labour force participation rate
+2017,CY,-0.4,Labour force participation rate
+2018,CY,1.1,Labour force participation rate
+2019,CY,3.7,Labour force participation rate
+2020,CY,3.0,Labour force participation rate
+2021,CY,2.7,Labour force participation rate
+2022,CY,2.1,Labour force participation rate
+2023,CY,3.1,Labour force participation rate
+2024,CY,1.8,Labour force participation rate
+2015,CZ,2.4,Labour force participation rate
+2016,CZ,2.1,Labour force participation rate
+2017,CZ,2.4,Labour force participation rate
+2018,CZ,2.6,Labour force participation rate
+2019,CZ,1.7,Labour force participation rate
+2020,CZ,0.5,Labour force participation rate
+2021,CZ,0.0,Labour force participation rate
+2022,CZ,0.5,Labour force participation rate
+2023,CZ,0.7,Labour force participation rate
+2024,CZ,0.9,Labour force participation rate
+2015,DE,0.4,Labour force participation rate
+2016,DE,0.3,Labour force participation rate
+2017,DE,0.5,Labour force participation rate
+2018,DE,1.1,Labour force participation rate
+2019,DE,1.3,Labour force participation rate
+2020,DE,0.3,Labour force participation rate
+2021,DE,1.0,Labour force participation rate
+2022,DE,1.3,Labour force participation rate
+2023,DE,2.4,Labour force participation rate
+2024,DE,1.7,Labour force participation rate
+2015,DK,-0.3,Labour force participation rate
+2016,DK,0.9,Labour force participation rate
+2017,DK,1.3,Labour force participation rate
+2018,DK,1.3,Labour force participation rate
+2019,DK,1.6,Labour force participation rate
+2020,DK,1.1,Labour force participation rate
+2021,DK,1.4,Labour force participation rate
+2022,DK,1.3,Labour force participation rate
+2023,DK,1.8,Labour force participation rate
+2024,DK,2.8,Labour force participation rate
+2015,EE,1.4,Labour force participation rate
+2016,EE,2.1,Labour force participation rate
+2017,EE,3.3,Labour force participation rate
+2018,EE,2.3,Labour force participation rate
+2019,EE,1.3,Labour force participation rate
+2020,EE,0.4,Labour force participation rate
+2021,EE,-0.2,Labour force participation rate
+2022,EE,2.0,Labour force participation rate
+2023,EE,2.0,Labour force participation rate
+2024,EE,3.1,Labour force participation rate
+2015,EL,0.4,Labour force participation rate
+2016,EL,0.8,Labour force participation rate
+2017,EL,0.9,Labour force participation rate
+2018,EL,0.4,Labour force participation rate
+2019,EL,0.3,Labour force participation rate
+2020,EL,-2.9,Labour force participation rate
+2021,EL,-0.8,Labour force participation rate
+2022,EL,0.9,Labour force participation rate
+2023,EL,4.2,Labour force participation rate
+2024,EL,3.2,Labour force participation rate
+2015,ES,0.0,Labour force participation rate
+2016,ES,-0.1,Labour force participation rate
+2017,ES,-0.3,Labour force participation rate
+2018,ES,-0.6,Labour force participation rate
+2019,ES,-0.4,Labour force participation rate
+2020,ES,-1.7,Labour force participation rate
+2021,ES,0.0,Labour force participation rate
+2022,ES,0.2,Labour force participation rate
+2023,ES,2.3,Labour force participation rate
+2024,ES,0.9,Labour force participation rate
+2015,FI,0.4,Labour force participation rate
+2016,FI,0.6,Labour force participation rate
+2017,FI,1.2,Labour force participation rate
+2018,FI,2.2,Labour force participation rate
+2019,FI,2.3,Labour force participation rate
+2020,FI,1.5,Labour force participation rate
+2021,FI,1.8,Labour force participation rate
+2022,FI,2.5,Labour force participation rate
+2023,FI,2.6,Labour force participation rate
+2024,FI,0.6,Labour force participation rate
+2015,FR,0.8,Labour force participation rate
+2016,FR,0.5,Labour force participation rate
+2017,FR,0.4,Labour force participation rate
+2018,FR,0.6,Labour force participation rate
+2019,FR,0.3,Labour force participation rate
+2020,FR,-0.4,Labour force participation rate
+2021,FR,0.2,Labour force participation rate
+2022,FR,1.0,Labour force participation rate
+2023,FR,1.9,Labour force participation rate
+2024,FR,1.5,Labour force participation rate
+2015,HR,3.0,Labour force participation rate
+2016,HR,1.8,Labour force participation rate
+2017,HR,0.2,Labour force participation rate
+2018,HR,-0.8,Labour force participation rate
+2019,HR,0.9,Labour force participation rate
+2020,HR,1.0,Labour force participation rate
+2021,HR,2.9,Labour force participation rate
+2022,HR,3.7,Labour force participation rate
+2023,HR,2.9,Labour force participation rate
+2024,HR,2.9,Labour force participation rate
+2015,HU,4.8,Labour force participation rate
+2016,HU,5.4,Labour force participation rate
+2017,HU,4.3,Labour force participation rate
+2018,HU,3.7,Labour force participation rate
+2019,HU,2.8,Labour force participation rate
+2020,HU,2.1,Labour force participation rate
+2021,HU,2.1,Labour force participation rate
+2022,HU,2.4,Labour force participation rate
+2023,HU,3.0,Labour force participation rate
+2024,HU,2.3,Labour force participation rate
+2015,IE,0.9,Labour force participation rate
+2016,IE,0.8,Labour force participation rate
+2017,IE,0.8,Labour force participation rate
+2018,IE,0.8,Labour force participation rate
+2019,IE,0.6,Labour force participation rate
+2020,IE,-1.8,Labour force participation rate
+2021,IE,1.8,Labour force participation rate
+2022,IE,3.6,Labour force participation rate
+2023,IE,6.7,Labour force participation rate
+2024,IE,3.3,Labour force participation rate
+2015,IT,0.8,Labour force participation rate
+2016,IT,1.9,Labour force participation rate
+2017,IT,1.7,Labour force participation rate
+2018,IT,1.8,Labour force participation rate
+2019,IT,0.9,Labour force participation rate
+2020,IT,-1.8,Labour force participation rate
+2021,IT,-1.1,Labour force participation rate
+2022,IT,-0.2,Labour force participation rate
+2023,IT,3.2,Labour force participation rate
+2024,IT,2.1,Labour force participation rate
+2015,LT,2.3,Labour force participation rate
+2016,LT,3.1,Labour force participation rate
+2017,LT,2.2,Labour force participation rate
+2018,LT,3.2,Labour force participation rate
+2019,LT,2.5,Labour force participation rate
+2020,LT,2.6,Labour force participation rate
+2021,LT,0.9,Labour force participation rate
+2022,LT,0.6,Labour force participation rate
+2023,LT,0.3,Labour force participation rate
+2024,LT,1.3,Labour force participation rate
+2015,LU,1.5,Labour force participation rate
+2016,LU,0.1,Labour force participation rate
+2017,LU,-0.6,Labour force participation rate
+2018,LU,0.2,Labour force participation rate
+2019,LU,2.0,Labour force participation rate
+2020,LU,2.0,Labour force participation rate
+2021,LU,2.1,Labour force participation rate
+2022,LU,1.5,Labour force participation rate
+2023,LU,1.9,Labour force participation rate
+2024,LU,1.3,Labour force participation rate
+2015,LV,1.4,Labour force participation rate
+2016,LV,2.4,Labour force participation rate
+2017,LV,2.5,Labour force participation rate
+2018,LV,1.9,Labour force participation rate
+2019,LV,1.1,Labour force participation rate
+2020,LV,1.1,Labour force participation rate
+2021,LV,-1.8,Labour force participation rate
+2022,LV,-0.5,Labour force participation rate
+2023,LV,-1.4,Labour force participation rate
+2024,LV,0.9,Labour force participation rate
+2015,MT,4.9,Labour force participation rate
+2016,MT,4.3,Labour force participation rate
+2017,MT,4.4,Labour force participation rate
+2018,MT,5.3,Labour force participation rate
+2019,MT,4.2,Labour force participation rate
+2020,MT,3.8,Labour force participation rate
+2021,MT,3.0,Labour force participation rate
+2022,MT,4.5,Labour force participation rate
+2023,MT,4.7,Labour force participation rate
+2024,MT,5.0,Labour force participation rate
+2015,NL,0.6,Labour force participation rate
+2016,NL,0.3,Labour force participation rate
+2017,NL,0.7,Labour force participation rate
+2018,NL,0.6,Labour force participation rate
+2019,NL,1.2,Labour force participation rate
+2020,NL,1.2,Labour force participation rate
+2021,NL,1.0,Labour force participation rate
+2022,NL,1.3,Labour force participation rate
+2023,NL,2.1,Labour force participation rate
+2024,NL,1.8,Labour force participation rate
+2015,PL,2.0,Labour force participation rate
+2016,PL,2.4,Labour force participation rate
+2017,PL,2.3,Labour force participation rate
+2018,PL,2.6,Labour force participation rate
+2019,PL,2.3,Labour force participation rate
+2020,PL,1.5,Labour force participation rate
+2021,PL,3.5,Labour force participation rate
+2022,PL,3.5,Labour force participation rate
+2023,PL,4.3,Labour force participation rate
+2024,PL,1.8,Labour force participation rate
+2015,PT,0.9,Labour force participation rate
+2016,PT,1.5,Labour force participation rate
+2017,PT,2.0,Labour force participation rate
+2018,PT,2.2,Labour force participation rate
+2019,PT,2.1,Labour force participation rate
+2020,PT,-0.2,Labour force participation rate
+2021,PT,0.4,Labour force participation rate
+2022,PT,1.4,Labour force participation rate
+2023,PT,4.0,Labour force participation rate
+2024,PT,3.2,Labour force participation rate
+2015,RO,2.3,Labour force participation rate
+2016,RO,2.3,Labour force participation rate
+2017,RO,3.0,Labour force participation rate
+2018,RO,2.5,Labour force participation rate
+2019,RO,3.1,Labour force participation rate
+2020,RO,2.3,Labour force participation rate
+2021,RO,3.2,Labour force participation rate
+2022,RO,3.5,Labour force participation rate
+2023,RO,2.7,Labour force participation rate
+2024,RO,1.8,Labour force participation rate
+2015,SE,1.5,Labour force participation rate
+2016,SE,1.0,Labour force participation rate
+2017,SE,0.9,Labour force participation rate
+2018,SE,1.0,Labour force participation rate
+2019,SE,0.8,Labour force participation rate
+2020,SE,-0.1,Labour force participation rate
+2021,SE,0.1,Labour force participation rate
+2022,SE,0.7,Labour force participation rate
+2023,SE,1.9,Labour force participation rate
+2024,SE,1.2,Labour force participation rate
+2015,SI,1.4,Labour force participation rate
+2016,SI,1.1,Labour force participation rate
+2017,SI,3.2,Labour force participation rate
+2018,SI,3.2,Labour force participation rate
+2019,SI,3.5,Labour force participation rate
+2020,SI,0.2,Labour force participation rate
+2021,SI,0.6,Labour force participation rate
+2022,SI,1.6,Labour force participation rate
+2023,SI,1.4,Labour force participation rate
+2024,SI,0.9,Labour force participation rate
+2015,SK,1.6,Labour force participation rate
+2016,SK,2.1,Labour force participation rate
+2017,SK,1.9,Labour force participation rate
+2018,SK,1.5,Labour force participation rate
+2019,SK,0.8,Labour force participation rate
+2020,SK,0.4,Labour force participation rate
+2021,SK,0.2,Labour force participation rate
+2022,SK,1.4,Labour force participation rate
+2023,SK,2.0,Labour force participation rate
+2024,SK,2.0,Labour force participation rate
